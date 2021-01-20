@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="resource-menu" datatype="html">
+        <source>
+                    Ресурси
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="elec-catalog-menu" datatype="html">
+        <source>Електроний
+                        каталог</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="elec-directory-menu" datatype="html">
+        <source>Електроний
+                        архів (репозитарій)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="kci-menu" datatype="html">
+        <source>Центр наукової
+                        періодики (КЦВ)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="patent-menu" datatype="html">
+        <source>Патенти</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="scientificbase" datatype="html">
+        <source>Наукові бази</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="recomend-menu" datatype="html">
+        <source>
+                    Рекомендації
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="scientists-menu" datatype="html">
+        <source>Вчені</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="encyclopedia-menu" datatype="html">
+        <source>Енциклопедія вчених</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="jubilee-menu" datatype="html">
+        <source>Ювіляри</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="researcher-menu" datatype="html">
+        <source>Дослідникам</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">114</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dstu-menu" datatype="html">
+        <source>ДСТУ/ГОСТ</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bibl-desc-menu" datatype="html">
+        <source>Правила складання опису</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bibl-example-menu" datatype="html">
+        <source>Приклади складання опису</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ref-desc-menu" datatype="html">
+        <source>Правила складання посилань</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ref-example-menu" datatype="html">
+        <source>Приклади складання посилань</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">122</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dstu-gost-menu" datatype="html">
+        <source>ДСТУ ГОСТ</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="standarts-menu" datatype="html">
+        <source>Основні стандарти </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">125</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="style-references-menu" datatype="html">
+        <source>Cтилі цитування</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">128</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="books" datatype="html">
+        <source>
+                <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Надходження<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">131</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="library" datatype="html">
+        <source>
+                    Бібліотека
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="terms-menu" datatype="html">
+        <source>Правила
+                        користування</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">140</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="rules-menu" datatype="html">
+        <source>Положення
+                        НТБ</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">142</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="report-menu" datatype="html">
+        <source>Звіт
+                        про роботу (2020 р.)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">144</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="history-library-menu" datatype="html">
+        <source>Історія
+                        бібліотеки</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">146</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="exhibition" datatype="html">
+        <source>Виставки</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">148</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="resource" datatype="html">
+        <source>
+                    Ресурси <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="label-footer" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/> НТБ ОНАХТ</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-footer" datatype="html">
+        <source>Контактна інформація</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-footer-description" datatype="html">
+        <source>
+            Україна, 65039,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+            м. Одеса, вул. Канатна, 112<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+            <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> +38(048)712‐41‐88<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+            +38(048)712-41‐52<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+            <x id="START_ITALIC_TEXT_1" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> lib.onaft@gmail.com,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+            onaft.library@gmail.com
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="time-work-footer" datatype="html">
+        <source>Часи роботи:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="time-work-description-footer" datatype="html">
+        <source>
+            пн.-пт.:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+            абонементи 9:00 - 17:00<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+            читальні зали 9:00 - 17:00<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="helpful-references-footer" datatype="html">
+        <source>Корисні посилання</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="science-data-base-footer" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Наукові бази<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="title" datatype="html">
+        <source>Науково-технічна бібліотека</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="description" datatype="html">
+        <source>Одеської національної академії харчових технологій</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about" datatype="html">
+        <source>Про бібліотеку</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about-description" datatype="html">
+        <source>Діяльність науково-технічної бібліотеки академії спрямована на
+            забезпечення її відповідності бібліотеці інноваційного типу
+            завдяки підвищенню якості інформаційного та бібліотечно-бібліографічного
+            обслуговування користувачів
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sectoral-department" datatype="html">
+        <source>Галузевий відділ <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                    <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>вул. Дворянська 1/3, <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> ауд. 127<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="organizational" datatype="html">
+        <source>Організаційно-методичний відділ <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                    <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>ауд. A-139<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="archives" datatype="html">
+        <source>Відділ зберігання фондів<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                    <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>ауд. А–137/3<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="electronic" datatype="html">
+        <source>Зал електроних каталогів<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                    <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>ауд. А-226<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="educational-literature" datatype="html">
+        <source>Відділ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> обслуговування навчальною літературою</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="educational-literature-description" datatype="html">
+        <source>Здійснює інформаційне забезпечення навчального процесу академії.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="more" datatype="html">
+        <source> Детальніше <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">125</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">165</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">187</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">205</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="educational-literature-admin" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Завідуюча: <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Гриньків Світлана Йосипівна<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                            Абонемент:
+                            <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> ауд. А–137/9<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                            Читальний зал:
+                            <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> ауд. А–228<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="scientific-literature" datatype="html">
+        <source>Відділ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> обслуговування науковою літературою</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="scientific-literature-description" datatype="html">
+        <source>Забезпечує інформаційні потреби користувачів на наукову та художню
+                            літературу</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="scientific-literature-admin" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Завідуюча:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Оставненко Ірина Анатоліївна<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                            Абонемент<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                            - наукової літ.:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> ауд. А–137/7<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                            - художньої літ.:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> ауд. А–415<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                            Читальний зал:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> ауд. А–225<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bibliography-department" datatype="html">
+        <source>Інформаційно-бібліографічний відділ</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bibliography-department-description" datatype="html">
+        <source>Забезпечує обслуговування студентів та викладачів, виконує
+                            бібліографічні
+                            довідки.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">122</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bibliography-department-admin" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Завідуюча:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Мазепа Тетяна Євгенівна<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                            Бібліографія:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> ауд. А–229<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                            Бібліограф. обслуговування:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> вул. Дворянська, 1/3, ауд. 282<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>
+                        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">128</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="admin" datatype="html">
+        <source>Адміністрація</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">143</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="admin-description" datatype="html">
+        <source>Виконує загальне керівництво діяльністю бібіліотеки.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">144</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="06ced0157c78a12bd466c7bcb8b4d212eead368f" datatype="html">
+        <source> Детальніше <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">145</context>
+        </context-group>
+        <note priority="1" from="description">more</note>
+      </trans-unit>
+      <trans-unit id="admin-info" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Директор:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Зінченко Ірина Іванівна<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                            Кабінет:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> А-227<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">148</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="kci" datatype="html">
+        <source>Координаційний<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> центр видання наукової періодики</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">162</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="kci-description" datatype="html">
+        <source>Відповідає за сприяння, підтримку і супровід науково-періодичних
+                            видань.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">163</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="kci-info" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Керівник:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Ольшевська Ольга Володимирівна<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                            Центр:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> ауд. А–140<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">168</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="department-document" datatype="html">
+        <source>Відділ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> комплектування документів</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">184</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="department-document-description" datatype="html">
+        <source>Здійснює комплектування бібліотечного фонду документами відповідно до
+                            навчальних планів</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">185</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="department-document-info" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Завідуюча:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Скутаренко Олена Леонідівна<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                            Відділ:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> ауд. А–137/3<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">190</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="department-science" datatype="html">
+        <source>Відділ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> наукової обробки документів та організації каталогів</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">203</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="department-science-description" datatype="html">
+        <source>Здійснює каталогізацію та систематизацію документів.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">204</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="department-science-info" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Завідуюча:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Тимчишина Маргарита Веніамінівна<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                            Відділ:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> ауд. А–137/2<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">208</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="form" datatype="html">
+        <source>Віртуальна довідка</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">224</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="form-description" datatype="html">
+        <source>
+                Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібіліотеки, зверніться за
+                наведенною
+                формою до співробітника бібліотеки. Для цього необхідно заповнити наведені поля та відправити ваше
+                повідомлення.
+                За більш детальною інформацією звертайтесь до співробітників та адміністрації науково-технічної
+                бібліотеки ОНАХТ.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">225</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="form-mob-description" datatype="html">
+        <source>
+                Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібіліотеки, зверніться за
+                наведенною формою до працівника бібліотеки.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">233</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="address" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Україна, 65039,
+                    м. Одеса, вул. Канатна, 112</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">238</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="form-placeholder" datatype="html">
+        <source>Ваше ім&apos;я</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">254</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="message-placeholder" datatype="html">
+        <source>Ваше повідомлення</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">266</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="submit-button" datatype="html">
+        <source>Відправити</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">269</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="faq" datatype="html">
+        <source>Питання-Відповідь</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">280</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="reader" datatype="html">
+        <source>
+                        <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
+                            Як стати читачем?
+                        <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
+                        <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">286</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="reader-description" datatype="html">
+        <source>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Право користування бібліотекою мають студенти, магістри, аспіранти,
+                            професорсько-викладацький склад, працівники структурних підрозділів академії та центру
+                            довузівської підготовки, студенти інституту холоду, коледжу промислової автоматики та
+                            інформаційних технологій, коледжу нафтогазових технологій та інфраструктури сервісу,
+                            механіко-технологічного коледжу.
+                            Для запису в бібліотеку необхідно подати студентський (аспірантський) квиток або
+                            службове
+                            посвідчення, дійсне в поточному році.
+                            Користувачі інших навчальних закладів та установ подають посвідчення, дійсне в поточному
+                            році, або паспорт та обслуговуються в читальних залах.
+                            <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                        <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_PARAGRAPH_1" ctype="x-p" equiv-text="&lt;p&gt;"/>У відділах обслуговування можна:<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+                                ознайомитися з правилами користування бібліотекою;
+                            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+                                підписати обхідний лист.
+                            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                        <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Часи роботи відділів обслуговування читачів:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                            Понеділок-п&apos;ятниця з 9.00 до 17.00<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                            Субота (читальні зали) з 10.00 до 15.00<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                            Остання п&apos;ятниця місяця санітарний день<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">295</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="student" datatype="html">
+        <source>
+                        <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
+                            Що необхідно знати першокурснику
+                        <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
+                        <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">326</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="student-description" datatype="html">
+        <source>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Основна інформація:<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_ORDERED_LIST" ctype="x-ol" equiv-text="&lt;ol&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Читацький формуляр – документ, що надає право користуватися бібліотекою.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/> Для отримання видань у будь-якому відділі бібліотеки необхідно заповнити бланк
+                                «Вимога
+                                на книгу», заздалегідь отримавши інформацію з каталогу бібліотеки.
+                            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Доступ до каталогу можливо здійснити через сайт бібліотеки та безпосередньо у залі
+                                електронних каталогів (ауд. А-226), де досвідчені консультанти зможуть надати вам
+                                необхідну допомогу щодо пошуку потрібної інформації.
+                            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Для отримання підручників необхідно мати з собою заповнені бланки «Вимога на книгу».
+                            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Пропонуємо ознайомитися зі сторінкою сайта «Рекомендації щодо пошуку інформації».
+                            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Студент зобов’язаний повернути всі книги, що були отримані на абонементі, в кінці
+                                навчального року.
+                            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Термін користування бібліотекою продовжується у тому випадку, якщо в минулому
+                                навчальному році всі отримані книги вчасно повернули.
+                            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>У разі втрати чи пошкодження друкованого видання, отриманого у бібліотеці,
+                                користувач
+                                повинен замінити його рівноцінним за змістом.
+                            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Просимо Вас дотримуватися правил поведінки у бібліотеці:
+                                <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+                                    <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>не виносити видання з приміщень читальних залів;<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                                    <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>дбайливо поводитися з бібліотечними книгами, зйомними носіями інформації та
+                                        обладнанням;
+                                    <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                                    <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>дотримуватися тиші під час роботи в читальних залах.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                                <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+                            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                        <x id="CLOSE_ORDERED_LIST" ctype="x-ol" equiv-text="&lt;/ol&gt;"/>
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">335</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="catalog" datatype="html">
+        <source>
+                        <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
+                            Карткові каталоги, картотеки
+                        <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
+                        <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">377</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="catalog-description" datatype="html">
+        <source>
+                        <x id="START_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;h3&gt;"/>АЛФАВІТНИЙ КАТАЛОГ<x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Алфавітний каталог (АК)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> – бібліотечний каталог, в якому
+                            бібліографічні
+                            записи розташовуються в порядку прізвищ індивідуальних авторів, найменувань колективних
+                            авторів (установ та організацій), або назв документів.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        АК відповідає на питання:
+                        <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>які книги того або іншого автора є в бібліотеці;<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>чи є в бібліотеці книга, автор і назва якої відомі;<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>які видання та перевидання даної книги є в бібліотеці.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                        <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+                        <x id="START_HEADING_LEVEL3_1" ctype="x-h3" equiv-text="&lt;h3&gt;"/>СИСТЕМАТИЧНИЙ КАТАЛОГ<x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Систематичний каталог (СК)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> – бібліотечний каталог, в якому
+                            бібліографічні записи розташовуються по галузях знання у відповідності до бібліотечної
+                            системи класифікації. У НТБ ОНАХТ бібліотечна система класифікації УДК– Універсальна
+                            десятинна класифікація
+                            СК складається з двох підсистем: безпосередньо СК та алфавітно-предметного покажчика
+                            (АПП)
+                            до нього.
+                            СК розкриває бібліотечний фонд за змістом і відповідає на питання: які книги з певної
+                            теми є
+                            в бібліотеці.
+                            Алфавітно–предметний покажчик – допоміжний апарат до СК, що визначає шлях пошуку
+                            інформації
+                            в СК. АПП – алфавітний перелік предметних рубрик, що розкривають зміст відображених у СК
+                            документів із зазначенням відповідних класифікаційних індексів. Картки із зазначенням
+                            рубрик
+                            розташовані в алфавіті перших слів, наприклад:
+                            <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Масло – 637.2
+                            <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Молоко – 637.1
+                        <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_HEADING_LEVEL3_1" ctype="x-h3" equiv-text="&lt;h3&gt;"/>СИСТЕМАТИЧНА КАРТОТЕКА СТАТЕЙ<x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Систематична картотека статей базується на аналітичному розписі періодичних
+                            видань і видань, що продовжуються. Призначенням картотеки є відображення документів з
+                            найбільш актуальних тем харчових технологій.
+                            Структура картотеки аналогічна структурі систематичного каталогу.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">388</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="elec" datatype="html">
+        <source>
+                        <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
+                            Електрона доставка документів
+                        <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
+                        <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">431</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="elec-catalog" datatype="html">
+        <source>
+                        <x id="START_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;h3&gt;"/>ЕЛЕКТРОННА ДОСТАВКА ДОКУМЕНТІВ<x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Електронна доставка документів (ЕДД)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> – сервісна послуга, яка надає
+                            можливість користувачам (як юридичним, так і фізичним особам) отримати електронну копію
+                            друкованого видання з фонду бібліотеки за допомогою мережі Інтернет.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        Ви можете замовити:
+                        <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>копії окремих статей з журналів та збірників обсягом до 15 сторінок;<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>копії окремих сторінок, фрагментів або розділів з книг обсягом до 15 сторінок
+                                (замовлення на виготовлення копій рідкісних та цінних видань не приймаються);
+                            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>копії документів, які не є об’єктами авторського права, і тих, які перейшли в
+                                загальне
+                                користування.
+                            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                        <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT_1" ctype="x-b" equiv-text="&lt;b&gt;"/>Увага!<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+                            Згідно з Законом України «Про авторське право та суміжні права» замовлення приймаються
+                            лише
+                            на копіювання та доставку окремих опублікованих статей та фрагментів (уривків) з
+                            опублікованих друкованих творів. Копіювання документів у повному обсязі <x id="START_BOLD_TEXT_1" ctype="x-b" equiv-text="&lt;b&gt;"/>НЕ ВИКОНУЄТЬСЯ!<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+                            Дозволяється використовувати отримані копії тільки з метою освіти, навчання та
+                            приватного
+                            дослідження. Не дозволяється тиражувати отримані копії, відновлювати їх у будь-якій
+                            формі,
+                            окрім одноразового друку електронного файлу, передавати іншим особам або організаціям.
+                            Відповідальність за несанкціоноване використання отриманих від бібліотеки копій
+                            документів
+                            відповідно до чинного законодавства України несе користувач.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;h3&gt;"/>Порядок замовлення та надання послуг<x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Для отримання копії документа треба надіслати бланк-замовлення (<x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Бланк-замовлення на частину тексту з книги<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+                            чи
+                            <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>Бланк-замовлення на статтю з журналу<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>) до
+                            відділу комплектування (komplib.onaft@ukr.net) бібліотеки електронною поштою,
+                            обов’язково
+                            вказавши свій e-mail.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT_1" ctype="x-b" equiv-text="&lt;b&gt;"/>Примітка:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> на кожен документ заповнюється окремий
+                            бланк-замовлення, замовлення у вигляді списку не приймаються.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>У бланку-замовленні необхідно обов’язково вказати бібліографічні відомості
+                            про
+                            документ: прізвище автора та назву документа; назву джерела, в якому опубліковано
+                            матеріал;
+                            рік видання; номер журналу; сторінки публікації.
+                            Бібліографічні відомості про документи з фонду науково-технічної бібліотеки ОНАХТ можна
+                            уточнити за допомогою <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/>Електронного
+                                каталогу<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.
+                        <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT_1" ctype="x-b" equiv-text="&lt;b&gt;"/>Примітка:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> неправильно оформлені
+                            бланки-замовлення, в
+                            яких відсутні або нерозбірливо вказані відомості, що необхідні для виконання замовлення,
+                            повертаються абоненту для уточнення.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Отримавши замовлення та перевіривши у фонді наявність документа, бібліотека
+                            протягом 3-х робочих днів повідомляє про можливість виконання замовлення. Одночасно
+                            обговорюються технічні умови виготовлення та пересилання копії.
+                            Протягом 2-х днів користувач має підтвердити своє замовлення або скасувати його.
+                            Копії документів виконуються у форматі PDF i JPG. Термін виконання замовлення – від 2-х
+                            до
+                            5-ти робочих днів. Термін виконання замовлень, в яких необхідне бібліографічне
+                            доопрацювання, може бути продовжений до 10 робочих днів.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT_1" ctype="x-b" equiv-text="&lt;b&gt;"/>Примітка:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> сканування замовлених матеріалів
+                            здійснюється лише з видань, формат яких не більше А4.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Інформація замовнику надсилається в обсязі, що не перевищує 20 Mb (обсяг
+                            документа обмежується розміром поштової скриньки).<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">442</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="udc" datatype="html">
+        <source>
+                        <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
+                            Що таке УДК?
+                        <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
+                        <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">513</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="udc-description" datatype="html">
+        <source>
+                        <x id="START_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;h3&gt;"/>Як отримати індекс УДК<x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Для опублікування роботи (статті) автору необхідно вказати тематичний
+                            розділ
+                            (індекс) класифікації УДК, до якого дана робота належить.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>УДК<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> – Універсальна десяткова класифікація – система класифікації
+                            інформації. УДК широко використовується в усьому світі для систематизації наукових
+                            творів,
+                            літератури та мистецтва, періодики, різноманітних видів документів. За допомогою УДК можна
+                            з’ясувати
+                            вид, тип літератури, не читаючи її. Вона призначена для організації бібліотечного фонду,
+                            каталогів та картотек.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Для отримання індексу УДК автору необхідно звернутися до
+                            інформаційно-бібліографічного відділу НТБ ОНАХТ (вул. Канатна, 112, головний корпус, 2-й
+                            поверх, к. А-229) та надати такі відомості: <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_ORDERED_LIST" ctype="x-ol" equiv-text="&lt;ol&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>автори роботи (статті);<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>назва роботи (статті);<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>ключові слова;<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>кафедра;<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>місце публікації.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                        <x id="CLOSE_ORDERED_LIST" ctype="x-ol" equiv-text="&lt;/ol&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Для самостійного визначення індексу УДК можна скористуватися
+                            Інтернет-ресурсами, наприклад:
+                            <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Довідник з УДК<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> – <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>teacode.com/online/udc/<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">524</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="form-list" datatype="html">
+        <source>
+                        <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
+                            Обхідний лист
+                        <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
+                        <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">556</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="form-list-description" datatype="html">
+        <source>
+                        Бланк обхідного листа потрібно взяти у профільному деканаті та підписати в НТБ у такій
+                        послідовності:
+                        <x id="START_ORDERED_LIST" ctype="x-ol" equiv-text="&lt;ol&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Абонемент художньої літератури (ауд. А-415);<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Абонемент наукової літератури (ауд. А-137/7);<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Абонемент навчальної літератури (ауд. А-137/9).<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                        <x id="CLOSE_ORDERED_LIST" ctype="x-ol" equiv-text="&lt;/ol&gt;"/>
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">565</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="specialist" datatype="html">
+        <source>
+                        <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
+                            Фахівцям харчової промисловості
+                        <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
+                        <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">579</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="specialist-description" datatype="html">
+        <source>
+                        <x id="START_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;h3&gt;"/>Фахівцям харчової та переробної промисловості<x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Дозвольте запропонувати Вам новий спосіб отримання інформації для розвитку
+                            Вашого бізнесу в галузі харчових виробництв. Сподіваємось, тепер у Вас не буде
+                            необхідності
+                            перегортати стопи літератури, годинами просиджувати у «всесвітній мережі», шукаючи
+                            відповіді
+                            на питання: як розширити асортимент та збільшити термін придатності продукції, який
+                            новий
+                            ексклюзивний виріб запропонувати ринку, щоб швидко завоювати популярність та
+                            перевершити,
+                            нарешті, конкурента. Пропонуємо Вам укласти Угоду на отримання оперативної інформації з
+                            науково-технічною бібліотекою Одеської національної академії харчових технологій.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Бібліотека академії має унікальний фонд літератури з харчових виробництв,
+                            починаючи з «класичної» навчальної літератури до найостанніших журнальних публікацій
+                            провідних фахівців харчових технологій України ті інших країн. На сьогодні це,
+                            наприклад,
+                            актуальні питання функціонального, збалансованого харчування, все про продукти нового
+                            покоління, харчові волокна та домішки, питання економіки, моніторингу та прогнозування,
+                            останні наукові розробки та ін.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                            <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Перелік тем з харчових
+                                галузей<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Використовуючи багаторічний досвід інформаційного обслуговування
+                            викладачів,
+                            аспірантів, студентів академії, а також електрону базу даних, ми зможемо забезпечити
+                            інформаційну підтримку Вашого виробництва.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;h4&gt;"/>Найголовніше<x id="CLOSE_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;/h4&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Користуючись <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>пошуковою
+                            системою<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+                            нашого сайту, за ключовими словами Ви з легкістю отримаєте список літератури за темою.
+                        <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;h4&gt;"/>АЛЕ!<x id="CLOSE_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;/h4&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Ми пропонуємо не лише традиційний бібліографічний список, а й самі
+                            матеріали.
+                            Статті, глави з книг, публікації Ви отримаєте у зручному для Вас форматі (e-mail,
+                            USB-флеш-накопичувач, диск, ксерокопія).<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                            <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>ТЕМА = БІБЛІОГРАФІЧНИЙ СПИСОК + МАТЕРІАЛИ<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                            <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;h4&gt;"/>Порядок отримання інформації<x id="CLOSE_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;/h4&gt;"/>
+                        <x id="START_PARAGRAPH_1" ctype="x-p" equiv-text="&lt;p&gt;"/> Самостійний пошук інформації за ключовими словами пошукової системи:
+                            <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/>Електроний каталог<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+                            Надання  матеріалів  з  бібліографічного  списку  у  зручному  для  Вас  форматі  (e-mail, диск, ксерокопія).
+                            Здійснення  пошуку  інформації  за  конкретною  темою,  складання  анотованих  бібліографічних  списків  та  надання  відібраних  матеріалів.
+                            Інформаційне  обслуговування:  щоквартальні  інформаційно-бібліографічні  огляди  журнальних  публікацій  за  профілем  Вашого  підприємства.
+                        <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_PARAGRAPH_2" ctype="x-p" equiv-text="&lt;p&gt;"/>*Терміни отримання інформації обговорюються  додатково.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+                            Вичерпність інформації, оперативність, якість та індивідуальний підхід до кожного окремо
+                            поставленого завдання – гарантуємо. Погодьтесь, пропозиція цікава та вигідна, багато
+                            переваг: зекономите час (достатньо визначити тему), матеріали отримаєте безпосередньо та
+                            будете в курсі останніх розробок.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>За більш детальною інформацією звертайтесь до чергового по сайту:<x id="START_LINK_3" ctype="x-a" equiv-text="&lt;a&gt;"/>
+                            lib.onaft@gmail.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;h4&gt;"/>Корисна інформація<x id="CLOSE_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;/h4&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Інформаційно-бібліографічне обслуговування фахівців харчової галузі. Складання тематичних списків та тематичних добірок за запитами користувачів. Аналітичний опис статей з періодичних видань у відповідності до галузевих тематик та інше. <x id="START_LINK_4" ctype="x-a" equiv-text="&lt;a&gt;"/> cntb.com.ua<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">590</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="diagram" datatype="html">
+        <source>
+                        <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
+                            Статистична інформація
+                        <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
+                        <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">652</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="diagram-description" datatype="html">
+        <source>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/> В сучасних умовах формується новий тип суспільства – інформаційний, за
+                            якого
+                            головним виробничим ресурсом стають інформація та знання. Інформація набуває все
+                            більшого
+                            значення і відіграє вирішальну роль у прийнятті рішень майже в усіх сферах.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+                            <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Головне управління статистики в Одеській області<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> повідомляє про джерела отримання
+                            статистичної інформації:<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>веб-сайт Головного управління статистики в Одеській області <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>od.ukrstat.gov.ua;<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>статистичні публікації – збірники, бюлетені, доповіді з усіх аспектів
+                                соціально-економічного становища Одеської області (Каталог статистичних видань,
+                                передбачених до випуску у 2018 році <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>od.ukrstat.gov.ua/katalog_2018<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>);
+                            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>відповіді на запити щодо надання статистичної інформації.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                        <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Для отримання будь-якої інформації необхідно надіслати запит, у якому
+                            вказати
+                            запитувану інформацію, визначити її деталізацію, період, а також зазначити контактну
+                            інформацію.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                            Запит можна надіслати:
+                        <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>електронною поштою на адресу <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/>gus@od.ukrstat.gov.ua<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+                            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>поштою: вул. Польська, 20а, м.Одеса, 65026, тел. 722-20-00,<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+                        <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>або звернутись у Головне управління статистики в Одеській області за
+                            адресою
+                            вул. Польська, 20а, 2 поверх, кім. 210 –управління поширення інформації та комунікацій
+                            (тел.
+                            722-08-60).<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Статистична інформація буде корисною та цікавою широкому колу читачів,
+                            серед
+                            яких наукові працівники, викладачі, аспіранти, студенти.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                            Чекаємо на Вас!<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">663</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="404-info" datatype="html">
+        <source>Cторінка не знайдена...<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Ви загубились?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/error/error.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="404-btn" datatype="html">
+        <source>На головну</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/error/error.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="main-breadcrumb" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Головна<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/bio/bio.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dstu/dstu.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/books/books.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/encyclopedia/encyclopedia.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/exhibition/exhibition.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/jubilee/jubilee.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/patent/patent.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="encyclopedia-breadcrumb" datatype="html">
+        <source>
+        <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Енциклопедія вчених<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/bio/bio.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/encyclopedia/encyclopedia.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bio-title" datatype="html">
+        <source>Біографія</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/bio/bio.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bio-works" datatype="html">
+        <source>Основні праці</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/bio/bio.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dstu-breadcrumb" datatype="html">
+        <source>ДСТУ ГОСТ</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dstu/dstu.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="books-breadcrumb" datatype="html">
+        <source>Надходження</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/books/books.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="books-title" datatype="html">
+        <source>Надходження</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/books/books.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="new-books" datatype="html">
+        <source>Видання 2019-2020 рр.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/books/books.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="scientists-books" datatype="html">
+        <source>Книги вчених</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/books/books.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="library-books" datatype="html">
+        <source>Видання НТБ</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/books/books.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="periodic-books" datatype="html">
+        <source>Періодика</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/books/books.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="encyclopedia-title" datatype="html">
+        <source>Енциклопедія вчених</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/encyclopedia/encyclopedia.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="exhibition-breadcrumb" datatype="html">
+        <source>Виставки</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/exhibition/exhibition.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="exhibition-title" datatype="html">
+        <source>Виставки НТБ ОНАХТ</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/exhibition/exhibition.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="virtual-exhibition" datatype="html">
+        <source>Віртуальні виставки</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/exhibition/exhibition.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="thematic-exhibition" datatype="html">
+        <source>Тематичні виставки</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/exhibition/exhibition.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="jubilee-breadcrumb" datatype="html">
+        <source>Ювіляри</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/jubilee/jubilee.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="jubilee-title" datatype="html">
+        <source>Ювіляри</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/jubilee/jubilee.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="category-aside" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Категорія</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/patent/patent.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="patent-search" datatype="html">
+        <source>Патентний пошук</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/patent/patent.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/patent/patent.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="patents-breadcrumb" datatype="html">
+        <source>Патенти</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/patent/patent.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

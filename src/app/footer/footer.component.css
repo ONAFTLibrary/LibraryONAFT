@@ -1,0 +1,151 @@
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: #050512;
+    padding: 2em 2em !important;
+    color: white;
+    overflow: hidden;
+}
+.onaftlib {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+}
+
+.main-logo {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    justify-content: flex-start;
+    padding: 0 !important;
+    font-size: 24px;
+}
+.main-logo a {
+    color:white;
+    padding: 0 1em;
+}
+.block {
+    margin-bottom: 0.25em;
+}
+.block a {
+    transition: 600ms;
+    text-decoration: none;
+    color: white;
+}
+.row a {
+    padding-right: 1em;
+}
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    justify-content: center;
+    background: rgb(21, 21, 25);
+    padding: 2em 3em !important;
+    color: white;
+}
+p {
+    font-weight: 100;
+    letter-spacing: 0.5px;
+}
+.languages {
+    display: none;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .footer {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 2em 15px !important;
+    }
+    .footer div {
+        padding: 5px !important;
+    }
+    .footer div i {
+        font-size: 11px !important;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+
+    .footer p {
+        font-size: 12px !important;
+    }
+    .main-logo {
+        vertical-align: middle;
+    }
+    .footer img {
+        height: 22px;
+        width: 44px;
+    }
+    .main-logo a {
+      font-size: 12px;
+    }
+}
+@media screen and (max-width: 767px){
+    .footer {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 2em 15px !important;
+    }
+    .footer div {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .main-logo {
+        justify-content: center;
+    }
+    .onaftlib {
+        align-items: center;
+    }
+    .main-logo,
+    .onaftlib {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .main-logo {
+        display: none;
+    }
+    .languages {
+        display: flex;
+        flex-flow:  row nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .languages a {
+        cursor: pointer;
+        position: relative;
+        transition: 600ms;
+        color: white;
+        font-size: 18px;
+        padding: 0.5em 0.75em;
+        letter-spacing: 0.05em;
+        font-variant: all-small-caps;
+        font-weight: 400;
+    }
+    .languages a:hover {
+        color: #d78737;
+    }
+    h5 {
+        text-align: center;
+        margin-top:1rem;
+        font-size: 16px;
+    }
+    p{
+        font-size: 14px;
+    }
+    i {
+        font-size: 12px !important;
+    }
+
+}

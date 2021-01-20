@@ -1,0 +1,338 @@
+<div class="main_content">
+    <nav aria-label="breadcrumb" class=" breadcrumb-list">
+        <ol class="breadcrumb">
+            <li i18n="@@main-breadcrumb" class="breadcrumb-item"><a routerLink="/">Головна</a></li>
+            <li i18n="@@exhibition-breadcrumb" class="breadcrumb-item active" aria-current="page">Виставки</li>
+        </ol>
+    </nav>
+    <h1 i18n="@@exhibition-title" class="text-center">Виставки НТБ ОНАХТ</h1>
+    <ul class="nav nav-pills" id="myTab" role="tablist">
+        <li class="nav-item active">
+            <a i18n="@@virtual-exhibition" class="nav-link active" id="virtual" data-toggle="pill" href="#virtual-exhibition" role="tab"
+               aria-controls="virtual-exhibition" aria-selected="true">Віртуальні виставки</a>
+        </li>
+        |
+        <li class="nav-item">
+            <a i18n="@@thematic-exhibition" class="nav-link" id="thematic" data-toggle="pill" href="#thematic-exhibition" role="tab"
+               aria-controls="thematic-exhibition" aria-selected="true">Тематичні виставки</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+        <div class="container-fluid justify-content-center tab-pane fade show active" id="virtual-exhibition" role="tabpanel"
+             aria-labelledby="virtual">
+            <div class="row">
+                <ng-container *ngFor="let exhibition of exhibitionObservable | async">
+                    <div class="card-container col-lg-6 col-md-12 col-sm-12">
+                        <div class="card-virtual">
+                            <div [ngStyle]="{'background-image':'url('+exhibition.image+')'}"
+                                 class="card-media"></div>
+                            <div class="card-body">
+                                <div class="card-description my-3" [innerHTML]="exhibition.title"></div>
+                                <div class="short-description" [innerHTML]="exhibition.description"></div>
+                                <div class="my-3">
+                                    <a [attr.href]="exhibition.pdf_file" target="_blank" class="card-read">Дивитись</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </ng-container>
+            </div>
+        </div>
+        <div class="container-fluid justify-content-center tab-pane fade" id="thematic-exhibition" role="tabpanel"  aria-labelledby="thematic">
+          <div class="row">
+            <div class="align-content col-lg-5 col-md-6 col-sm-12">
+              <div class="card justify-content-center"
+                   [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/NewYearKitchen.jpg\')'}">
+                <i class="fas fa-book-open text-center"></i>
+                <h2 class="text-center">Кулінарні новорічні традиції української та грецької кухні</h2>
+              </div>
+            </div>
+            <div class="align-content col-lg-7 col-md-6 col-sm-12">
+              <div class="card justify-content-end"
+                   [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/Олійник.jpg\')'}">
+                <blockquote>
+                  <p>Бо тільки Слово береже в основі
+                    Безсмертя української душі</p>
+                  <cite>Б. Олійник</cite>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+            <div class="row">
+                <div class="align-content col-lg-6 col-md-6 col-sm-12">
+                    <div class="card justify-content-center"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/14-жовтня.jpg\')'}">
+                        <i class="fas fa-book-open text-center"></i>
+                        <h2 class="text-center">День українського козацтва</h2>
+                    </div>
+                </div>
+                <div class="align-content col-lg-6 col-md-12 col-sm-12">
+                    <div class="card justify-content-around"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/Den_poezii.jpg\')'}">
+                        <div class="title-align justify-content-center" [ngStyle]="{'display': 'flex'}">
+                            <i class="fas fa-book-open text-center"></i>
+                            <h2 class="text-center">День поезїі</h2>
+                        </div>
+
+                        <blockquote>
+                            <p>…Ну що б, здавалося, слова...
+                                Слова та голос – більш нічого.
+                                А серце б'ється, ожива, Як їх почує!</p>
+                            <cite>Тарас Шевченко</cite>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="align-content col-lg-7 col-md-6 col-sm-12">
+                    <div class="card justify-content-around"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/Голсуорси.jpg\')'}">
+                        <div class="title-align justify-content-center" [ngStyle]="{'display': 'flex'}">
+                            <i class="fas fa-book-open text-center"></i>
+                            <h2 class="text-center">150 лет со дня рождения Джона Голсуори(1867-1933)</h2>
+                            <span class="subtle">английского прозаика и драматурга, лауреата Нобелевской премии по литературе</span>
+                        </div>
+                        <blockquote>
+                            <p>Уважение к людям, есть уважение к самому себе</p>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div class="align-content col-lg-5 col-md-6 col-sm-12">
+                    <div class="card justify-content-center"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/Aivaz.jpg\')'}">
+                        <div class="title-align justify-content-center" [ngStyle]="{'display': 'flex'}">
+                            <i class="fas fa-book-open text-center"></i>
+                            <h2 class="text-center">"Дев'ятий вал мистецтва"</h2>
+                            <span class="subtle">до 200 річчя з дня народження Івана Костянтиновича Айвазовського</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="align-content col-lg-6 col-md-12 col-sm-12" >
+                    <div class="card justify-content-around"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/7.jpg\')'}">
+                        <div class="title-align justify-content-center" [ngStyle]="{'display': 'flex'}">
+                            <i class="fas fa-book-open text-center"></i>
+                            <h2 class="text-center">11 июня День Рождения Анны Ахматовой</h2>
+                        </div>
+                        <blockquote>
+                            <p>Стихи, даже самые великие, не делают автора счастливым</p>
+                            <cite>Анна Ахматова</cite>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="align-content col-lg-3 col-md-6 col-sm-12">
+                    <div class="card justify-content-around"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/перлини-мистецтва.jpg\')'}">
+                        <div class="title-align justify-content-center" [ngStyle]="{'display': 'flex'}">
+                            <i class="fas fa-book-open text-center"></i>
+                            <h2 class="text-center">"Неповторний світ митця"</h2>
+                            <span class="subtle">8 жовтня - День художника</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="align-content col-lg-3 col-md-6 col-sm-12">
+                    <div class="card justify-content-center"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/Конституція.jpg\')'}">
+                        <i class="fas fa-book-open text-center"></i>
+                        <h2 class="text-center">Оберіг нашої державності</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="align-content col-lg-6 col-md-6 col-sm-12">
+                    <div class="card justify-content-around"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/5.jpg\')'}">
+                        <div class="title-align justify-content-center" [ngStyle]="{'display': 'flex'}">
+                            <i class="fas fa-book-open text-center"></i>
+                            <h2 class="text-center">125 років з дня народження Констянтина Паустовського</h2>
+                        </div>
+                        <blockquote>
+                            <p>Гений настолько внутренне богат, что любая тема, любая мысль, случай или предмет вызывают у
+                                него неиссякаемый поток ассоциаций</p>
+                            <cite>Констянтин Паустовський</cite>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="align-content col-lg-6 col-md-6 col-sm-12">
+                    <div class="card justify-content-around"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/6.jpg\')'}">
+                        <div class="title-align justify-content-center" [ngStyle]="{'display': 'flex'}">
+                            <i class="fas fa-book-open text-center"></i>
+                            <h2 class="text-center">110 років з дня народження Ірини Вільде</h2>
+                        </div>
+                        <blockquote>
+                            <p>Зміст – другорядна річ, головне – оригінальна форма!.</p>
+                            <cite>Ірина Вільде</cite>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="align-content col-lg-3 col-md-6 col-sm-12">
+                    <div class="card justify-content-center"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/Ремарк.jpg\')'}">
+                        <i class="fas fa-book-open text-center"></i>
+                        <h2 class="text-center">Еріх Марія Ремарк (1898-1970)</h2>
+                    </div>
+                </div>
+
+                <div class="align-content col-lg-3 col-md-6 col-sm-12">
+                    <div class="card justify-content-center"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/НАТО.jpg\')'}">
+                        <i class="fas fa-book-open text-center"></i>
+                        <h2 class="text-center">Україна - НАТО</h2>
+                    </div>
+                </div>
+
+                <div class="align-content col-lg-3 col-md-6 col-sm-12">
+                    <div class="card justify-content-center"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/Голодомор2018.jpg\')'}">
+                        <i class="fas fa-book-open text-center"></i>
+                        <h2 class="text-center">Жнива скорботи: голодомор на Україні</h2>
+                    </div>
+                </div>
+
+                <div class="align-content col-lg-3 col-md-6 col-sm-12">
+                    <div class="card justify-content-center"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/writerDay.jpg\')'}">
+                        <i class="fas fa-book-open text-center"></i>
+                        <h2 class="text-center">День української писемності та мови</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="align-content col-lg-4 col-md-6 col-sm-12">
+                    <div class="card justify-content-center"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/O.Henry.jpg\')'}">
+                        <div class="title-align justify-content-center" [ngStyle]="{'display': 'flex'}">
+                            <i class="fas fa-book-open text-center"></i>
+                            <h2 class="text-center">О.Генри<br>(1862 - 1910)</h2>
+                            <span class="subtle">11 сентября 155 лет со дня рождения американского писателя</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="align-content col-lg-3 col-md-6 col-sm-12">
+                    <div class="card justify-content-end"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/Пушкин.jpg\')'}">
+                        <blockquote>
+                            <p>Уж небо осенью дышало...</p>
+                            <cite>Пушкин А.С.</cite>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="align-content col-lg-5 col-md-12 col-sm-12">
+                    <div class="card justify-content-around"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/Folkner.jpg\')'}">
+                        <div class="title-align justify-content-center" [ngStyle]="{'display': 'flex'}">
+                            <i class="fas fa-book-open text-center"></i>
+                            <h2 class="text-center">Уильям Фолкнер<br> (1897 - 1962)</h2>
+                            <span class="subtle">120 лет со дня рождения американского писателя, лауреата Нобелевской премии</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="align-content col-lg-6 col-md-12 col-sm-12">
+                    <div class="card justify-content-around"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/DSC_5152.JPG\')'}">
+                        <div class="title-align justify-content-center" [ngStyle]="{'display': 'flex'}">
+                            <i class="fas fa-book-open text-center"></i>
+                            <h2 class="text-center">135 років від дня народження Стефана Цвейга</h2>
+                        </div>
+                        <blockquote>
+                            <p>Кто хоть однажды был искренен с собой, тот стал искренним навсегда!</p>
+                            <cite>Стефан Цвейг</cite>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="align-content col-lg-3 col-md-6 col-sm-12">
+                    <div class="card justify-content-center"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/Одесса2.jpg\')'}">
+                        <i class="fas fa-book-open text-center"></i>
+                        <h2 class="text-center">Одессе посвящается</h2>
+                    </div>
+                </div>
+                <div class="align-content col-lg-3 col-md-6 col-sm-12">
+                    <div class="card justify-content-center"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/education.jpg\')'}">
+                        <div class="title-align justify-content-center" [ngStyle]="{'display': 'flex'}">
+                            <i class="fas fa-book-open text-center"></i>
+                            <h2 class="text-center">День знань</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="align-content col-lg-7 col-md-6 col-sm-12">
+                    <div class="card justify-content-around"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/2.jpg\')'}">
+                        <div class="title-align justify-content-center" [ngStyle]="{'display': 'flex'}">
+                            <i class="fas fa-book-open text-center"></i>
+                            <h2 class="text-center">День матери, любви и красоты</h2>
+                        </div>
+                        <blockquote>
+                            <p>Матушка, голубушка, солнышко моё</p>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="align-content col-lg-5 col-md-6 col-sm-12">
+                    <div class="card justify-content-center"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/4.jpg\')'}">
+                        <div class="title-align justify-content-center" [ngStyle]="{'display': 'flex'}">
+                            <i class="fas fa-book-open text-center"></i>
+                            <h2 class="text-center">Духовний простір України</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="align-content col-lg-3 col-md-6 col-sm-12">
+                    <div class="card justify-content-center"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/24.08.jpg\')'}">
+                        <i class="fas fa-book-open text-center"></i>
+                        <h2 class="text-center">День незалежності України</h2>
+                    </div>
+                </div>
+
+                <div class="align-content col-lg-3 col-md-6 col-sm-12">
+                    <div class="card justify-content-center"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/3.jpg\')'}">
+                        <i class="fas fa-book-open text-center"></i>
+                        <h2 class="text-center">День Конституції України</h2>
+                    </div>
+                </div>
+
+                <div class="align-content col-lg-3 col-md-6 col-sm-12">
+                    <div class="card justify-content-center"
+                         [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/1.jpg\')'}">
+                        <i class="fas fa-book-open text-center"></i>
+                        <h2 class="text-center">День Європи</h2>
+                    </div>
+                </div>
+                <div class="align-content col-lg-3 col-md-6 col-sm-12">
+                  <div class="card justify-content-center"
+                       [ngStyle]="{'background-image':'url(\'../../assets/img/exhibition/DSC_5148.JPG\')'}">
+                    <i class="fas fa-book-open text-center"></i>
+                    <h2 class="text-center">Народження нової України</h2>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="arrow-up" (click)="scrollTop();">
+    <i class="fas fa-chevron-up"></i>
+    Scroll Top
+</div>

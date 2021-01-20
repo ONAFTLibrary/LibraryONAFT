@@ -1,0 +1,709 @@
+<div class="no-scroll">
+<!-- Main info about site-->
+<div class="container-fluid main col-12 col-sm-12">
+    <h1 i18n="@@title" class="display-3 col-12">Науково-технічна бібліотека</h1>
+    <p i18n="@@description" class="lead title">Одеської національної академії харчових технологій</p>
+    <hr class="my-4">
+    <div class="container-fluid content col-12">
+        <ul class="timeline">
+            <ng-container *ngFor="let item of newsObservable | async">
+            <li class="event" [attr.data-date]="item.add_date">
+                <h3>{{item.title}}</h3>
+                <div class="text-justify" [innerHTML]="item.content"></div>
+            </li>
+            </ng-container>
+        </ul>
+    </div>
+</div>
+<!--END main info-->
+
+<!--Info about structure of library-->
+<div class="container-fluid structure col-12">
+    <div class="col col-lg-5 col-md-12 col-sm-12 pl-0 pr-0">
+        <h1 i18n="@@about" class="display-4">Про бібліотеку</h1>
+        <p i18n="@@about-description" class="lead structure_text">Діяльність науково-технічної бібліотеки академії спрямована на
+            забезпечення її відповідності бібліотеці інноваційного типу
+            завдяки підвищенню якості інформаційного та бібліотечно-бібліографічного
+            обслуговування користувачів
+        </p>
+        <div class="structure-department col-12">
+            <div class="col-4">
+                <div class="lib-img">
+                </div>
+                <p i18n="@@sectoral-department" class="mb-0 pb-0">Галузевий відділ <br>
+                    <em>вул. Дворянська 1/3, <br> ауд. 127</em>
+                </p>
+            </div>
+            <div class="col-4">
+                <div class="organiz-img">
+                </div>
+                <p i18n="@@organizational" class="mb-0 pb-0">Організаційно-методичний відділ <br>
+                    <em>ауд. A-139</em></p>
+            </div>
+            <div class="col-4">
+                <div class="edit-img">
+                </div>
+                <p i18n="@@archives" class="mb-0 pb-0">Відділ зберігання фондів<br>
+                    <em>ауд. А–137/3</em></p>
+                <!--<p><b>Завідуюча відділом:</b> Полякова Нонна Вікторівна</p>-->
+            </div>
+        </div>
+        <div class="structure-department col-12 mt-3">
+            <div class="col-4">
+                <div class="zek-img">
+                </div>
+                <p i18n="@@electronic" class="mb-0 pb-0">Зал електронних каталогів<br>
+                    <em>ауд. А-226</em></p>
+            </div>
+            <div class="col-4">
+                <div class="hub-img">
+                </div>
+                <p class="mb-0 pb-0">Info HUB<br>
+                    <em>ауд. A-316</em></p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-7 pl-0 pr-0 hexagon-structure">
+        <div class="row">
+            <div class="rotate-hexagon">
+                <div class="hexagon">
+                    <div class="hexTop"></div>
+                    <div class="hexBottom"></div>
+                    <div class="front-hexagon">
+                        <h4 i18n="@@educational-literature">Відділ<br> обслуговування навчальною літературою</h4>
+                        <p i18n="@@educational-literature-description" class="text-center">Здійснює інформаційне забезпечення навчального процесу академії.</p>
+                        <button class="btn" i18n="@@more"> Детальніше <i class="fas fa-angle-double-right"></i></button>
+                    </div>
+                    <div class="back-hexagon justify-content-center">
+                        <p i18n="@@educational-literature-admin"><b>Завідуюча: </b><br>Гриньків Світлана Йосипівна<br>
+                            Абонемент:
+                            <em> ауд. А–137/9</em><br>
+                            Читальний зал:
+                            <em> ауд. А–228</em></p>
+                        <!--<div class="front-hexagon-logo justify-content-around">-->
+                            <!--<span><i class="fas fa-desktop"></i>ПК</span>-->
+                            <!--<span><i class="fas fa-wifi mr-1"></i>Wi-Fi </span>-->
+                        <!--</div>-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="rotate-hexagon">
+                <div class="hexagon">
+                    <div class="hexTop"></div>
+                    <div class="hexBottom"></div>
+                    <div class="front-hexagon">
+                        <h4 i18n="@@scientific-literature">Відділ<br> обслуговування науковою літературою</h4>
+                        <p i18n="@@scientific-literature-description" class="text-center">Забезпечує інформаційні потреби користувачів на наукову та художню
+                            літературу</p>
+                        <button i18n="@@more" class="btn"> Детальніше <i class="fas fa-angle-double-right"></i></button>
+                    </div>
+                    <div class="back-hexagon">
+                        <p i18n="@@scientific-literature-admin"><b>Завідуюча:</b><br> Оставненко Ірина Анатоліївна<br>
+                            Абонемент<br>
+                            - наукової літ.:<em> ауд. А–137/7</em><br>
+                            - художньої літ.:<em> ауд. А–415</em><br>
+                            Читальний зал:<em> ауд. А–225</em></p>
+                        <!--<div class="front-hexagon-logo justify-content-around">-->
+                            <!--<span><i class="fas fa-desktop"></i>ПК</span>-->
+                            <!--<span><i class="fas fa-wifi mr-1"></i>Wi-Fi </span>-->
+                        <!--</div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top:-3.75em;">
+            <div class="rotate-hexagon">
+                <div class="hexagon">
+                    <div class="hexTop"></div>
+                    <div class="hexBottom"></div>
+                    <div class="front-hexagon">
+                        <h4 i18n="@@bibliography-department">Інформаційно-бібліографічний відділ</h4>
+                        <p i18n="@@bibliography-department-description" class="text-center">Забезпечує обслуговування студентів та викладачів, виконує
+                            бібліографічні
+                            довідки.</p>
+                        <button i18n="@@more" class="btn"> Детальніше <i class="fas fa-angle-double-right"></i></button>
+                    </div>
+                    <div class="back-hexagon">
+                        <p i18n="@@bibliography-department-admin" class="text-center"><b>Завідуюча:</b><br>Мазепа Тетяна Євгенівна<br>
+                            Бібліографія:<em> ауд. А–229</em> <br>
+                            Бібліограф. обслуговування:<em> вул. Дворянська, 1/3, ауд. 282</em>
+                        </p>
+                        <!--<div class="front-hexagon-logo">-->
+                        <!--<span><i class="fas fa-phone mr-1"></i>12–08 (вн. тел.)</span>-->
+                        <!--</div>-->
+                    </div>
+                </div>
+            </div>
+            <div class="rotate-hexagon">
+                <div class="hexagon">
+                    <div class="hexTop"></div>
+                    <div class="hexBottom"></div>
+                    <div class="front-hexagon">
+                        <h4 i18n="@@admin">Адміністрація</h4>
+                        <p i18n="@@admin-description" class="text-center">Виконує загальне керівництво діяльністю бібіліотеки.</p>
+                        <button i18n="more" class="btn"> Детальніше <i class="fas fa-angle-double-right"></i></button>
+                    </div>
+                    <div class="back-hexagon">
+                        <p i18n="@@admin-info"><b>Директор:</b><br> Зінченко Ірина Іванівна<br>
+                            Кабінет:<em> А-227</em></p>
+                        <!--<div class="front-hexagon-logo justify-content-center">-->
+                            <!--<span><i class="fas fa-phone mr-1 "></i>712-41-88</span>-->
+                            <!--<span><i class="fas fa-at"></i>lib.onaft@gmail.com</span>-->
+                        <!--</div>-->
+                    </div>
+                </div>
+            </div>
+            <div class="rotate-hexagon">
+                <div class="hexagon">
+                    <div class="hexTop"></div>
+                    <div class="hexBottom"></div>
+                    <div class="front-hexagon">
+                        <h4 i18n="@@kci" class="mb-0 pb-0">Координаційний<br> центр видання наукової періодики</h4>
+                        <p i18n="@@kci-description" class="text-center">Відповідає за сприяння, підтримку і супровід науково-періодичних
+                            видань.</p>
+                        <button i18n="@@more" class="btn"> Детальніше <i class="fas fa-angle-double-right"></i></button>
+                    </div>
+                    <div class="back-hexagon">
+                        <p i18n="@@kci-info"><b>Заступник директора з інноваційних технологій, Керівник:</b><br>Ольшевська Ольга Володимирівна<br>
+                            Центр:<em> ауд. А–140</em></p>
+                        <!--<div class="front-hexagon-logo">-->
+                        <!--<span><i class="fas fa-phone mr-1"></i>15-52 (вн. тел.)</span>-->
+                        <!--</div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top:-3.75em;">
+            <div class="rotate-hexagon">
+                <div class="hexagon">
+                    <div class="hexTop"></div>
+                    <div class="hexBottom"></div>
+                    <div class="front-hexagon">
+                        <h4 i18n="@@department-document" class="mb-0 pb-0">Відділ<br> комплектування документів</h4>
+                        <p i18n="@@department-document-description" class="text-center">Здійснює комплектування бібліотечного фонду документами відповідно до
+                            навчальних планів</p>
+                        <button i18n="@@more" class="btn"> Детальніше <i class="fas fa-angle-double-right"></i></button>
+                    </div>
+                    <div class="back-hexagon">
+                        <p i18n="@@department-document-info"><b>Завідуюча:</b><br> Скутаренко Олена Леонідівна<br>
+                            Відділ:<em> ауд. А–137/3</em></p>
+                        <!--<div class="front-hexagon-logo">-->
+                        <!--<span><i class="fas fa-phone mr-1"></i>712-40-49</span>-->
+                        <!--</div>-->
+                    </div>
+                </div>
+            </div>
+            <div class="rotate-hexagon">
+                <div class="hexagon">
+                    <div class="hexTop"></div>
+                    <div class="hexBottom"></div>
+                    <div class="front-hexagon">
+                        <h4 i18n="@@department-science" class="mb-0 pb-0">Відділ<br> наукової обробки документів та організації каталогів</h4>
+                        <p i18n="@@department-science-description" class="text-center">Здійснює каталогізацію та систематизацію документів.</p>
+                        <button i18n="@@more" class="btn"> Детальніше <i class="fas fa-angle-double-right"></i></button>
+                    </div>
+                    <div class="back-hexagon">
+                        <p i18n="@@department-science-info"><b>Завідуюча:</b><br>Тимчишина Маргарита Веніамінівна<br>
+                            Відділ:<em> ауд. А–137/2</em></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<!--END info about structure-->
+
+<!--About us section-->
+<div class="container-fluid about col-12 col-sm-12">
+    <div class="row">
+        <div class="about-info col-lg-6 col-md-6 col-sm-12">
+            <h1 i18n="@@form" class="display-4">Віртуальна довідка</h1>
+            <p i18n="@@form-description" class="lead text-justify desktop_version">
+                Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібіліотеки, зверніться за
+                наведенною
+                формою до співробітника бібліотеки. Для цього необхідно заповнити наведені поля та відправити ваше
+                повідомлення.
+                За більш детальною інформацією звертайтесь до співробітників та адміністрації науково-технічної
+                бібліотеки ОНАХТ.
+            </p>
+            <p i18n="@@form-mob-description" class="lead text-justify mob_version">
+                Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібіліотеки, зверніться за
+                наведенною формою до працівника бібліотеки.
+            </p>
+            <div class="icon-about">
+                <p  i18n="@@address" class="lead text-justify"><i class="fas fa-map-marker-alt"></i> Україна, 65039,
+                    м. Одеса, вул. Канатна, 112</p>
+                <p class="lead text-justify"><i class="fas fa-phone"></i>+38(048)712‐41‐88, +38(048)712‐40‐49</p>
+                <p class="lead text-justify"><i class="fas fa-envelope"></i>lib.onaft@gmail.com,
+                    onaft.library@gmail.com</p>
+            </div>
+            <div class="icon-link">
+                <a href="https://www.facebook.com/libONAFT" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/libonaft" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/need2know.onaft/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UC4n9Z-5en90CRlSmgmgSmbQ" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="about-form col-lg-6 col-md-6 col-sm-12">
+            <form>
+                <div class="input-group">
+                    <input [formControl]="username" i18n-placeholder="@@form-placeholder" type="text" class="form-control" placeholder="Ваше ім'я" aria-label="Username">
+                    <div class="input-group-append">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <input [formControl]="email" type="email" class="form-control"  placeholder="example@mail.com" aria-label="Email">
+                    <div class="input-group-append">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <textarea [formControl]="text" class="form-control" aria-label="With textarea" i18n-placeholder="@@message-placeholder" placeholder="Ваше повідомлення"></textarea>
+                </div>
+                <div class="input-group justify-content-start" style="padding-bottom: 0;">
+                    <button (click)="sendEmail()" i18n="@@submit-button" type="button" class="btn btn-light">Відправити</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--END about us section-->
+
+
+<!--FAQ section-->
+<div class="container-fluid faq col-12 col-sm-12">
+    <h1 i18n="@@faq" class="display-4">Питання-Відповідь</h1>
+    <div class="container-fluid col-12 questions">
+        <div class="accordion col-12 col-sm-12" id="accordionExample">
+            <!--Card 1 Як стати читачем?-->
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0" i18n="@@reader">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="false" aria-controls="collapseOne">
+                            Як стати читачем?
+                        </button>
+                        <i class="fa fa-angle-down roll"></i>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div i18n="@@reader-description" class="card-body">
+                        <p class="block">Право користування бібліотекою мають студенти, магістри, аспіранти,
+                            професорсько-викладацький склад, працівники структурних підрозділів академії та центру
+                            довузівської підготовки, студенти інституту холоду, коледжу промислової автоматики та
+                            інформаційних технологій, коледжу нафтогазових технологій та інфраструктури сервісу,
+                            механіко-технологічного коледжу.
+                            Для запису в бібліотеку необхідно подати студентський (аспірантський) квиток або
+                            службове
+                            посвідчення, дійсне в поточному році.
+                            Користувачі інших навчальних закладів та установ подають посвідчення, дійсне в поточному
+                            році, або паспорт та обслуговуються в читальних залах.
+                            <br>
+                        <p>У відділах обслуговування можна:</p>
+                        <ul>
+                            <li>
+                                ознайомитися з правилами користування бібліотекою;
+                            </li>
+                            <li>
+                                підписати обхідний лист.
+                            </li>
+                        </ul>
+                        <p class="block"><b>Часи роботи відділів обслуговування читачів:</b><br>
+                            Понеділок-п'ятниця з 9.00 до 17.00<br>
+                            Субота (читальні зали) з 10.00 до 15.00<br>
+                            Остання п'ятниця місяця санітарний день</p>
+                    </div>
+                </div>
+            </div>
+            <!--Card 2 Що необхідно знати першокурснику-->
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 i18n="@@student" class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                aria-expanded="false" aria-controls="collapseTwo">
+                            Що необхідно знати першокурснику
+                        </button>
+                        <i class="fa fa-angle-down roll"></i>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div i18n="@@student-description" class="card-body">
+                        <p class="block">Основна інформація:</p>
+                        <ol>
+                            <li>Читацький формуляр – документ, що надає право користуватися бібліотекою.</li>
+                            <li> Для отримання видань у будь-якому відділі бібліотеки необхідно заповнити бланк
+                                «Вимога
+                                на книгу», заздалегідь отримавши інформацію з каталогу бібліотеки.
+                            </li>
+                            <li>Доступ до каталогу можливо здійснити через сайт бібліотеки та безпосередньо у залі
+                                електронних каталогів (ауд. А-226), де досвідчені консультанти зможуть надати вам
+                                необхідну допомогу щодо пошуку потрібної інформації.
+                            </li>
+                            <li>Для отримання підручників необхідно мати з собою заповнені бланки «Вимога на книгу».
+                            </li>
+                            <li>Пропонуємо ознайомитися зі сторінкою сайта «Рекомендації щодо пошуку інформації».
+                            </li>
+                            <li>Студент зобов’язаний повернути всі книги, що були отримані на абонементі, в кінці
+                                навчального року.
+                            </li>
+                            <li>Термін користування бібліотекою продовжується у тому випадку, якщо в минулому
+                                навчальному році всі отримані книги вчасно повернули.
+                            </li>
+                            <li>У разі втрати чи пошкодження друкованого видання, отриманого у бібліотеці,
+                                користувач
+                                повинен замінити його рівноцінним за змістом.
+                            </li>
+                            <li>Просимо Вас дотримуватися правил поведінки у бібліотеці:
+                                <ul type="circle">
+                                    <li>не виносити видання з приміщень читальних залів;</li>
+                                    <li>дбайливо поводитися з бібліотечними книгами, зйомними носіями інформації та
+                                        обладнанням;
+                                    </li>
+                                    <li>дотримуватися тиші під час роботи в читальних залах.</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <!--Card 3 Карткові каталоги, картотеки-->
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 i18n="@@catalog" class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                data-target="#collapseThree"
+                                aria-expanded="false" aria-controls="collapseThree">
+                            Карткові каталоги, картотеки
+                        </button>
+                        <i class="fa fa-angle-down roll"></i>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingOne"
+                     data-parent="#accordionExample">
+                    <div i18n="@@catalog-description" class="card-body">
+                        <h3 class="text-center">АЛФАВІТНИЙ КАТАЛОГ</h3>
+                        <p class="block"><b>Алфавітний каталог (АК)</b> – бібліотечний каталог, в якому
+                            бібліографічні
+                            записи розташовуються в порядку прізвищ індивідуальних авторів, найменувань колективних
+                            авторів (установ та організацій), або назв документів.</p>
+                        АК відповідає на питання:
+                        <ul type="-">
+                            <li>які книги того або іншого автора є в бібліотеці;</li>
+                            <li>чи є в бібліотеці книга, автор і назва якої відомі;</li>
+                            <li>які видання та перевидання даної книги є в бібліотеці.</li>
+                        </ul>
+                        <h3 class="text-center" style="padding-top: 1em;">СИСТЕМАТИЧНИЙ КАТАЛОГ</h3>
+                        <p class="block"><b>Систематичний каталог (СК)</b> – бібліотечний каталог, в якому
+                            бібліографічні записи розташовуються по галузях знання у відповідності до бібліотечної
+                            системи класифікації. У НТБ ОНАХТ бібліотечна система класифікації УДК– Універсальна
+                            десятинна класифікація
+                            СК складається з двох підсистем: безпосередньо СК та алфавітно-предметного покажчика
+                            (АПП)
+                            до нього.
+                            СК розкриває бібліотечний фонд за змістом і відповідає на питання: які книги з певної
+                            теми є
+                            в бібліотеці.
+                            Алфавітно–предметний покажчик – допоміжний апарат до СК, що визначає шлях пошуку
+                            інформації
+                            в СК. АПП – алфавітний перелік предметних рубрик, що розкривають зміст відображених у СК
+                            документів із зазначенням відповідних класифікаційних індексів. Картки із зазначенням
+                            рубрик
+                            розташовані в алфавіті перших слів, наприклад:
+                            <br>Масло – 637.2
+                            <br>Молоко – 637.1
+                        </p>
+                        <h3 class="text-center" style="padding-top: 1em;">СИСТЕМАТИЧНА КАРТОТЕКА СТАТЕЙ</h3>
+                        <p class="block">Систематична картотека статей базується на аналітичному розписі періодичних
+                            видань і видань, що продовжуються. Призначенням картотеки є відображення документів з
+                            найбільш актуальних тем харчових технологій.
+                            Структура картотеки аналогічна структурі систематичного каталогу.</p>
+                    </div>
+                </div>
+            </div>
+            <!--Card 4 Електрона доставка документів-->
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h2 i18n="@@elec" class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                data-target="#collapseFour"
+                                aria-expanded="false" aria-controls="collapseFour">
+                            Електронна доставка документів
+                        </button>
+                        <i class="fa fa-angle-down roll"></i>
+                    </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingOne"
+                     data-parent="#accordionExample">
+                    <div i18n="@@elec-catalog" class="card-body">
+                        <h3 class="text-center">ЕЛЕКТРОННА ДОСТАВКА ДОКУМЕНТІВ</h3>
+                        <p class="block"><b>Електронна доставка документів (ЕДД)</b> – сервісна послуга, яка надає
+                            можливість користувачам (як юридичним, так і фізичним особам) отримати електронну копію
+                            друкованого видання з фонду бібліотеки за допомогою мережі Інтернет.</p>
+                        Ви можете замовити:
+                        <ul type="circle">
+                            <li>копії окремих статей з журналів та збірників обсягом до 15 сторінок;</li>
+                            <li>копії окремих сторінок, фрагментів або розділів з книг обсягом до 15 сторінок
+                                (замовлення на виготовлення копій рідкісних та цінних видань не приймаються);
+                            </li>
+                            <li>копії документів, які не є об’єктами авторського права, і тих, які перейшли в
+                                загальне
+                                користування.
+                            </li>
+                        </ul>
+                        <p class="block"><b style="color:red;">Увага!</b>
+                            Згідно з Законом України «Про авторське право та суміжні права» замовлення приймаються
+                            лише
+                            на копіювання та доставку окремих опублікованих статей та фрагментів (уривків) з
+                            опублікованих друкованих творів. Копіювання документів у повному обсязі <b
+                                    style="color:red;">НЕ ВИКОНУЄТЬСЯ!</b>
+                            Дозволяється використовувати отримані копії тільки з метою освіти, навчання та
+                            приватного
+                            дослідження. Не дозволяється тиражувати отримані копії, відновлювати їх у будь-якій
+                            формі,
+                            окрім одноразового друку електронного файлу, передавати іншим особам або організаціям.
+                            Відповідальність за несанкціоноване використання отриманих від бібліотеки копій
+                            документів
+                            відповідно до чинного законодавства України несе користувач.</p>
+                        <h3 class="text-center">Порядок замовлення та надання послуг</h3>
+                        <p class="block">Для отримання копії документа треба надіслати бланк-замовлення (<a
+                                href="assets/docs/for_book.doc">Бланк-замовлення на частину тексту з книги</a>
+                            чи
+                            <a href="assets/docs/for_journal.doc">Бланк-замовлення на статтю з журналу</a>) до
+                            відділу комплектування (komplib.onaft@ukr.net) бібліотеки електронною поштою,
+                            обов’язково
+                            вказавши свій e-mail.</p>
+                        <p class="block"><b style="color:red;">Примітка:</b> на кожен документ заповнюється окремий
+                            бланк-замовлення, замовлення у вигляді списку не приймаються.</p>
+                        <p class="block">У бланку-замовленні необхідно обов’язково вказати бібліографічні відомості
+                            про
+                            документ: прізвище автора та назву документа; назву джерела, в якому опубліковано
+                            матеріал;
+                            рік видання; номер журналу; сторінки публікації.
+                            Бібліографічні відомості про документи з фонду науково-технічної бібліотеки ОНАХТ можна
+                            уточнити за допомогою <a href="http://library.onaft.edu.ua/elc/">Електронного
+                                каталогу</a>.
+                        </p>
+                        <p class="block"><b style="color:red;">Примітка:</b> неправильно оформлені
+                            бланки-замовлення, в
+                            яких відсутні або нерозбірливо вказані відомості, що необхідні для виконання замовлення,
+                            повертаються абоненту для уточнення.</p>
+                        <p class="block">Отримавши замовлення та перевіривши у фонді наявність документа, бібліотека
+                            протягом 3-х робочих днів повідомляє про можливість виконання замовлення. Одночасно
+                            обговорюються технічні умови виготовлення та пересилання копії.
+                            Протягом 2-х днів користувач має підтвердити своє замовлення або скасувати його.
+                            Копії документів виконуються у форматі PDF i JPG. Термін виконання замовлення – від 2-х
+                            до
+                            5-ти робочих днів. Термін виконання замовлень, в яких необхідне бібліографічне
+                            доопрацювання, може бути продовжений до 10 робочих днів.</p>
+                        <p class="block"><b style="color:red;">Примітка:</b> сканування замовлених матеріалів
+                            здійснюється лише з видань, формат яких не більше А4.</p>
+                        <p class="block">Інформація замовнику надсилається в обсязі, що не перевищує 20 Mb (обсяг
+                            документа обмежується розміром поштової скриньки).</p>
+                    </div>
+                </div>
+            </div>
+            <!--Card 5 Що таке УДК?-->
+            <div class="card">
+                <div class="card-header" id="headingFive">
+                    <h2 i18n="@@udc" class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                data-target="#collapseFive"
+                                aria-expanded="false" aria-controls="collapseFive">
+                            Що таке УДК?
+                        </button>
+                        <i class="fa fa-angle-down roll"></i>
+                    </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingOne"
+                     data-parent="#accordionExample">
+                    <div i18n="@@udc-description" class="card-body">
+                        <h3 class="text-center">Як отримати індекс УДК</h3>
+                        <p class="block">Для опублікування роботи (статті) автору необхідно вказати тематичний
+                            розділ
+                            (індекс) класифікації УДК, до якого дана робота належить.</p>
+                        <p class="block"><b>УДК</b> – Універсальна десяткова класифікація – система класифікації
+                            інформації. УДК широко використовується в усьому світі для систематизації наукових
+                            творів,
+                            літератури та мистецтва, періодики, різноманітних видів документів. За допомогою УДК можна
+                            з’ясувати
+                            вид, тип літератури, не читаючи її. Вона призначена для організації бібліотечного фонду,
+                            каталогів та картотек.</p>
+                        <p class="block">Для отримання індексу УДК автору необхідно звернутися до
+                            інформаційно-бібліографічного відділу НТБ ОНАХТ (вул. Канатна, 112, головний корпус, 2-й
+                            поверх, к. А-229) та надати такі відомості: </p>
+                        <ol>
+                            <li>автори роботи (статті);</li>
+                            <li>назва роботи (статті);</li>
+                            <li>ключові слова;</li>
+                            <li>кафедра;</li>
+                            <li>місце публікації.</li>
+                        </ol>
+                        <p class="block">Для самостійного визначення індексу УДК можна скористуватися
+                            Інтернет-ресурсами, наприклад:
+                            <b>Довідник з УДК</b> – <a
+                                    href="https://teacode.com/online/udc/">teacode.com/online/udc/</a></p>
+                    </div>
+                </div>
+            </div>
+            <!--Card 6 Обхідний лист-->
+            <div class="card">
+                <div class="card-header" id="headingSix">
+                    <h2 i18n="@@form-list" class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSix"
+                                aria-expanded="false" aria-controls="collapseSix">
+                            Обхідний лист
+                        </button>
+                        <i class="fa fa-angle-down roll"></i>
+                    </h2>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div i18n="@@form-list-description" class="card-body">
+                        Бланк обхідного листа потрібно взяти у профільному деканаті та підписати в НТБ у такій
+                        послідовності:
+                        <ol>
+                            <li>Абонемент навчальної літератури (ауд. А-137/9).</li>
+                            <li>Абонемент наукової літератури (ауд. А-137/7).</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <!--Card 7 Фахівцям-->
+            <div class="card">
+                <div class="card-header" id="headingSeven">
+                    <h2 i18n="@@specialist" class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                data-target="#collapseSeven"
+                                aria-expanded="false" aria-controls="collapseSeven">
+                            Фахівцям харчової промисловості
+                        </button>
+                        <i class="fa fa-angle-down roll"></i>
+                    </h2>
+                </div>
+                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
+                     data-parent="#accordionExample">
+                    <div i18n="@@specialist-description" class="card-body">
+                        <h3 class="text-center">Фахівцям харчової та переробної промисловості</h3>
+                        <p class="block">Дозвольте запропонувати Вам новий спосіб отримання інформації для розвитку
+                            Вашого бізнесу в галузі харчових виробництв. Сподіваємось, тепер у Вас не буде
+                            необхідності
+                            перегортати стопи літератури, годинами просиджувати у «всесвітній мережі», шукаючи
+                            відповіді
+                            на питання: як розширити асортимент та збільшити термін придатності продукції, який
+                            новий
+                            ексклюзивний виріб запропонувати ринку, щоб швидко завоювати популярність та
+                            перевершити,
+                            нарешті, конкурента. Пропонуємо Вам укласти Угоду на отримання оперативної інформації з
+                            науково-технічною бібліотекою Одеської національної академії харчових технологій.</p>
+                        <p class="block">Бібліотека академії має унікальний фонд літератури з харчових виробництв,
+                            починаючи з «класичної» навчальної літератури до найостанніших журнальних публікацій
+                            провідних фахівців харчових технологій України ті інших країн. На сьогодні це,
+                            наприклад,
+                            актуальні питання функціонального, збалансованого харчування, все про продукти нового
+                            покоління, харчові волокна та домішки, питання економіки, моніторингу та прогнозування,
+                            останні наукові розробки та ін.<br>
+                            <a href="assets/pdf/foodscience.pdf" target="_blank">Перелік тем з харчових
+                                галузей</a></p>
+                        <p class="block">Використовуючи багаторічний досвід інформаційного обслуговування
+                            викладачів,
+                            аспірантів, студентів академії, а також електронну базу даних, ми зможемо забезпечити
+                            інформаційну підтримку Вашого виробництва.</p>
+                        <h4 class="text-center" style="padding-top: 1em">Найголовніше</h4>
+                        <p class="block">Користуючись <a href="http://library.onaft.edu.ua/elc/">пошуковою
+                            системою</a>
+                            нашого сайту, за ключовими словами Ви з легкістю отримаєте список літератури за темою.
+                        </p>
+                        <h4 class="text-center" style="padding-top: 1em">АЛЕ!</h4>
+                        <p class="block">Ми пропонуємо не лише традиційний бібліографічний список, а й самі
+                            матеріали.
+                            Статті, глави з книг, публікації Ви отримаєте у зручному для Вас форматі (e-mail,
+                            USB-флеш-накопичувач, диск, ксерокопія).<br>
+                            <b>ТЕМА = БІБЛІОГРАФІЧНИЙ СПИСОК + МАТЕРІАЛИ</b><br>
+                            <h4 class="text-center" style="padding-top: 1em">Порядок отримання інформації</h4>
+                        <p> Самостійний пошук інформації за ключовими словами пошукової системи:
+                            <a href="http://refman.onaft.edu.ua/elc">Електронний каталог</a></p>
+                        <p class="block">
+                            Надання  матеріалів  з  бібліографічного  списку  у  зручному  для  Вас  форматі  (e-mail, диск, ксерокопія).
+                            Здійснення  пошуку  інформації  за  конкретною  темою,  складання  анотованих  бібліографічних  списків  та  надання  відібраних  матеріалів.
+                            Інформаційне  обслуговування:  щоквартальні  інформаційно-бібліографічні  огляди  журнальних  публікацій  за  профілем  Вашого  підприємства.
+                        </p>
+                        <p  class="font-italic">*Терміни отримання інформації обговорюються  додатково.</p>
+                        <p class="block">
+                            Вичерпність інформації, оперативність, якість та індивідуальний підхід до кожного окремо
+                            поставленого завдання – гарантуємо. Погодьтесь, пропозиція цікава та вигідна, багато
+                            переваг: зекономите час (достатньо визначити тему), матеріали отримаєте безпосередньо та
+                            будете в курсі останніх розробок.</p>
+                        <p class="block">За більш детальною інформацією звертайтесь до чергового по сайту:<a href="mailto:lib.onaft@gmail.com?subject=Детальна інформація для фахівців">
+                            lib.onaft@gmail.com</a></p>
+                        <h4 class="text-center" style="padding-top: 1em">Корисна інформація</h4>
+                        <p class="block"> Інформаційно-бібліографічне обслуговування фахівців харчової галузі. Складання тематичних списків та тематичних добірок за запитами користувачів. Аналітичний опис статей з періодичних видань у відповідності до галузевих тематик та інше. <a _ngcontent-c3="" href="cntb.com.ua"> cntb.com.ua</a></p>
+                    </div>
+                </div>
+            </div>
+            <!--Card 8-->
+            <div class="card">
+                <div class="card-header" id="headingEight">
+                    <h2 i18n="@@diagram" class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                data-target="#collapseEight"
+                                aria-expanded="false" aria-controls="collapseEight">
+                            Статистична інформація
+                        </button>
+                        <i class="fa fa-angle-down roll"></i>
+                    </h2>
+                </div>
+                <div id="collapseEight" class="collapse" aria-labelledby="headingEight"
+                     data-parent="#accordionExample">
+                    <div i18n="@@diagram-description" class="card-body">
+                        <p class="block"> В сучасних умовах формується новий тип суспільства – інформаційний, за
+                            якого
+                            головним виробничим ресурсом стають інформація та знання. Інформація набуває все
+                            більшого
+                            значення і відіграє вирішальну роль у прийнятті рішень майже в усіх сферах.</p>
+                        <p class="block">
+                            <b>Головне управління статистики в Одеській області</b> повідомляє про джерела отримання
+                            статистичної інформації:</p>
+                        <ul type="circle">
+                            <li>веб-сайт Головного управління статистики в Одеській області <a
+                                    href="http://www.od.ukrstat.gov.ua/" target="_blank">od.ukrstat.gov.ua;</a></li>
+                            <li>статистичні публікації – збірники, бюлетені, доповіді з усіх аспектів
+                                соціально-економічного становища Одеської області (Каталог статистичних видань,
+                                передбачених до випуску у 2018 році <a
+                                        href="http://www.od.ukrstat.gov.ua/katalog_2018.htm" target="_blank">od.ukrstat.gov.ua/katalog_2018</a>);
+                            </li>
+                            <li>відповіді на запити щодо надання статистичної інформації.</li>
+                        </ul>
+                        <p class="block">Для отримання будь-якої інформації необхідно надіслати запит, у якому
+                            вказати
+                            запитувану інформацію, визначити її деталізацію, період, а також зазначити контактну
+                            інформацію.<br>
+                            Запит можна надіслати:
+                        </p>
+                        <ul type="circle">
+                            <li>електронною поштою на адресу <a
+                                    href="mailto:gus@od.ukrstat.gov.ua?subject=Запитання стосовно статистичної інформаціі">gus@od.ukrstat.gov.ua</a>
+                            </li>
+                            <li>поштою: вул. Польська, 20а, м.Одеса, 65026, тел. 722-20-00,</li>
+                        </ul>
+                        <p class="block">або звернутись у Головне управління статистики в Одеській області за
+                            адресою
+                            вул. Польська, 20а, 2 поверх, кім. 210 –управління поширення інформації та комунікацій
+                            (тел.
+                            722-08-60).</p>
+                        <p class="block">Статистична інформація буде корисною та цікавою широкому колу читачів,
+                            серед
+                            яких наукові працівники, викладачі, аспіранти, студенти.<br>
+                            Чекаємо на Вас!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--END FAQ section-->
+
+</div>

@@ -1,0 +1,121 @@
+<div class="main_content container-fluid">
+    <nav aria-label="breadcrumb" class=" breadcrumb-list">
+        <ol class="breadcrumb">
+            <li i18n="@@main-breadcrumb" class="breadcrumb-item"><a routerLink="/">Головна</a></li>
+            <li i18n="@@books-breadcrumb" class="breadcrumb-item active" aria-current="page">Надходження</li>
+        </ol>
+    </nav>
+    <h1 i18n="@@books-title" class="text-center">Надходження</h1>
+    <ul class="nav nav-pills" id="myTab" role="tablist">
+        <li class="nav-item ">
+            <a i18n="@@new-books" class="nav-link active" id="new-books" data-toggle="pill" href="#new-books-view"
+               role="tab"
+               aria-controls="new-books-view" aria-selected="true">Видання 2019-2020 рр.</a>
+        </li>
+        |
+        <li class="nav-item">
+            <a i18n="@@scientists-books" class="nav-link" id="books-scientists" data-toggle="pill" href="#books-view"
+               role="tab"
+               aria-controls="books-view" aria-selected="true">Книги вчених</a>
+        </li>
+        |
+        <li class="nav-item">
+            <a i18n="@@library-books" class="nav-link" id="resource-library" data-toggle="pill" href="#resource-view"
+               role="tab"
+               aria-controls="resource-view" aria-selected="true">Видання НТБ</a>
+        </li>
+        |
+        <li class="nav-item">
+            <a i18n="@@periodic-books" class="nav-link" id="propose-liter" data-toggle="pill" href="#propose-liter-view" role="tab"
+               aria-controls="propose-liter-view" aria-selected="true">Періодика</a>
+        </li>
+    </ul>
+
+
+    <!--*ngIf="book?.category === 'library'"-->
+    <div class="tab-content" id="pills-tabContent">
+        <!--New books block-->
+        <div class="row tab-pane fade show active" id="new-books-view" role="tabpanel" aria-labelledby="new-books">
+            <ng-container *ngFor="let book of booksObservable | async">
+                <div class="card-container-books" *ngIf="book.category === 'new'">
+                    <div class="card">
+                        <img [attr.src]="book.image" alt="Books image"
+                             class="card-media-books"/>
+                        <div class="card-body">
+                            <span class="card-author subtle">Надходження за 2019-2020 р.</span>
+                            <h2 class="card-title" [innerHTML]="book.title"></h2>
+                            <span class="card-description subtle" [innerHTML]="book.references"></span>
+                            <p class="short-description" [innerHTML]="book.description">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-shadow"></div>
+                </div>
+            </ng-container>
+        </div>
+
+        <!--Books scientists block-->
+        <div class="row tab-pane fade" id="books-view" role="tabpanel" aria-labelledby="books-scientists">
+            <ng-container *ngFor="let book of booksObservable | async">
+                <div class="card-container-books" *ngIf="book.category === 'scientist'">
+                    <div class="card">
+                        <img [attr.src]="book.image" alt="Books image"
+                             class="card-media-books"/>
+                        <div class="card-body">
+                            <span class="card-author subtle">Книги вчених ОНАХТ</span>
+                            <h2 class="card-title" [innerHTML]="book.title"></h2>
+                            <span class="card-description subtle" [innerHTML]="book.references"></span>
+                            <p class="short-description" [innerHTML]="book.description">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-shadow"></div>
+                </div>
+            </ng-container>
+        </div>
+
+        <!--Resource library block-->
+        <div class="row tab-pane fade" id="resource-view" role="tabpanel"
+             aria-labelledby="resource-library">
+            <ng-container *ngFor="let book of booksObservable | async">
+                <div class="card-container" *ngIf="book.category === 'library'">
+                    <div class="card">
+                        <img [attr.src]="book.image" alt="Books image"
+                             class="card-media"/>
+                        <div class="card-body">
+                            <span class="card-author subtle">Науково-технічна бібілотека ОНАХТ</span>
+                            <h2 class="card-title" [innerHTML]="book.title"></h2>
+                            <span class="card-description" [innerHTML]="book.references"></span>
+                            <a [attr.href]="book.pdf_file" class="card-read" target="_blank">Переглянути</a>
+                        </div>
+                    </div>
+                    <div class="card-shadow"></div>
+                </div>
+            </ng-container>
+        </div>
+
+        <!--Periodical literature block-->
+        <div class="row tab-pane fade" id="propose-liter-view" role="tabpanel" aria-labelledby="propose-liter">
+            <ng-container *ngFor="let book of booksObservable | async">
+                <div class="card-container-periodical" *ngIf="book.category === 'periodical'">
+                    <div class="card-periodical">
+                        <img [attr.src]="book.image" alt="Books image"
+                             class="card-media"/>
+                        <div class="card-body" [ngStyle]="{'width': '100%'}">
+                            <span class="card-author subtle">Періодика ОНАХТ</span>
+                            <h2 class="card-title" [innerHTML]="book.title"></h2>
+                            <p class="periodical" [innerHTML]="book.description">
+                                <p class="periodical-place"><i class="fas fa-map-marker-alt"></i>{{book.references}}</p>
+                        </div>
+                    </div>
+                    <div class="card-shadow"></div>
+                </div>
+
+            </ng-container>
+        </div>
+    </div>
+</div>
+<div class="arrow-up" (click)="scrollTop();">
+    <i class="fas fa-chevron-up"></i>
+    Scroll Top
+</div>

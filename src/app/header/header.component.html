@@ -1,0 +1,153 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" routerLink="/"><img src="assets/img/logo.png" alt="Logo image" class="logo_img">
+        <span class="logo_name">LibraryONAFT</span></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarToggler" data-hover="dropdown"
+         data-animations="fadeInUp">
+        <ul class="navbar-nav desk-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="resource" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false" i18n="@@resource-menu">
+                    Ресурси
+                </a>
+                <div class="dropdown-menu" aria-labelledby="resource">
+                    <div class="triangle"></div>
+                    <a i18n="@@elec-catalog-menu" class="dropdown-item" href="https://elc.library.onaft.edu.ua/library-w/DocumentSearchResult" target="_blank">Електроний
+                        каталог</a>
+                    <a i18n="@@elec-directory-menu" class="dropdown-item" href="https://card-file.onaft.edu.ua/" target="_blank">Електроний
+                        архів (репозитарій)</a>
+                    <a i18n="@@kci-menu" class="dropdown-item" href="http://kci.onaft.edu.ua/" target="_blank">Центр наукової
+                        періодики (КЦВ)</a>
+                    <a i18n="@@patent-menu" class="dropdown-item" href="https://card-file.onaft.edu.ua/handle/123456789/12953" target="_blank">Патенти</a>
+                    <a i18n="@@scientificbase" class="dropdown-item" href="https://kci.onaft.edu.ua/uk/pages/indexing" target="_blank">Наукові бази</a>
+                </div>
+            </li>
+
+            <li  class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="science" data-hover="dropdown" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false" i18n="@@recomend-menu">
+                    Рекомендації
+                </a>
+                <div class="dropdown-menu" aria-labelledby="science">
+                    <div class="triangle"></div>
+                    <h6 i18n="@@scientists-menu" class="dropdown-header dropdown-name">Вчені</h6>
+                    <a i18n="@@encyclopedia-menu" class="dropdown-item" routerLink="/encyclopedia_of_scientists">Енциклопедія вчених</a>
+                    <a i18n="@@jubilee-menu" class="dropdown-item" routerLink="/jubilee">Ювіляри</a>
+                    <h6 i18n="@@researcher-menu" class="dropdown-header dropdown-name">Дослідникам</h6>
+                    <a class="dropdown-header" href="https://4ref.onaft.edu.ua/" target="_blank">ONAFT4ref</a>
+                    <a i18n="@@dstu-menu" class="dropdown-header submenu" href="#">ДСТУ/ГОСТ</a>
+                    <div class="dropdown-menu">
+                        <a i18n="@@bibl-desc-menu" class="dropdown-item" href="assets/pdf/DSTY-GOST/rules_for_bibliographic_description.pdf" target="_blank">Правила складання опису</a>
+                        <a i18n="@@bibl-example-menu" class="dropdown-item" href="assets/pdf/DSTY-GOST/Bibl_opis_onovl.pdf" target="_blank">Приклади складання опису</a>
+                        <a i18n="@@ref-desc-menu" class="dropdown-item" href="assets/pdf/DSTY-GOST/rules_for_bibliographic_references.pdf" target="_blank" >Правила складання посилань</a>
+                        <a i18n="@@ref-example-menu" class="dropdown-item" href="assets/pdf/DSTY-GOST/Pryklady_posylan_onov.pdf" target="_blank">Приклади складання посилань</a>
+                        <a i18n="@@dstu-gost-menu" class="dropdown-item" routerLink="/standards">ДСТУ ГОСТ</a>
+                        <a i18n="@@standarts-menu" class="dropdown-item" href="http://www.library.univ.kiev.ua/ukr/about/dstu.html"
+                           target="_blank">Основні стандарти </a>
+                    </div>
+                    <a class="dropdown-header" href="assets/pdf/Mizhnar_styli_posylannya.pdf"
+                       target="_blank" i18n="@@style-references-menu">Cтилі цитування</a>
+                </div>
+            </li>
+
+            <li i18n="@@books" class="nav-item">
+                <a class="nav-link" routerLink="/books">Надходження</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a i18n="@@library"  class="nav-link dropdown-toggle" href="#" id="books" data-hover="dropdown" data-toggle="dropdown">
+                    Бібліотека
+                </a>
+                <div class="dropdown-menu" aria-labelledby="books">
+                    <div class="triangle"></div>
+                    <a i18n="@@terms-menu" class="dropdown-item" href="assets/pdf/Regulations/ruls.pdf" target="_blank">Правила
+                        користування</a>
+                    <a i18n="@@rules-menu" class="dropdown-item" href="assets/pdf/Regulations/polojeniya.pdf" target="_blank">Положення
+                        НТБ</a>
+                    <a i18n="@@report-menu" class="dropdown-item" href="assets/pdf/Regulations/ZVIT2020.pdf" target="_blank">Звіт
+                        про роботу (2020 р.)</a>
+                    <a i18n="@@history-library-menu" class="dropdown-item" href="assets/pdf/library_history.pdf" target="_blank">Історія
+                        бібліотеки</a>
+                    <a i18n="@@exhibition" class="dropdown-item" routerLink="/exhibition">Виставки</a>
+                </div>
+            </li>
+            <!--<li class="nav-item nav-border">-->
+            <!--<a class="nav-link" href="#"><i class="far fa-user"></i> Авторизуватись</a>-->
+            <!--</li>-->
+            <li class="nav-item language">
+                <a class="nav-link" href="/">
+                    <i class="fas fa-globe-americas"></i>
+                    UA </a>|<a class="nav-link" href="/en/index.html">EN</a>|<a class="nav-link" href="/ru/index.html">RU</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav mob-nav mr-auto">
+            <li class="nav-item">
+                <a i18n="@@resource" class="nav-link" href="#" data-target="#resources" role="button" data-toggle="collapse"
+                   aria-expanded="true" aria-controls="resources" >
+                    Ресурси <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="collapse navbar-collapse"  id="resources">
+                    <a i18n="@@elec-catalog-menu" class="dropdown-item ml-1" href="http://refman.onaft.edu.ua/elc/" target="_blank">Електроний
+                        каталог</a>
+                    <a i18n="@@elec-directory-menu" class="dropdown-item ml-1" href="https://card-file.onaft.edu.ua/" target="_blank">Електроний
+                        архів (репозитарій)</a>
+                    <a i18n="@@kci-menu" class="dropdown-item ml-1" href="http://kci.onaft.edu.ua/" target="_blank">Центр наукової
+                        періодики</a>
+                    <a i18n="@@patent-menu" class="dropdown-item ml-1" href="https://card-file.onaft.edu.ua/handle/123456789/12953" target="_blank">Патенти</a>
+                    <a i18n="@@scientificbase" class="dropdown-item ml-1" href="https://kci.onaft.edu.ua/uk/pages/indexing" target="_blank">Наукові бази</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a i18n="@@recomend-menu" class="nav-link" href="#" data-target="#propose" role="button" data-toggle="collapse"
+                   aria-expanded="true" aria-controls="propose" id="proposeHeader">
+                    Рекомендації <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="collapse navbar-collapse" id="propose">
+                    <h6 i18n="@@scientists-menu" class="dropdown-header dropdown-name" [ngStyle]="{'color': '#d78737'}">Вчені</h6>
+                    <a i18n="@@encyclopedia-menu" class="dropdown-item ml-1" routerLink="/encyclopedia_of_scientists">Енциклопедія вчених</a>
+                    <a i18n="@@jubilee-menu" class="dropdown-item ml-1" routerLink="/jubilee">Ювіляри</a>
+                    <h6 i18n="@@researcher-menu" class="dropdown-header dropdown-name " [ngStyle]="{'color': '#d78737'}">Дослідникам</h6>
+                    <a class="dropdown-item ml-1" href="https://4ref.onaft.edu.ua/" target="_blank">ONAFT4ref</a>
+                    <a i18n="@@dstu-menu" class="dropdown-header ml-1" [ngStyle]="{'color': '#fff'}" data-target="#DSTU" role="button"
+                       data-toggle="collapse" aria-expanded="false">ДСТУ/ГОСТ <i class="fas fa-chevron-down"></i></a>
+                    <div class="collapse navbar-collapse" id="DSTU">
+                        <a i18n="@@bibl-desc-menu" class="dropdown-item ml-2" href="assets/pdf/DSTY-GOST/rules_for_bibliographic_description.pdf" target="_blank">Правила складання опису</a>
+                        <a i18n="@@bibl-example-menu" class="dropdown-item ml-2" href="assets/pdf/DSTY-GOST/Bibl_opis_onovl.pdf" target="_blank">Приклади складання опису</a>
+                        <a i18n="@@ref-desc-menu" class="dropdown-item ml-2" href="assets/pdf/DSTY-GOST/rules_for_bibliographic_references.pdf" target="_blank" >Правила складання посилань</a>
+                        <a i18n="@@ref-example-menu" class="dropdown-item ml-2" href="assets/pdf/DSTY-GOST/Pryklady_posylan_onov.pdf" target="_blank">Приклади складання посилань</a>
+                        <a i18n="@@dstu-gost-menu" class="dropdown-item ml-2 disabled" href="#" target="_blank">ДСТУ ГОСТ</a>
+                        <a i18n="@@standarts-menu" class="dropdown-item ml-2" href="http://www.library.univ.kiev.ua/ukr/about/dstu.html"
+                           target="_blank">Основні стандарти </a>
+                    </div>
+                    <a class="dropdown-item ml-1" href="assets/pdf/Mizhnar_styli_posylannya.pdf"
+                       target="_blank" i18n="@@style-references-menu">Cтилі цитування</a>
+                </div>
+            </li>
+            <li i18n="@@books" class="nav-item">
+                <a class="nav-link" routerLink="/books">Надходження</a>
+            </li>
+            <li class="nav-item">
+                <a i18n="@@library"  class="nav-link" href="#" data-target="#library" role="button" data-toggle="collapse"
+                   aria-expanded="false">
+                    Бібліотека <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="collapse navbar-collapse" id="library">
+                    <a i18n="@@terms-menu"  class="dropdown-item ml-1" href="assets/pdf/Regulations/ruls.pdf" target="_blank">Правила
+                        користування</a>
+                    <a i18n="@@rules-menu" class="dropdown-item ml-1" href="assets/pdf/Regulations/polojeniya.pdf" target="_blank">Положення
+                        НТБ</a>
+                    <a i18n="@@report-menu" class="dropdown-item ml-1" href="assets/pdf/Regulations/ZVIT2020.pdf" target="_blank">Звіт
+                        про роботу(2020 р.)</a>
+                    <a i18n="@@history-library-menu" class="dropdown-item ml-1" href="assets/pdf/library_history.pdf" target="_blank">Історія
+                        бібліотеки</a>
+                    <a i18n="@@exhibition" class="dropdown-item ml-1" href="/exhibition" target="_blank">Виставки</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>

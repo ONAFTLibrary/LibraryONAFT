@@ -1,0 +1,248 @@
+.patents {
+    position: relative;
+    background: #fff;
+    color: #212529;
+    padding: 0 1.75em 0 0;
+    box-sizing: border-box;
+}
+.breadcrumb {
+    font-family: montserrat, sans-serif;
+    padding-left: 0 !important;
+}
+.patents h1 {
+    margin-bottom: 0.5em;
+}
+
+.menu-title {
+    font-size: 18px;
+    padding: 1em 0;
+    border-right: 1px solid #f1f1f1;
+}
+.sidenav {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    position: sticky;
+    top: 2.75em;
+    bottom: 0;
+}
+.menu-title h2 {
+    color: #555;
+    padding-left: 1em;
+}
+.nav-link{
+    border-radius: 0;
+    color: #555555;
+    border-bottom: 1px solid #f1f1f1;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    padding: 1em 1.75em;
+
+}
+
+.nav-link:last-child {
+    border-bottom: none;
+}
+
+.fa-search, .fa-award {
+    font-size: 16px !important;
+    padding-right: 0.4em;
+}
+
+.nav-pills .nav-link.active {
+    background: none;
+    color: rgb(215, 135, 55);
+}
+
+.main-content {
+    padding: 0 1.75em 2.25em;
+    text-align: justify;
+    z-index: 1;
+}
+
+/deep/ .tab-content a {
+    color: #313534;
+    text-decoration: underline;
+}
+/deep/ .tab-content a:hover {
+    color: #212529;
+}
+p {
+    margin: 0;
+    text-indent: 2em;
+    font-size: 16px;
+    padding-bottom: 0.25em;
+}
+
+.name-patent {
+    font-size: 2.5rem;
+    margin: 0.5em auto;
+    font-weight: bold;
+}
+
+ol {
+    margin: 0;
+    font-size: 16px;
+    padding-bottom: 0.25em;
+    line-height: 1.5em;
+    padding-left: 3em;
+    text-indent: 0.25em;
+}
+
+ol li {
+    padding-bottom: 0.5em;
+    line-height: 1.75em;
+}
+
+.mob_open {
+    display: none;
+}
+
+.closebtn {
+    display: none;
+}
+
+@media screen and (min-width: 1800px) {
+    .patents {
+        min-height: calc(100vh - 360px);
+    }
+
+    .menu-title {
+        font-size: 20px !important;
+    }
+
+    .display-4 {
+        font-size: 4rem;
+    }
+
+    .fa-search, .fa-award {
+        font-size: 18px !important;
+    }
+
+    p, ol {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .main-content {
+        padding: 0 0.25em 0.5em;
+    }
+    .sidenav a {
+        padding-right: 0;
+        padding-left: 1.5em;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .row {
+        margin: 0 !important;
+    }
+
+    .col-md- *, .col-lg- * {
+        padding: 0 !important;
+    }
+
+    .patents {
+        padding: 0 0 1em 40px;
+    }
+
+    .display-4 {
+        font-size: 1.75em;
+    }
+
+    .closebtn {
+        display: block;
+    }
+
+    p {
+        text-indent: 0.5em;
+        font-size: 14px;
+    }
+
+    ol {
+        font-size: 14px;
+        padding-left: 1em;
+    }
+
+    h2 {
+        color: white !important;
+        font-size: 24px;
+        padding: 1.5em 0.25em 0.5em;
+    }
+
+    .nav-link {
+        color: white;
+        padding: 1em 0.25em !important;
+    }
+
+    .menu-title {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 50%;
+        left: 0;
+        height: 70px;
+        width: 40px;
+        border-radius: 0 30px 30px 0;
+        background: #050512;
+        padding: 0 !important;
+        z-index: 10;
+    }
+    .name-patent {
+        font-size: 1.5rem;
+    }
+
+    .breadcrumb {
+        padding-left: 0 !important;
+        margin-left: -20px;
+        font-size: 16px;
+    }
+
+    .menu-title {
+        border: 0;
+    }
+
+    .main-content {
+        padding: 0 0.5em;
+    }
+
+    .mob_open {
+        display: flex;
+        top: auto;
+        left: 5px;
+        background: none;
+        border: none;
+        font-size: 24px;
+        color: white;
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        left: 0;
+        top: 80px;
+        position: fixed;
+        padding-top: 1em;
+        background-color:  #050512;
+        overflow-x: hidden;
+        transition: 0.5s;
+        z-index: 100;
+        color: white;
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 0.5em;
+        font-size: 36px;
+        color: white;
+        background: none;
+        border: none;
+    }
+}
