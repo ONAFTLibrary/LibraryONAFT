@@ -644,13 +644,8 @@
       </trans-unit>
       <trans-unit id="form-description" datatype="html">
         <source>
-                Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібіліотеки, зверніться за
-                наведенною
-                формою до співробітника бібліотеки. Для цього необхідно заповнити наведені поля та відправити ваше
-                повідомлення.
-                За більш детальною інформацією звертайтесь до співробітників та адміністрації науково-технічної
-                бібліотеки ОНАХТ.
-            </source>
+          Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібліотеки, зверніться за вказаною поштою або адресою.
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">225</context>
@@ -658,12 +653,25 @@
       </trans-unit>
       <trans-unit id="form-mob-description" datatype="html">
         <source>
-                Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібіліотеки, зверніться за
-                наведенною формою до працівника бібліотеки.
+          Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібліотеки, зверніться за вказаною поштою або адресою.
             </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">233</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about-social-media" datatype="html">
+        <source>
+          Для формування позитивного іміджу представленості діяльності бібліотеки у веб-просторі у НТБ ОНАХТ зареєстровані
+          офіційні сторінки у найбільш запитуваних соціальних мережах та платформах. За діяльністю ви можете слідкувати
+          не тільки підписавшись на них а й використовуючи хештеги
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>
+            #libONAFT #CenSciONAFT #Need2Know
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">240</context>
         </context-group>
       </trans-unit>
       <trans-unit id="address" datatype="html">

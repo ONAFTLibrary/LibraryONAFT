@@ -223,52 +223,31 @@
         <div class="about-info col-lg-6 col-md-6 col-sm-12">
             <h1 i18n="@@form" class="display-4">Віртуальна довідка</h1>
             <p i18n="@@form-description" class="lead text-justify desktop_version">
-                Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібіліотеки, зверніться за
-                наведенною
-                формою до співробітника бібліотеки. Для цього необхідно заповнити наведені поля та відправити ваше
-                повідомлення.
-                За більш детальною інформацією звертайтесь до співробітників та адміністрації науково-технічної
-                бібліотеки ОНАХТ.
+                Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібліотеки, зверніться за вказаною поштою або адресою.
             </p>
             <p i18n="@@form-mob-description" class="lead text-justify mob_version">
-                Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібіліотеки, зверніться за
-                наведенною формою до працівника бібліотеки.
+                Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібліотеки, зверніться за вказаною поштою або адресою.
             </p>
-            <div class="icon-about">
-                <p  i18n="@@address" class="lead text-justify"><i class="fas fa-map-marker-alt"></i> Україна, 65039,
-                    м. Одеса, вул. Канатна, 112</p>
-                <p class="lead text-justify"><i class="fas fa-phone"></i>+38(048)712‐41‐88, +38(048)712‐40‐49</p>
-                <p class="lead text-justify"><i class="fas fa-envelope"></i>lib.onaft@gmail.com,
-                    onaft.library@gmail.com</p>
-            </div>
-            <div class="icon-link">
-                <a href="https://www.facebook.com/libONAFT" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://twitter.com/libonaft" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/need2know.onaft/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.youtube.com/channel/UC4n9Z-5en90CRlSmgmgSmbQ" target="_blank"><i class="fab fa-youtube"></i></a>
-            </div>
+          <div class="icon-about">
+            <p class="lead text-justify"><i class="fas fa-envelope"></i>lib.onaft@gmail.com</p>
+            <p  i18n="@@address" class="lead text-justify"><i class="fas fa-map-marker-alt"></i> Україна, 65039,
+              м. Одеса, вул. Канатна, 112</p>
+            <p class="lead text-justify"><i class="fas fa-phone"></i>+38(048)712‐41‐88, +38(048)712‐42‐52</p>
+          </div>
+
         </div>
         <div class="about-form col-lg-6 col-md-6 col-sm-12">
-            <form>
-                <div class="input-group">
-                    <input [formControl]="username" i18n-placeholder="@@form-placeholder" type="text" class="form-control" placeholder="Ваше ім'я" aria-label="Username">
-                    <div class="input-group-append">
-                        <i class="fas fa-user"></i>
-                    </div>
-                </div>
-                <div class="input-group">
-                    <input [formControl]="email" type="email" class="form-control"  placeholder="example@mail.com" aria-label="Email">
-                    <div class="input-group-append">
-                        <i class="fas fa-envelope"></i>
-                    </div>
-                </div>
-                <div class="input-group">
-                    <textarea [formControl]="text" class="form-control" aria-label="With textarea" i18n-placeholder="@@message-placeholder" placeholder="Ваше повідомлення"></textarea>
-                </div>
-                <div class="input-group justify-content-start" style="padding-bottom: 0;">
-                    <button (click)="sendEmail()" i18n="@@submit-button" type="button" class="btn btn-light">Відправити</button>
-                </div>
-            </form>
+          <div i18n="@@about-social-media" class="lead text-justify about-social-media">
+            Для формування позитивного іміджу представленості діяльності бібліотеки у веб-просторі у НТБ ОНАХТ зареєстровані
+            офіційні сторінки у найбільш запитуваних соціальних мережах та платформах. За діяльністю ви можете слідкувати
+            не тільки підписавшись на них а й використовуючи хештеги <strong>#libONAFT #CenSciONAFT #Need2Know</strong>
+          </div>
+          <div class="icon-link">
+            <a  href="https://www.facebook.com/libONAFT" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://t.me/LibONAFT" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="https://www.instagram.com/need2know.onaft/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UC4n9Z-5en90CRlSmgmgSmbQ" target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
         </div>
     </div>
 </div>
@@ -485,7 +464,7 @@
                             матеріал;
                             рік видання; номер журналу; сторінки публікації.
                             Бібліографічні відомості про документи з фонду науково-технічної бібліотеки ОНАХТ можна
-                            уточнити за допомогою <a href="http://library.onaft.edu.ua/elc/">Електронного
+                            уточнити за допомогою <a href="https://elc.library.onaft.edu.ua/library-w/DocumentSearchForm">Електронного
                                 каталогу</a>.
                         </p>
                         <p class="block"><b style="color:red;">Примітка:</b> неправильно оформлені
@@ -613,7 +592,7 @@
                             аспірантів, студентів академії, а також електронну базу даних, ми зможемо забезпечити
                             інформаційну підтримку Вашого виробництва.</p>
                         <h4 class="text-center" style="padding-top: 1em">Найголовніше</h4>
-                        <p class="block">Користуючись <a href="http://library.onaft.edu.ua/elc/">пошуковою
+                        <p class="block">Користуючись <a href="https://elc.library.onaft.edu.ua/library-w/DocumentSearchForm">пошуковою
                             системою</a>
                             нашого сайту, за ключовими словами Ви з легкістю отримаєте список літератури за темою.
                         </p>
@@ -625,7 +604,7 @@
                             <b>ТЕМА = БІБЛІОГРАФІЧНИЙ СПИСОК + МАТЕРІАЛИ</b><br>
                             <h4 class="text-center" style="padding-top: 1em">Порядок отримання інформації</h4>
                         <p> Самостійний пошук інформації за ключовими словами пошукової системи:
-                            <a href="http://refman.onaft.edu.ua/elc">Електронний каталог</a></p>
+                            <a href="https://elc.library.onaft.edu.ua/library-w/DocumentSearchForm">Електронний каталог</a></p>
                         <p class="block">
                             Надання  матеріалів  з  бібліографічного  списку  у  зручному  для  Вас  форматі  (e-mail, диск, ксерокопія).
                             Здійснення  пошуку  інформації  за  конкретною  темою,  складання  анотованих  бібліографічних  списків  та  надання  відібраних  матеріалів.

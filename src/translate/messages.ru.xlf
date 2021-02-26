@@ -470,6 +470,28 @@
           <context context-type="linenumber">24</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="about-social-media" datatype="html">
+        <source>
+          Для формування позитивного іміджу представленості діяльності бібліотеки у веб-просторі у НТБ ОНАХТ зареєстровані
+          офіційні сторінки у найбільш запитуваних соціальних мережах та платформах. За діяльністю ви можете слідкувати
+          не тільки підписавшись на них а й використовуючи хештеги
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>
+          #libONAFT #CenSciONAFT #Need2Know
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+        </source>
+        <target>
+          Для формирования положительного имиджа представленности деятельности библиотеки в веб-пространстве в НТБ ОНАПТ зарегистрированы
+          официальные страницы в наиболее востребованных социальных сетях и платформах. За деятельностью вы можете следить
+          не только подписавшись на них, но и используя хэштеги
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>
+          #libONAFT #CenSciONAFT #Need2Know
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="sectoral-department" datatype="html">
         <source>Галузевий відділ <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                     <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>вул. Дворянська 1/3, <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> ауд. 127<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>
@@ -775,19 +797,10 @@
       </trans-unit>
       <trans-unit id="form-description" datatype="html">
         <source>
-                Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібіліотеки, зверніться за
-                наведенною
-                формою до співробітника бібліотеки. Для цього необхідно заповнити наведені поля та відправити ваше
-                повідомлення.
-                За більш детальною інформацією звертайтесь до співробітників та адміністрації науково-технічної
-                бібліотеки ОНАХТ.
+          Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібліотеки, зверніться за вказаною поштою або адресою.
             </source>
         <target>
-          Если у вас возникли вопросы, замечания и предложения по работе библиотеки, обратитесь
-          по указаной форме к сотруднику библиотеки. Для этого необходимо заполнить представленные поля и отправить ваше
-          сообщения.
-          За более подробной информацией обращайтесь к сотрудникам и администрации научно-технической
-          библиотеки ОНАПТ.
+          Если у вас возникли вопросы, замечания и предложения по работе библиотеки, обратитесь по указанному почте или адресу.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -796,12 +809,10 @@
       </trans-unit>
       <trans-unit id="form-mob-description" datatype="html">
         <source>
-                Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібіліотеки, зверніться за
-                наведенною формою до працівника бібліотеки.
-            </source>
+            Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібліотеки, зверніться за вказаною поштою або адресою.
+        </source>
         <target>
-          Если у вас возникли вопросы, замечания и предложения по работе библиотеки, обратитесь
-          по указаной форме к сотруднику библиотеки.
+            Если у вас возникли вопросы, замечания и предложения по работе библиотеки, обратитесь по указанному почте или адресу.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -928,11 +939,12 @@
       </trans-unit>
       <trans-unit id="student" datatype="html">
         <source>
-                        <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
-                            Що необхідно знати першокурснику
-                        <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
-                        <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
-                    </source>
+            <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
+              Що необхідно знати першокурснику
+            <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
+            <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+            <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+        </source>
         <target>
           <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
           Что необходимо знать первокурснику
