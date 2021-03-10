@@ -952,7 +952,7 @@
             </trans-unit>
             <trans-unit id="form-description" datatype="html">
                 <source>
-                  Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібліотеки, зверніться за вказаною поштою або адресою.
+                  Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібліотеки, зверніться за вказаною поштою та адресою.
                 </source>
                 <target>
                   If you have any questions, comments or suggestions about the work of the library, please contact the specified mail or address.
@@ -964,7 +964,7 @@
             </trans-unit>
             <trans-unit id="form-mob-description" datatype="html">
                 <source>
-                  Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібліотеки, зверніться за вказаною поштою або адресою.
+                  Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібліотеки, зверніться за вказаною поштою та адресою.
                 </source>
                 <target>
                   If you have any questions, comments or suggestions about the work of the library, please contact the specified mail or address.
@@ -984,7 +984,7 @@
                 <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
               </source>
               <target>
-                To form a positive image of the representation of the library in the web space in NTB ONAHT registered
+                To form a positive image of the representation of the library in the web space in LIB ONAFT registered
                 official pages in the most popular social networks and platforms. You can follow the activities
                 not only by subscribing to them but also using hashtags
                 <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>

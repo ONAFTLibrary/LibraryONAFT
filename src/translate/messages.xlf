@@ -644,7 +644,7 @@
       </trans-unit>
       <trans-unit id="form-description" datatype="html">
         <source>
-          Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібліотеки, зверніться за вказаною поштою або адресою.
+          Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібліотеки, зверніться за вказаною поштою та адресою.
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -653,7 +653,7 @@
       </trans-unit>
       <trans-unit id="form-mob-description" datatype="html">
         <source>
-          Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібліотеки, зверніться за вказаною поштою або адресою.
+          Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібліотеки, зверніться за вказаною поштою та адресою.
             </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
