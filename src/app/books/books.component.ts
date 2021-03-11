@@ -4,12 +4,14 @@ import {Books} from '../books';
 import * as $ from 'jquery';
 import {Observable} from 'rxjs';
 
+
 @Component({
     selector: 'app-books',
     templateUrl: './books.component.html',
     styleUrls: ['./books.component.css']
 })
 export class BooksComponent implements OnInit {
+    order: string = 'book.title';
     public booksObservable: Observable<Books[]>;
     constructor(private http: HttpService) {
     }

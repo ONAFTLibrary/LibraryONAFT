@@ -34,6 +34,7 @@
     "font-awesome": "^4.7.0",
     "i18n": "^0.8.6",
     "jquery": "^3.5.1",
+    "ngx-order-pipe": "^2.1.1",
     "npm": "^6.14.9",
     "popper": "^1.0.1",
     "popper.js": "^1.16.1",

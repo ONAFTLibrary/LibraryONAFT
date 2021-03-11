@@ -96,7 +96,7 @@
 
         <!--Periodical literature block-->
         <div class="row tab-pane fade" id="propose-liter-view" role="tabpanel" aria-labelledby="propose-liter">
-            <ng-container *ngFor="let book of booksObservable | async">
+            <ng-container *ngFor="let book of booksObservable | async | orderBy: 'title' ">
                 <div class="card-container-periodical" *ngIf="book.category === 'periodical'">
                     <div class="card-periodical">
                         <img [attr.src]="book.image" alt="Books image"
