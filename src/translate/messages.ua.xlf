@@ -377,7 +377,6 @@
             <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> +38(048)712‐41‐88<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
             +38(048)712-42‐52<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
             <x id="START_ITALIC_TEXT_1" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> lib.onaft@gmail.com,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-            onaft.library@gmail.com
         </source>
         <target>
           Україна, 65039,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
@@ -385,7 +384,6 @@
           <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> +38(048)712‐41‐88<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
           +38(048)712-42‐52<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
           <x id="START_ITALIC_TEXT_1" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> lib.onaft@gmail.com,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          onaft.library@gmail.com
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/footer/footer.component.html</context>
