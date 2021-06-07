@@ -907,7 +907,7 @@
                         <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
                         <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Часи роботи відділів обслуговування читачів:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                             Понеділок-п&apos;ятниця з 9.00 до 17.00<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                            Субота (читальні зали) з 10.00 до 16.00<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<!--                            Субота (читальні зали) з 10.00 до 16.00<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>-->
                             Остання п&apos;ятниця місяця санітарний день<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                     </source>
         <target>
@@ -933,7 +933,7 @@
           <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Часи роботи відділів обслуговування читачів:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
           Понеділок-п&apos;ятниця з 9.00 до 17.00<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          Субота (читальні зали) з 10.00 до 16.00<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<!--          Субота (читальні зали) з 10.00 до 16.00<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>-->
           Остання п&apos;ятниця місяця санітарний день<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
         </target>
         <context-group purpose="location">

@@ -359,7 +359,7 @@
                 </source>
                 <target>
                     Ukraine 65039,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                    Odessa 112 Kanatna str.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                    Odesa 112 Kanatna str.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                     <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> +38(048)712‐41‐88<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                     +38(048)712-42‐52<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                     <x id="START_ITALIC_TEXT_1" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> lib.onaft@gmail.com,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
@@ -419,7 +419,7 @@
             </trans-unit>
             <trans-unit id="description" datatype="html">
                 <source>Одеської національної академії харчових технологій</source>
-                <target>Odessa National Academy of Food Technologies</target>
+                <target>Odesa National Academy of Food Technologies</target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">app/home/home.component.html</context>
                     <context context-type="linenumber">5</context>
@@ -1029,7 +1029,7 @@
                     <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
                     <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
                     Ukraine 65039,
-                    Odessa 112 Kanatna str.
+                    Odesa 112 Kanatna str.
                 </target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">app/home/home.component.html</context>
@@ -1121,7 +1121,7 @@
                     <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                     Monday to Friday from 9.00 to 17.00
                     <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                    Saturday (reading department) from 9.00 to 15.00
+<!--                    Saturday (reading department) from 9.00 to 15.00-->
                     <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                     The last Friday of the month is a Sanitary day
                     <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
@@ -1819,7 +1819,7 @@
                 <target>
                     <x id="START_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;h3&gt;"/>For experts in the food industry
                     <x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/>
-                    <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Let offer you a new way of getting information for the development of your business in the food industry. Hopefully, now you will not need to turn over the footprints of literature, sit for hours on the "World Wide Web", looking for answers to the questions: how to expand the product range and increase the shelf life of a new exclusive product to offer the market to quickly gain popularity and surpass, finally, a competitor We propose to conclude an agreement on obtaining operative information with the scientific and technical library of the Odessa National Academy of Food Technologies.
+                    <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Let offer you a new way of getting information for the development of your business in the food industry. Hopefully, now you will not need to turn over the footprints of literature, sit for hours on the "World Wide Web", looking for answers to the questions: how to expand the product range and increase the shelf life of a new exclusive product to offer the market to quickly gain popularity and surpass, finally, a competitor We propose to conclude an agreement on obtaining operative information with the scientific and technical library of the Odesa National Academy of Food Technologies.
                     <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                     <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>The Library of the Academy has a unique fund for literature on food production, ranging from "classical" educational literature to the latest journal publications of leading experts in food technology in Ukraine and other countries. Today it is, for example, the topical issues of functional, balanced nutrition, all about new generation products, food fibers and impurities, economic issues, monitoring and forecasting, recent scientific developments, etc.
                     <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
@@ -1964,18 +1964,18 @@
                     In modern conditions, a new type of society - information, in which the main production resource is the knowledge. Information is gaining in importance and plays a decisive role in making decisions in almost all spheres.
                     <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                     <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-                    <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>The Main Department of Statistics in Odessa Region
+                    <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>The Main Department of Statistics in Odesa Region
                     <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
                     reports on sources of statistical information:
 
                     <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                     <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
-                    <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Website of the Main Department of Statistics in Odessa Region
+                    <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Website of the Main Department of Statistics in Odesa Region
                     <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
                     od.ukrstat.gov.ua;
                     <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
                     <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
-                    <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>statistical publications - collections, newsletters, reports on all aspects of the socio-economic situation in the Odessa region (Catalog of statistical publications envisaged for issue in 2018 ;
+                    <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>statistical publications - collections, newsletters, reports on all aspects of the socio-economic situation in the Odesa region (Catalog of statistical publications envisaged for issue in 2018 ;
                     <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>
                     od.ukrstat.gov.ua/katalog_2018<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>);
                     <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
@@ -1991,11 +1991,11 @@
                         id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/>gus@od.ukrstat.gov.ua
                     <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
                     <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
-                    <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>mail: st. Polska, 20a, Odessa, 65026, tel. 722-20-00
+                    <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>mail: st. Polska, 20a, Odesa, 65026, tel. 722-20-00
 
                     <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
                     <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
-                    <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>or contact the Main Department of Statistics in the Odessa Region  at the address of the street. Polska, 20a, 2nd floor, room. 210-management of the dissemination of information and communications (tel 722-08-60).
+                    <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>or contact the Main Department of Statistics in the Odesa Region  at the address of the street. Polska, 20a, 2nd floor, room. 210-management of the dissemination of information and communications (tel 722-08-60).
                     <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                     <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Statistical information will be useful and interesting for a wide range of readers, including scholars, teachers, post-graduate students, and students.
 
