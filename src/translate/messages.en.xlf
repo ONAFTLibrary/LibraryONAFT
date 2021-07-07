@@ -1551,14 +1551,14 @@
             <trans-unit id="udc" datatype="html">
                 <source>
                     <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
-                    Що таке УДК?
+                      Як отримати УДК?
                     <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
                     <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
                     <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
                 </source>
                 <target>
                     <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
-                    What is UDC?
+                      How to get UDC?
                     <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
                     <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
                     <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
@@ -1591,7 +1591,7 @@
                     <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Для отримання індексу УДК автору
                     необхідно звернутися до
                     інформаційно-бібліографічного відділу НТБ ОНАХТ (вул. Канатна, 112, головний корпус, 2-й
-                    поверх, к. А-229) та надати такі відомості:
+                    поверх, к. А-229) або надати такі відомості:
                     <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                     <x id="START_ORDERED_LIST" ctype="x-ol" equiv-text="&lt;ol&gt;"/>
                     <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>автори роботи (статті);
@@ -1600,9 +1600,7 @@
                     <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
                     <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>ключові слова;
                     <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
-                    <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>кафедра;
-                    <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
-                    <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>місце публікації.
+                    <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>кафедра.
                     <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
                     <x id="CLOSE_ORDERED_LIST" ctype="x-ol" equiv-text="&lt;/ol&gt;"/>
                     <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Для самостійного визначення індексу УДК
@@ -1625,7 +1623,7 @@
                     Universal Decimal Classification - Information Classification System. UDC is widely used throughout the world to systematize scientific works, literature and art, periodicals, various types of documents. With UDC you can find out the type of literature without reading it. It is intended for the organization of a library fund, catalogs and card files.
 
                     <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-                    <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>To obtain the UDC index, the author must contact the information and bibliographic department of STL ONAFT (Kanatna str. 112, main building, 2nd floor, A-229) and provide the following information:
+                    <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>To obtain the UDC index, the author must contact the information and bibliographic department of STL ONAFT (Kanatna str. 112, main building, 2nd floor, A-229) or provide the following information:
 
                     <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                     <x id="START_ORDERED_LIST" ctype="x-ol" equiv-text="&lt;ol&gt;"/>
@@ -1636,8 +1634,6 @@
                     <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Keywords;
                     <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
                     <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>work position/department;
-                    <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
-                    <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>place of publication
                     <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
                     <x id="CLOSE_ORDERED_LIST" ctype="x-ol" equiv-text="&lt;/ol&gt;"/>
                     <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>To determine the UDC index yourself, you can use Internet resources, for example:

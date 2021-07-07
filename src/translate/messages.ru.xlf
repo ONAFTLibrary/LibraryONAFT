@@ -1286,13 +1286,13 @@
       <trans-unit id="udc" datatype="html">
         <source>
                         <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
-                            Що таке УДК?
+                          Як отримати УДК?
                         <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
                         <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
                     </source>
         <target>
           <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
-          Что такое УДК?
+          Как получить УДК?
           <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
           <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
         </target>
@@ -1316,13 +1316,12 @@
                             каталогів та картотек.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                         <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Для отримання індексу УДК автору необхідно звернутися до
                             інформаційно-бібліографічного відділу НТБ ОНАХТ (вул. Канатна, 112, головний корпус, 2-й
-                            поверх, к. А-229) та надати такі відомості: <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                            поверх, к. А-229) або надати такі відомості: <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                         <x id="START_ORDERED_LIST" ctype="x-ol" equiv-text="&lt;ol&gt;"/>
                             <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>автори роботи (статті);<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
                             <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>назва роботи (статті);<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
                             <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>ключові слова;<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
                             <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>кафедра;<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
-                            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>місце публікації.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
                         <x id="CLOSE_ORDERED_LIST" ctype="x-ol" equiv-text="&lt;/ol&gt;"/>
                         <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Для самостійного визначення індексу УДК можна скористуватися
                             Інтернет-ресурсами, наприклад:
