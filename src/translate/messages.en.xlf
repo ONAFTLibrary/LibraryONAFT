@@ -1250,18 +1250,16 @@
             </trans-unit>
             <trans-unit id="catalog" datatype="html">
                 <source>
-                    <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
-                    Карткові каталоги, картотеки
-                    <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
-                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
-                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                  <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
+                  Наукові бази даних
+                  <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
+                  <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
                 </source>
                 <target>
-                    <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
-                    Card catalogs
-                    <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
-                    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
-                    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                  <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
+                  Наукові бази даних
+                  <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
+                  <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
                 </target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">app/home/home.component.html</context>
@@ -1270,91 +1268,40 @@
             </trans-unit>
             <trans-unit id="catalog-description" datatype="html">
                 <source>
-                    <x id="START_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;h3&gt;"/>АЛФАВІТНИЙ КАТАЛОГ
-                    <x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/>
-                    <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-                    <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Алфавітний каталог (АК)
-                    <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
-                    – бібліотечний каталог, в якому
-                    бібліографічні
-                    записи розташовуються в порядку прізвищ індивідуальних авторів, найменувань колективних
-                    авторів (установ та організацій), або назв документів.
-                    <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-                    АК відповідає на питання:
-                    <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
-                    <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>які книги того або іншого автора є в
-                    бібліотеці;
-                    <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
-                    <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>чи є в бібліотеці книга, автор і назва
-                    якої відомі;
-                    <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
-                    <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>які видання та перевидання даної книги
-                    є в бібліотеці.
-                    <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
-                    <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
-                    <x id="START_HEADING_LEVEL3_1" ctype="x-h3" equiv-text="&lt;h3&gt;"/>СИСТЕМАТИЧНИЙ КАТАЛОГ
-                    <x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/>
-                    <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-                    <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Систематичний каталог (СК)
-                    <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
-                    – бібліотечний каталог, в якому
-                    бібліографічні записи розташовуються по галузях знання у відповідності до бібліотечної
-                    системи класифікації. У НТБ ОНАХТ бібліотечна система класифікації УДК– Універсальна
-                    десятинна класифікація
-                    СК складається з двох підсистем: безпосередньо СК та алфавітно-предметного покажчика
-                    (АПП)
-                    до нього.
-                    СК розкриває бібліотечний фонд за змістом і відповідає на питання: які книги з певної
-                    теми є
-                    в бібліотеці.
-                    Алфавітно–предметний покажчик – допоміжний апарат до СК, що визначає шлях пошуку
-                    інформації
-                    в СК. АПП – алфавітний перелік предметних рубрик, що розкривають зміст відображених у СК
-                    документів із зазначенням відповідних класифікаційних індексів. Картки із зазначенням
-                    рубрик
-                    розташовані в алфавіті перших слів, наприклад:
-                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Масло – 637.2
-                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Молоко – 637.1
-                    <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-                    <x id="START_HEADING_LEVEL3_1" ctype="x-h3" equiv-text="&lt;h3&gt;"/>СИСТЕМАТИЧНА КАРТОТЕКА СТАТЕЙ
-                    <x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/>
-                    <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Систематична картотека статей базується
-                    на аналітичному розписі періодичних
-                    видань і видань, що продовжуються. Призначенням картотеки є відображення документів з
-                    найбільш актуальних тем харчових технологій.
-                    Структура картотеки аналогічна структурі систематичного каталогу.
-                    <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                  <x id="START_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;h3&gt;"/>Ресурси<x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/>
+                  <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Scopus<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> — бібліографічна і реферативна база даних та інструмент для відстеження цитованості статей, опублікованих у наукових виданнях. Є однією зі складових інтегрованого науково-інформаційного середовища SciVerse. На січень 2017 р. містить понад 50 млн. реферативних записів. Рубрикатор Scopus (ASJK) має 27 базових тематичних розділів, поділених на 335 підрозділів, політематичні статті індексуються одразу в кількох розділах.. Індексує 18,000 назв наукових видань з технічних, медичних та гуманітарних наук 5000 видавців[2]. База даних індексує наукові журнали, матеріали конференцій та серіальні книжкові видання. Розробником та власником SciVerse Scopus є видавнича корпорація Elsevier.
+                  Згідно наказу Міністерства освіти і науки України від 27 лютого 2019 року № 269 “Про затвердження Порядку забезпечення доступу закладів вищої освіти і наукових установ до електронних наукових баз даних” ви маєте можливість скористатися доступом до міжнародної наукометричної бази Scopus. <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Посилання<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> -
+                  <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>scopus.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                  <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Web of Science<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> (до 2014 Web of Knowledge) — платформа, на якій розміщено бази наукової літератури і патентів, до 2016 року належала Thomson Reuters. В листопаді 2016 року відділення IP &amp; Science придбано інвестиційними фондами і функціонує як Clarivate Analytics. Web of Science охоплює матеріали з природничих, технічних, біологічних, суспільних, гуманітарних наук і мистецтва.
+                  Згідно наказу Міністерства освіти і науки України від 27 лютого 2019 року № 269 “Про затвердження Порядку забезпечення доступу закладів вищої освіти і наукових установ до електронних наукових баз даних” ви маєте можливість скористатися доступом до міжнародної наукометричної бази Web of Science.
+                  <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Посилання<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> -
+                  <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>webofknowledge.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                  <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>AGRIS (Agricultural Research Information System)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> —  Міжнародна інформаційна система сільського господарства та суміжних галузей промисловості - створена в 1974 році. Ресурс проекту є частиною FAO (Food and Agriculture Organization of the United Nations )
+                  <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Реферативна база даних AGRIS містить інформацію з усіх питань сільського господарства та суміжних з сільськими господарствами галузей, таких як біотехнологія, захист рослин, ветеринарія, сільськогосподарське обладнання та техніка, токсикологія, лісне господарство, водне господарство, аквакультура та рибне господарство, технологія виробництва продуктів харчування, харчування людина, природні ресурси, освіта, право і т.і. Реферативна база даних AGRIS включає інформацію про книги, монографії, статті з періодичних видань та збірників. Особое місце займають науково-технічні проекти, звіти, дисертації, матеріали конференцій, не публікуються в широкому друку.
+                  <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Посилання<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> - <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/>agris.fao.org<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                  <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Springer<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> — це глобальна видавнича компанія, що видає книги, електронні книги, і рецензовані журнали на наукову, технологічну і медичну тематику. Springer також розміщає у себе велику кількість наукових баз даних, таких як SpringerLink, Springer Protocols і SpringerImages. Більш ніж 168,000 найменувань доступно як електронні книги у 24 предметних колекціях.
+                  Одеська національна академія харчових технологій отримала доступ до повнотекстових ресурсів порталу Springer Link а саме: журналів Springer 1997-2020 рр. та електронних книг Springer 2017 р. Передплату до Springer за кошти держбюджету забезпечило Міністерство освіти і науки через Державну науково-технічну бібліотеку (ДНТБ). Підключення стартувало з 3 січня 2020 року.
+                  <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Посилання<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> - <x id="START_LINK_3" ctype="x-a" equiv-text="&lt;a&gt;"/>link.springer.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                  <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>ScienceDirect<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> — ресурс, який надає доступ до наукових публікацій, переважно платних, проте застосувавши фільтр Open Access можно отримати доступ до публікацій у відкритому доступі.
+                  Ресурс запущено в березні 1997року, власник компанія Elsevier. Містить 2500 наукових видань та 26 000 електроних книг. <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Посилання<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> - <x id="START_LINK_4" ctype="x-a" equiv-text="&lt;a&gt;"/>sciencedirect.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                 </source>
                 <target>
-                    <x id="START_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;h3&gt;"/>ALPHABETICAL CATALOG
-                    <x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/>
-                    <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-                    <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>The Alphabetical Catalog (AC)
-                    <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
-                    is a library catalog in which bibliographic records are arranged in the order of the surnames of individual authors, the names of the collective authors (institutions and organizations), or the names of documents.
-                    <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-                    AC answers the question:
-                    <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
-                    <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>What book of this or that author is in the library;
-                    <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
-                    <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Is there a book in the library, the author whose name is known?
-                    <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
-                    <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Which editions and reprints of this book are in the library.
-                    <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
-                    <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
-                    <x id="START_HEADING_LEVEL3_1" ctype="x-h3" equiv-text="&lt;h3&gt;"/>SYSTEM CATALOG
-                    <x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/>
-                    <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-                    <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Systematic Catalog (SC)
-                    <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
-                    is a library catalog in which bibliographic records are arranged according to the branches of knowledge in accordance with the library system of classification. In STL ONAFT classification system UDC - Universal descriptive classification of the SC consists of two subsystems: directly the SC and the alphabetical index of the subject (ASI) to it. The SC uncovers the library fund in terms of content and answers the question: which books on a specific topic are in the library. Alphanumeric index - an auxiliary device to the SC, which determines the way of searching information in the SC. ASI - an alphabetical list of subject headings that reveals the contents of the documents displayed in the SC with the indication of the relevant classification indexes. Cards indicating the headings are located in the alphabet of the first words, for example:
-                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Butter - 637.2
-                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Milk - 637.1
-                    <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-                    <x id="START_HEADING_LEVEL3_1" ctype="x-h3" equiv-text="&lt;h3&gt;"/>SYSTEMATIC ISSUES CARD
-                    <x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/>
-                    <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>A systematic issues card is based on analytical notes of periodicals and continuing publications. The purpose of the card index is to display documents from the most relevant topics of food technology. The structure of the card index is similar to the structure of the systematic catalog.
-                    <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                  <x id="START_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;h3&gt;"/>Resources<x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/>
+                  <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Scopus<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> — бbibliographic and abstract database and a tool for tracking citations of articles published in scientific journals. Is one of the components of the integrated scientific and information environment SciVerse. As of January 2017, it contains more than 50 million abstracts. Scopus (ASJK) has 27 basic thematic sections, divided into 335 subsections, polythematic articles are indexed in several sections. Indexes 18,000 titles of scientific publications in technical, medical and humanities 5000 publishers [2]. The database indexes scientific journals, conference proceedings and serials. The developer and owner of SciVerse Scopus is the publishing corporation Elsevier.
+                  According to the order of the Ministry of Education and Science of Ukraine dated February 27, 2019 № 269 “On approval of the Procedure for ensuring access of higher education institutions and research institutions to electronic scientific databases” you have the opportunity to use access to the international scientometric database Scopus. <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Link<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> -
+                  <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>scopus.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                  <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Web of Science<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> (until 2014 Web of Knowledge) - a platform that hosts databases of scientific literature and patents, until 2016 belonged to Thomson Reuters. In November 2016, the IP & amp; Science was acquired by mutual funds and operates as Clarivate Analytics. Web of Science covers materials from the natural, technical, biological, social, humanities and arts.
+                  According to the order of the Ministry of Education and Science of Ukraine dated February 27, 2019 № 269 “On approval of the Procedure for ensuring access of higher education institutions and research institutions to electronic scientific databases” you have access to the international scientometric database Web of Science.
+                  <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Link<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> -
+                  <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>webofknowledge.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                  <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>AGRIS (Agricultural Research Information System)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> —  The International Information System for Agriculture and Related Industries was established in 1974. The project resource is part of the FAO (Food and Agriculture Organization of the United Nations)
+                  <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>The AGRIS abstract database contains information on all issues of agriculture and related industries, such as biotechnology, plant protection, veterinary medicine, agricultural equipment and machinery, toxicology, forestry, water management, aquaculture and fisheries, food production technology, human nutrition, natural resources, education, law, etc. The AGRIS abstract database includes information on books, monographs, articles from periodicals and collections. A special place is occupied by scientific and technical projects, reports, dissertations, conference proceedings, not published in the general press.
+                  <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Link<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> - <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/>agris.fao.org<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                  <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Springer<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> — is a global publishing company that publishes books, e-books, and peer-reviewed journals on scientific, technological, and medical topics. Springer also hosts a large number of scientific databases such as SpringerLink, Springer Protocols and SpringerImages. More than 168,000 titles are available as e-books in 24 subject collections.
+                  Odessa National Academy of Food Technologies gained access to full-text resources of the Springer Link portal, namely: Springer magazines 1997-2020 and Springer e-books 2017. Subscription to Springer from the state budget was provided by the Ministry of Education and Science through the State Scientific and Technical Library. . The connection started on January 3, 2020.
+                  <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Link<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> - <x id="START_LINK_3" ctype="x-a" equiv-text="&lt;a&gt;"/>link.springer.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                  <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>ScienceDirect<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> —a resource that provides access to scientific publications, mostly for a fee, but you can use the Open Access filter to access open access publications.
+                  The resource was launched in March 1997, owned by Elsevier. Contains 2,500 scientific publications and 26,000 e-books. <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Link<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> - <x id="START_LINK_4" ctype="x-a" equiv-text="&lt;a&gt;"/>sciencedirect.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                 </target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">app/home/home.component.html</context>
@@ -1588,10 +1535,9 @@
                     вид, тип літератури, не читаючи її. Вона призначена для організації бібліотечного фонду,
                     каталогів та картотек.
                     <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-                    <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Для отримання індексу УДК автору
-                    необхідно звернутися до
-                    інформаційно-бібліографічного відділу НТБ ОНАХТ (вул. Канатна, 112, головний корпус, 2-й
-                    поверх, к. А-229) або надати такі відомості:
+                    <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Для отримання індексу УДК автору необхідно звернутися по електронній пошті <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
+                      lib.onaft@gmail.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>, або до інформаційно-бібліографічного відділу НТБ (вул. Канатна, 112, головний корпус, 2-й
+                      поверх, к. А-229) та надати такі відомості: <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                     <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                     <x id="START_ORDERED_LIST" ctype="x-ol" equiv-text="&lt;ol&gt;"/>
                     <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>автори роботи (статті);
@@ -1623,9 +1569,12 @@
                     Universal Decimal Classification - Information Classification System. UDC is widely used throughout the world to systematize scientific works, literature and art, periodicals, various types of documents. With UDC you can find out the type of literature without reading it. It is intended for the organization of a library fund, catalogs and card files.
 
                     <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-                    <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>To obtain the UDC index, the author must contact the information and bibliographic department of STL ONAFT (Kanatna str. 112, main building, 2nd floor, A-229) or provide the following information:
-
-                    <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                    <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>To obtain the UDC index, the author must contact by e-mail
+                  <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
+                      lib.onaft@gmail.com
+                  <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>, or to the information and bibliographic department of NTB (112 Kanatna St., main building, 2nd
+                      floor, room A-229) and provide the following information:
+                  <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                     <x id="START_ORDERED_LIST" ctype="x-ol" equiv-text="&lt;ol&gt;"/>
                     <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>authors of the manuscript;
                     <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
