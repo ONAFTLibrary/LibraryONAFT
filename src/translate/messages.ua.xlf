@@ -484,9 +484,9 @@
       </trans-unit>
       <trans-unit id="organizational" datatype="html">
         <source>Організаційно-методичний відділ <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                    <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>ауд. A-139<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
+                    <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>ауд. A-227<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
         <target>Організаційно-методичний відділ <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>ауд. A-139<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></target>
+          <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>ауд. A-227<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></target>
 
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -673,9 +673,9 @@
       </trans-unit>
       <trans-unit id="admin-info" datatype="html">
         <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Директор:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Зінченко Ірина Іванівна<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                            Кабінет:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> А-227<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
+                            Кабінет:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> А-139<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
         <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Директор:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Зінченко Ірина Іванівна<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          Кабінет:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> А-227<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></target>
+          Кабінет:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> А-139<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></target>
 
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -1039,6 +1039,62 @@
           <context context-type="linenumber">336</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="virtualExcursion" datatype="html">
+        <source>
+          <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
+          Віртуальний екскурс
+          <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
+          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+        </source>
+        <target>
+          <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
+          Віртуальний екскурс
+          <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
+          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">356</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="virtual-description" datatype="html">
+        <source>
+          <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Абонемент наукової літератури <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(каб. А-137/7)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Абонемент навчальної літератури <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(каб. А-137/9)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Читальний зал періодичних видань <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(ауд. А-225)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Зал електронних каталогів <x id="START_LINK_3" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(ауд. А-226)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Читальний зал технічної літератури <x id="START_LINK_4" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(ауд. А-228)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>InfoHub <x id="START_LINK_5" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(ауд. А-316)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Зал художньої та гуманітарної літератури <x id="START_LINK_6" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(ауд. А-415)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+
+          <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Абонемент галузевого відділу<x id="START_LINK_7" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(каб. 124, вул. Дворянська 1/3)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Абонемент наукової літератури <x id="START_LINK_8" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(ауд. 282, вул. Дворянська 1/3)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+        </source>
+        <target>
+          <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Абонемент наукової літератури <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(каб. А-137/7)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Абонемент навчальної літератури <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(каб. А-137/9)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Читальний зал періодичних видань <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(ауд. А-225)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Зал електронних каталогів <x id="START_LINK_3" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(ауд. А-226)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Читальний зал технічної літератури <x id="START_LINK_4" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(ауд. А-228)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>InfoHub <x id="START_LINK_5" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(ауд. А-316)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Зал художньої та гуманітарної літератури <x id="START_LINK_6" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(ауд. А-415)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+
+          <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Абонемент галузевого відділу<x id="START_LINK_7" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(каб. 124, вул. Дворянська 1/3)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Абонемент наукової літератури <x id="START_LINK_8" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(ауд. 282, вул. Дворянська 1/3)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+        </target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">app/home/home.component.html</context>
+        <context context-type="linenumber">365</context>
+      </context-group>
+      </trans-unit>
       <trans-unit id="catalog" datatype="html">
         <source>
           <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
@@ -1365,149 +1421,7 @@
           <context context-type="linenumber">566</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="specialist" datatype="html">
-        <source>
-                        <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
-                            Фахівцям харчової промисловості
-                        <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
-                        <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
-                    </source>
-        <target>
-          <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
-          Фахівцям харчової промисловості
-          <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">580</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="specialist-description" datatype="html">
-        <source>
-                        <x id="START_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;h3&gt;"/>Фахівцям харчової та переробної промисловості<x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/>
-                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Дозвольте запропонувати Вам новий спосіб отримання інформації для розвитку
-                            Вашого бізнесу в галузі харчових виробництв. Сподіваємось, тепер у Вас не буде
-                            необхідності
-                            перегортати стопи літератури, годинами просиджувати у «всесвітній мережі», шукаючи
-                            відповіді
-                            на питання: як розширити асортимент та збільшити термін придатності продукції, який
-                            новий
-                            ексклюзивний виріб запропонувати ринку, щоб швидко завоювати популярність та
-                            перевершити,
-                            нарешті, конкурента. Пропонуємо Вам укласти Угоду на отримання оперативної інформації з
-                            науково-технічною бібліотекою Одеської національної академії харчових технологій.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Бібліотека академії має унікальний фонд літератури з харчових виробництв,
-                            починаючи з «класичної» навчальної літератури до найостанніших журнальних публікацій
-                            провідних фахівців харчових технологій України ті інших країн. На сьогодні це,
-                            наприклад,
-                            актуальні питання функціонального, збалансованого харчування, все про продукти нового
-                            покоління, харчові волокна та домішки, питання економіки, моніторингу та прогнозування,
-                            останні наукові розробки та ін.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                            <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Перелік тем з харчових
-                                галузей<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Використовуючи багаторічний досвід інформаційного обслуговування
-                            викладачів,
-                            аспірантів, студентів академії, а також електронну базу даних, ми зможемо забезпечити
-                            інформаційну підтримку Вашого виробництва.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-                        <x id="START_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;h4&gt;"/>Найголовніше<x id="CLOSE_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;/h4&gt;"/>
-                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Користуючись <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>пошуковою
-                            системою<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
-                            нашого сайту, за ключовими словами Ви з легкістю отримаєте список літератури за темою.
-                        <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-                        <x id="START_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;h4&gt;"/>АЛЕ!<x id="CLOSE_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;/h4&gt;"/>
-                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Ми пропонуємо не лише традиційний бібліографічний список, а й самі
-                            матеріали.
-                            Статті, глави з книг, публікації Ви отримаєте у зручному для Вас форматі (e-mail,
-                            USB-флеш-накопичувач, диск, ксерокопія).<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                            <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>ТЕМА = БІБЛІОГРАФІЧНИЙ СПИСОК + МАТЕРІАЛИ<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                            <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;h4&gt;"/>Порядок отримання інформації<x id="CLOSE_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;/h4&gt;"/>
-                        <x id="START_PARAGRAPH_1" ctype="x-p" equiv-text="&lt;p&gt;"/> Самостійний пошук інформації за ключовими словами пошукової системи:
-                            <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/>Електронний каталог<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-                            Надання  матеріалів  з  бібліографічного  списку  у  зручному  для  Вас  форматі  (e-mail, диск, ксерокопія).
-                            Здійснення  пошуку  інформації  за  конкретною  темою,  складання  анотованих  бібліографічних  списків  та  надання  відібраних  матеріалів.
-                            Інформаційне  обслуговування:  щоквартальні  інформаційно-бібліографічні  огляди  журнальних  публікацій  за  профілем  Вашого  підприємства.
-                        <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-                        <x id="START_PARAGRAPH_2" ctype="x-p" equiv-text="&lt;p&gt;"/>*Терміни отримання інформації обговорюються  додатково.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-                            Вичерпність інформації, оперативність, якість та індивідуальний підхід до кожного окремо
-                            поставленого завдання – гарантуємо. Погодьтесь, пропозиція цікава та вигідна, багато
-                            переваг: зекономите час (достатньо визначити тему), матеріали отримаєте безпосередньо та
-                            будете в курсі останніх розробок.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>За більш детальною інформацією звертайтесь до чергового по сайту:<x id="START_LINK_3" ctype="x-a" equiv-text="&lt;a&gt;"/>
-                            lib.onaft@gmail.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-                        <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
-                        <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-                        <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;h4&gt;"/>Корисна інформація<x id="CLOSE_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;/h4&gt;"/>
-                        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Інформаційно-бібліографічне обслуговування фахівців харчової галузі. Складання тематичних списків та тематичних добірок за запитами користувачів. Аналітичний опис статей з періодичних видань у відповідності до галузевих тематик та інше.<x id="START_LINK_3" ctype="x-a" equiv-text="&lt;a&gt;"/>
-                          cntb.com.ua<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-                    </source>
-        <target>
-          <x id="START_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;h3&gt;"/>Фахівцям харчової та переробної промисловості<x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/>
-          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Дозвольте запропонувати Вам новий спосіб отримання інформації для розвитку
-          Вашого бізнесу в галузі харчових виробництв. Сподіваємось, тепер у Вас не буде
-          необхідності
-          перегортати стопи літератури, годинами просиджувати у «всесвітній мережі», шукаючи
-          відповіді
-          на питання: як розширити асортимент та збільшити термін придатності продукції, який
-          новий
-          ексклюзивний виріб запропонувати ринку, щоб швидко завоювати популярність та
-          перевершити,
-          нарешті, конкурента. Пропонуємо Вам укласти Угоду на отримання оперативної інформації з
-          науково-технічною бібліотекою Одеської національної академії харчових технологій.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Бібліотека академії має унікальний фонд літератури з харчових виробництв,
-          починаючи з «класичної» навчальної літератури до найостанніших журнальних публікацій
-          провідних фахівців харчових технологій України ті інших країн. На сьогодні це,
-          наприклад,
-          актуальні питання функціонального, збалансованого харчування, все про продукти нового
-          покоління, харчові волокна та домішки, питання економіки, моніторингу та прогнозування,
-          останні наукові розробки та ін.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Перелік тем з харчових
-          галузей<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Використовуючи багаторічний досвід інформаційного обслуговування
-          викладачів,
-          аспірантів, студентів академії, а також електронну базу даних, ми зможемо забезпечити
-          інформаційну підтримку Вашого виробництва.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-          <x id="START_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;h4&gt;"/>Найголовніше<x id="CLOSE_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;/h4&gt;"/>
-          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Користуючись <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>пошуковою
-          системою<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
-          нашого сайту, за ключовими словами Ви з легкістю отримаєте список літератури за темою.
-          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-          <x id="START_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;h4&gt;"/>АЛЕ!<x id="CLOSE_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;/h4&gt;"/>
-          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Ми пропонуємо не лише традиційний бібліографічний список, а й самі
-          матеріали.
-          Статті, глави з книг, публікації Ви отримаєте у зручному для Вас форматі (e-mail,
-          USB-флеш-накопичувач, диск, ксерокопія).<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>ТЕМА = БІБЛІОГРАФІЧНИЙ СПИСОК + МАТЕРІАЛИ<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;h4&gt;"/>Порядок отримання інформації<x id="CLOSE_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;/h4&gt;"/>
-          <x id="START_PARAGRAPH_1" ctype="x-p" equiv-text="&lt;p&gt;"/> Самостійний пошук інформації за ключовими словами пошукової системи:
-          <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/>Електронний каталог<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-          Надання  матеріалів  з  бібліографічного  списку  у  зручному  для  Вас  форматі  (e-mail, диск, ксерокопія).
-          Здійснення  пошуку  інформації  за  конкретною  темою,  складання  анотованих  бібліографічних  списків  та  надання  відібраних  матеріалів.
-          Інформаційне  обслуговування:  щоквартальні  інформаційно-бібліографічні  огляди  журнальних  публікацій  за  профілем  Вашого  підприємства.
-          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-          <x id="START_PARAGRAPH_2" ctype="x-p" equiv-text="&lt;p&gt;"/>*Терміни отримання інформації обговорюються  додатково.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-          Вичерпність інформації, оперативність, якість та індивідуальний підхід до кожного окремо
-          поставленого завдання – гарантуємо. Погодьтесь, пропозиція цікава та вигідна, багато
-          переваг: зекономите час (достатньо визначити тему), матеріали отримаєте безпосередньо та
-          будете в курсі останніх розробок.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>За більш детальною інформацією звертайтесь до чергового по сайту:<x id="START_LINK_3" ctype="x-a" equiv-text="&lt;a&gt;"/>
-          lib.onaft@gmail.com
-          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
-          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-          <x id="START_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;h4&gt;"/>Корисна інформація<x id="CLOSE_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;/h4&gt;"/>
-          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Інформаційно-бібліографічне обслуговування фахівців харчової галузі. Складання тематичних списків та тематичних добірок за запитами користувачів. Аналітичний опис статей з періодичних видань у відповідності до галузевих тематик та інше.<x id="START_LINK_3" ctype="x-a" equiv-text="&lt;a&gt;"/>
-          cntb.com.ua<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">591</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="diagram" datatype="html">
+            <trans-unit id="diagram" datatype="html">
         <source>
                         <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>
                             Статистична інформація
