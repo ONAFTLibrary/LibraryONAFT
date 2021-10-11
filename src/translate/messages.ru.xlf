@@ -440,7 +440,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="description" datatype="html">
-        <source>Одеської національної академії харчових технологій</source>
+        <source>Одесского национального технологического университета</source>
         <target>Одесской национальной академии пищевых технологий</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -475,15 +475,15 @@
           офіційні сторінки у найбільш запитуваних соціальних мережах та платформах. За діяльністю ви можете слідкувати
           не тільки підписавшись на них а й використовуючи хештеги
           <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>
-          #libONAFT #CenSciONAFT #Need2Know
+          #libONTU #CenSciONTU #Need2Know
           <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
         </source>
         <target>
-          Для формирования положительного имиджа представленности деятельности библиотеки в веб-пространстве в НТБ ОНАПТ зарегистрированы
+          Для формирования положительного имиджа представленности деятельности библиотеки в веб-пространстве в НТБ ОНТУ зарегистрированы
           официальные страницы в наиболее востребованных социальных сетях и платформах. За деятельностью вы можете следить
           не только подписавшись на них, но и используя хэштеги
           <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>
-          #libONAFT #CenSciONAFT #Need2Know
+          #libONTU #CenSciONTU #Need2Know
           <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
         </target>
         <context-group purpose="location">
@@ -1119,7 +1119,7 @@
           <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Реферативна база даних AGRIS містить інформацію з усіх питань сільського господарства та суміжних з сільськими господарствами галузей, таких як біотехнологія, захист рослин, ветеринарія, сільськогосподарське обладнання та техніка, токсикологія, лісне господарство, водне господарство, аквакультура та рибне господарство, технологія виробництва продуктів харчування, харчування людина, природні ресурси, освіта, право і т.і. Реферативна база даних AGRIS включає інформацію про книги, монографії, статті з періодичних видань та збірників. Особое місце займають науково-технічні проекти, звіти, дисертації, матеріали конференцій, не публікуються в широкому друку.
           <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Посилання<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> - <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/>agris.fao.org<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Springer<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> — це глобальна видавнича компанія, що видає книги, електронні книги, і рецензовані журнали на наукову, технологічну і медичну тематику. Springer також розміщає у себе велику кількість наукових баз даних, таких як SpringerLink, Springer Protocols і SpringerImages. Більш ніж 168,000 найменувань доступно як електронні книги у 24 предметних колекціях.
-          Одеська національна академія харчових технологій отримала доступ до повнотекстових ресурсів порталу Springer Link а саме: журналів Springer 1997-2020 рр. та електронних книг Springer 2017 р. Передплату до Springer за кошти держбюджету забезпечило Міністерство освіти і науки через Державну науково-технічну бібліотеку (ДНТБ). Підключення стартувало з 3 січня 2020 року.
+          Одеський національний технологічний університет отримав доступ до повнотекстових ресурсів порталу Springer Link а саме: журналів Springer 1997-2020 рр. та електронних книг Springer 2017 р. Передплату до Springer за кошти держбюджету забезпечило Міністерство освіти і науки через Державну науково-технічну бібліотеку (ДНТБ). Підключення стартувало з 3 січня 2020 року.
           <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Посилання<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> - <x id="START_LINK_3" ctype="x-a" equiv-text="&lt;a&gt;"/>link.springer.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>ScienceDirect<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> — ресурс, який надає доступ до наукових публікацій, переважно платних, проте застосувавши фільтр Open Access можно отримати доступ до публікацій у відкритому доступі.
           Ресурс запущено в березнф 1997року, власник компанія Elsevier. Містить 2500 наукових видань та 26 000 електроних книг. <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Посилання<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> - <x id="START_LINK_4" ctype="x-a" equiv-text="&lt;a&gt;"/>sciencedirect.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
@@ -1209,7 +1209,7 @@
                             документ: прізвище автора та назву документа; назву джерела, в якому опубліковано
                             матеріал;
                             рік видання; номер журналу; сторінки публікації.
-                            Бібліографічні відомості про документи з фонду науково-технічної бібліотеки ОНАХТ можна
+                            Бібліографічні відомості про документи з фонду науково-технічної бібліотеки ОНТУ можна
                             уточнити за допомогою <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/>Електронного
                                 каталогу<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.
                         <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
@@ -1273,7 +1273,7 @@
           документ: фамилия автора и название документа; название источника, в котором опубликовано
           материал;
           год издания; номер журнала; страницы публикации.
-          Библиографические сведения о документах из фонда научно-технической библиотеки ОНАПТ можно
+          Библиографические сведения о документах из фонда научно-технической библиотеки ОНТУ можно
           уточнить с помощью <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/>Электронного
           каталога<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.
           <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
@@ -1661,8 +1661,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="exhibition-title" datatype="html">
-        <source>Виставки НТБ ОНАХТ</source>
-        <target>Выставки НТБ ОНАПТ</target>
+        <source>Виставки НТБ ОНТУ</source>
+        <target>Выставки НТБ ОНТУ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/exhibition/exhibition.component.html</context>
           <context context-type="linenumber">8</context>
