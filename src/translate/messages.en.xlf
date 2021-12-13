@@ -226,6 +226,22 @@
                     <context context-type="linenumber">127</context>
                 </context-group>
             </trans-unit>
+          <trans-unit id="useful-links-menu" datatype="html">
+            <source>Корисні посилання</source>
+            <target>Useful links</target>
+            <context-group purpose="location">
+              <context context-type="sourcefile">app/header/header.component.html</context>
+              <context context-type="linenumber">55</context>
+            </context-group>
+          </trans-unit>
+          <trans-unit id="directory-barrier-menu" datatype="html">
+            <source>Довідник безбар&apos;єрності</source>
+            <target>Directory of barrier-free </target>
+            <context-group purpose="location">
+              <context context-type="sourcefile">app/header/header.component.html</context>
+              <context context-type="linenumber">57</context>
+            </context-group>
+          </trans-unit>
             <trans-unit id="books" datatype="html">
                 <source>
                     <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Видання<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
@@ -978,7 +994,7 @@
                 офіційні сторінки у найбільш запитуваних соціальних мережах та платформах. За діяльністю ви можете слідкувати
                 не тільки підписавшись на них а й використовуючи хештеги
                 <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>
-                #libONTU #CenSciONTU #Need2Know
+                #LibONAFT #CenSciONTU #Need2Know
                 <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
               </source>
               <target>
@@ -986,7 +1002,7 @@
                 official pages in the most popular social networks and platforms. You can follow the activities
                 not only by subscribing to them but also using hashtags
                 <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>
-                #libONTU #CenSciONTU #Need2Know
+                #LibONAFT #CenSciONTU #Need2Know
                 <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
               </target>
               <context-group purpose="location">

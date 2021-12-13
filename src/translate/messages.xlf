@@ -20,7 +20,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">95</context>
+          <context context-type="linenumber">99</context>
         </context-group>
       </trans-unit>
       <trans-unit id="elec-directory-menu" datatype="html">
@@ -32,7 +32,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">97</context>
+          <context context-type="linenumber">101</context>
         </context-group>
       </trans-unit>
       <trans-unit id="kci-menu" datatype="html">
@@ -44,7 +44,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">99</context>
+          <context context-type="linenumber">103</context>
         </context-group>
       </trans-unit>
       <trans-unit id="patent-menu" datatype="html">
@@ -55,7 +55,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">101</context>
+          <context context-type="linenumber">105</context>
         </context-group>
       </trans-unit>
       <trans-unit id="scientificbase" datatype="html">
@@ -66,7 +66,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">102</context>
+          <context context-type="linenumber">106</context>
         </context-group>
       </trans-unit>
       <trans-unit id="recomend-menu" datatype="html">
@@ -79,7 +79,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">107</context>
+          <context context-type="linenumber">111</context>
         </context-group>
       </trans-unit>
       <trans-unit id="scientists-menu" datatype="html">
@@ -90,7 +90,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">111</context>
+          <context context-type="linenumber">115</context>
         </context-group>
       </trans-unit>
       <trans-unit id="encyclopedia-menu" datatype="html">
@@ -101,7 +101,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">112</context>
+          <context context-type="linenumber">116</context>
         </context-group>
       </trans-unit>
       <trans-unit id="jubilee-menu" datatype="html">
@@ -112,7 +112,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">113</context>
+          <context context-type="linenumber">117</context>
         </context-group>
       </trans-unit>
       <trans-unit id="researcher-menu" datatype="html">
@@ -123,7 +123,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">114</context>
+          <context context-type="linenumber">118</context>
         </context-group>
       </trans-unit>
       <trans-unit id="dstu-menu" datatype="html">
@@ -134,7 +134,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">117</context>
+          <context context-type="linenumber">121</context>
         </context-group>
       </trans-unit>
       <trans-unit id="bibl-desc-menu" datatype="html">
@@ -145,7 +145,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">119</context>
+          <context context-type="linenumber">123</context>
         </context-group>
       </trans-unit>
       <trans-unit id="bibl-example-menu" datatype="html">
@@ -156,7 +156,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">120</context>
+          <context context-type="linenumber">124</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ref-desc-menu" datatype="html">
@@ -167,7 +167,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">121</context>
+          <context context-type="linenumber">125</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ref-example-menu" datatype="html">
@@ -178,7 +178,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">122</context>
+          <context context-type="linenumber">126</context>
         </context-group>
       </trans-unit>
       <trans-unit id="dstu-gost-menu" datatype="html">
@@ -189,7 +189,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">123</context>
+          <context context-type="linenumber">127</context>
         </context-group>
       </trans-unit>
       <trans-unit id="standarts-menu" datatype="html">
@@ -200,7 +200,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">125</context>
+          <context context-type="linenumber">129</context>
         </context-group>
       </trans-unit>
       <trans-unit id="style-references-menu" datatype="html">
@@ -211,7 +211,21 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">128</context>
+          <context context-type="linenumber">132</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="useful-links-menu" datatype="html">
+        <source>Корисні посилання</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="directory-barrier-menu" datatype="html">
+        <source>Довідник безбар&apos;єрності</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">57</context>
         </context-group>
       </trans-unit>
       <trans-unit id="books" datatype="html">
@@ -220,11 +234,11 @@
             </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">58</context>
+          <context context-type="linenumber">62</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">131</context>
+          <context context-type="linenumber">135</context>
         </context-group>
       </trans-unit>
       <trans-unit id="library" datatype="html">
@@ -233,40 +247,16 @@
                 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">63</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">136</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="terms-menu" datatype="html">
-        <source>Правила
-                        користування</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">68</context>
+          <context context-type="linenumber">67</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
           <context context-type="linenumber">140</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="rules-menu" datatype="html">
-        <source>Положення
-                        НТБ</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">70</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">142</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="report-menu" datatype="html">
-        <source>Звіт
-                        про роботу (2020 р.)</source>
+      <trans-unit id="terms-menu" datatype="html">
+        <source>Правила
+                        користування</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
           <context context-type="linenumber">72</context>
@@ -276,9 +266,9 @@
           <context context-type="linenumber">144</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="history-library-menu" datatype="html">
-        <source>Історія
-                        бібліотеки</source>
+      <trans-unit id="rules-menu" datatype="html">
+        <source>Положення
+                        НТБ</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
           <context context-type="linenumber">74</context>
@@ -288,8 +278,9 @@
           <context context-type="linenumber">146</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="exhibition" datatype="html">
-        <source>Виставки</source>
+      <trans-unit id="report-menu" datatype="html">
+        <source>Звіт
+                        про роботу (2020 р.)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
           <context context-type="linenumber">76</context>
@@ -299,13 +290,36 @@
           <context context-type="linenumber">148</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="history-library-menu" datatype="html">
+        <source>Історія
+                        бібліотеки</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">150</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="exhibition" datatype="html">
+        <source>Виставки</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">152</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="resource" datatype="html">
         <source>
                     Ресурси <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
                 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
-          <context context-type="linenumber">91</context>
+          <context context-type="linenumber">95</context>
         </context-group>
       </trans-unit>
       <trans-unit id="label-footer" datatype="html">
@@ -671,7 +685,7 @@
         <source>
             Для формування позитивного іміджу представленості діяльності бібліотеки у веб-просторі у НТБ ОНТУ зареєстровані
             офіційні сторінки у найбільш запитуваних соціальних мережах та платформах. За діяльністю ви можете слідкувати
-            не тільки підписавшись на них а й використовуючи хештеги <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>#libONTU #CenSciONTU #Need2Know<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+            не тільки підписавшись на них а й використовуючи хештеги <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>#LibONAFT #CenSciONTU #Need2Know<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
           </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -845,7 +859,7 @@
                         <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Реферативна база даних AGRIS містить інформацію з усіх питань сільського господарства та суміжних з сільськими господарствами галузей, таких як біотехнологія, захист рослин, ветеринарія, сільськогосподарське обладнання та техніка, токсикологія, лісне господарство, водне господарство, аквакультура та рибне господарство, технологія виробництва продуктів харчування, харчування людина, природні ресурси, освіта, право і т.і. Реферативна база даних AGRIS включає інформацію про книги, монографії, статті з періодичних видань та збірників. Особое місце займають науково-технічні проекти, звіти, дисертації, матеріали конференцій, не публікуються в широкому друку.
                         <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Посилання<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> - <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/>agris.fao.org<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                       <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Springer<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> — це глобальна видавнича компанія, що видає книги, електронні книги, і рецензовані журнали на наукову, технологічну і медичну тематику. Springer також розміщає у себе велику кількість наукових баз даних, таких як SpringerLink, Springer Protocols і SpringerImages. Більш ніж 168,000 найменувань доступно як електронні книги у 24 предметних колекціях.
-                        Одеський національний технологічний університет отримала доступ до повнотекстових ресурсів порталу Springer Link а саме: журналів Springer 1997-2020 рр. та електронних книг Springer 2017 р. Передплату до Springer за кошти держбюджету забезпечило Міністерство освіти і науки через Державну науково-технічну бібліотеку (ДНТБ). Підключення стартувало з 3 січня 2020 року.
+                        Одеський національний технологичний університет отримала доступ до повнотекстових ресурсів порталу Springer Link а саме: журналів Springer 1997-2020 рр. та електронних книг Springer 2017 р. Передплату до Springer за кошти держбюджету забезпечило Міністерство освіти і науки через Державну науково-технічну бібліотеку (ДНТБ). Підключення стартувало з 3 січня 2020 року.
                         <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Посилання<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> - <x id="START_LINK_3" ctype="x-a" equiv-text="&lt;a&gt;"/>link.springer.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                       <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>ScienceDirect<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> — ресурс, який надає доступ до наукових публікацій, переважно платних, проте застосувавши фільтр Open Access можно отримати доступ до публікацій у відкритому доступі.
                         Ресурс запущено в березні 1997року, власник компанія Elsevier. Містить 2500 наукових видань та 26 000 електроних книг. <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Посилання<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> - <x id="START_LINK_4" ctype="x-a" equiv-text="&lt;a&gt;"/>https://www.sciencedirect.com/<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
@@ -1198,7 +1212,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="exhibition-title" datatype="html">
-        <source>Виставки НТБ ОНТУ</source>
+        <source>Виставки НТБ ОНАХТ</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/exhibition/exhibition.component.html</context>
           <context context-type="linenumber">8</context>
