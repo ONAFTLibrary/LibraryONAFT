@@ -287,7 +287,7 @@
       </trans-unit>
       <trans-unit id="report-menu" datatype="html">
         <source>Звіт
-                        про роботу (2020 р.)</source>
+                        про роботу (2021 р.)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
           <context context-type="linenumber">77</context>
@@ -1177,7 +1177,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="new-books" datatype="html">
-        <source>Видання 2020-2021 рр.</source>
+        <source>Видання 2021-2022 рр.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/books/books.component.html</context>
           <context context-type="linenumber">13</context>

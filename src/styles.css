@@ -125,3 +125,9 @@
 #n2k-popup #n2k-flag input[type=checkbox] {
   margin-right: 10px;
 }
+
+@media (orientation: portrait) {
+  #need2know, #n2k-popup {
+    display: none;
+  }
+}

@@ -27,7 +27,8 @@ const routes: Routes = [
     {path: 'bio', component: BioComponent},
     {path: 'standards', component: DstuComponent },
     {path: '404', component: ErrorComponent},
-    {path: '**', redirectTo: '404'}
+    {path: 'admin', redirectTo: '/api/adminloppi'},
+    // {path: '**', redirectTo: '404'}
 ];
 
 @NgModule({
