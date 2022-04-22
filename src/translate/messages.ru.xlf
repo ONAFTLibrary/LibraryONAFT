@@ -383,8 +383,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="label-footer" datatype="html">
-        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/> НТБ ОНАХТ</source>
-        <target><x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/> НТБ ОНАХТ</target>
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/> НТБ ОНТУ</source>
+        <target><x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/> НТБ ОНТУ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/footer/footer.component.html</context>
           <context context-type="linenumber">3</context>
@@ -402,7 +402,7 @@
         <source>
             Україна, 65039,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
             м. Одеса, вул. Канатна, 112<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-            <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> +38(048)712‐41‐88<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+            <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
             +38(048)712-42‐52<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
             <x id="START_ITALIC_TEXT_1" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> lib.onaft@gmail.com,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 
@@ -410,7 +410,7 @@
         <target>
           Украина, 65039,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
           г. Одесса, ул. Канатная, 112<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> +38(048)712‐41‐88<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
           +38(048)712-42‐52<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
           <x id="START_ITALIC_TEXT_1" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> lib.onaft@gmail.com,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
         </target>
@@ -468,8 +468,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="description" datatype="html">
-        <source>Одесского национального технологического университета</source>
-        <target>Одесской национальной академии пищевых технологий</target>
+        <source>Одеського національного технологічного університету</source>
+        <target>Одесского национального технологического университета</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">5</context>
@@ -484,13 +484,13 @@
         </context-group>
       </trans-unit>
       <trans-unit id="about-description" datatype="html">
-        <source>Діяльність науково-технічної бібліотеки академії спрямована на
+        <source>Діяльність науково-технічної бібліотеки університету спрямована на
             забезпечення її відповідності бібліотеці інноваційного типу
             завдяки підвищенню якості інформаційного та бібліотечно-бібліографічного
             обслуговування користувачів
         </source>
         <target>
-          Деятельность научно-технической библиотеки академии сосредоточена на обеспечении соответствию библиотеки инновационного типа, благодаря повышению качества информации и библиотечно-библиографического обслуживания пользователей.
+          Деятельность научно-технической библиотеки университета сосредоточена на обеспечении соответствию библиотеки инновационного типа, благодаря повышению качества информации и библиотечно-библиографического обслуживания пользователей.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -499,11 +499,11 @@
       </trans-unit>
       <trans-unit id="about-social-media" datatype="html">
         <source>
-          Для формування позитивного іміджу представленості діяльності бібліотеки у веб-просторі у НТБ ОНАХТ зареєстровані
+          Для формування позитивного іміджу представленості діяльності бібліотеки у веб-просторі у НТБ ОНТУ зареєстровані
           офіційні сторінки у найбільш запитуваних соціальних мережах та платформах. За діяльністю ви можете слідкувати
           не тільки підписавшись на них а й використовуючи хештеги
           <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>
-          #LibONAFT #CenSciONTU #Need2Know
+          #LibONTU #CenSciONTU #Need2Know
           <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
         </source>
         <target>
@@ -511,7 +511,7 @@
           официальные страницы в наиболее востребованных социальных сетях и платформах. За деятельностью вы можете следить
           не только подписавшись на них, но и используя хэштеги
           <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>
-          #LibONAFT #CenSciONTU #Need2Know
+          #LibONTU #CenSciONTU #Need2Know
           <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
         </target>
         <context-group purpose="location">
@@ -573,7 +573,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="educational-literature-description" datatype="html">
-        <source>Здійснює інформаційне забезпечення навчального процесу академії.</source>
+        <source>Здійснює інформаційне забезпечення навчального процесу університету.</source>
         <target>Выполняет информационное обеспечение учебного процесса.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -909,7 +909,7 @@
       <trans-unit id="reader-description" datatype="html">
         <source>
                         <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Право користування бібліотекою мають студенти, магістри, аспіранти,
-                            професорсько-викладацький склад, працівники структурних підрозділів академії та центру
+                            професорсько-викладацький склад, працівники структурних підрозділів університету та центру
                             довузівської підготовки, студенти інституту холоду, коледжу промислової автоматики та
                             інформаційних технологій, коледжу нафтогазових технологій та інфраструктури сервісу,
                             механіко-технологічного коледжу.
@@ -935,7 +935,7 @@
                     </source>
         <target>
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Право користування бібліотекою мають студенти, магістри, аспіранти,
-          професорсько-викладацький склад, працівники структурних підрозділів академії та центру
+          професорсько-викладацький склад, працівники структурних підрозділів університету та центру
           довузівської підготовки, студенти інституту холоду, коледжу промислової автоматики та
           інформаційних технологій, коледжу нафтогазових технологій та інфраструктури сервісу,
           механіко-технологічного коледжу.
@@ -1165,7 +1165,7 @@
           <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Реферативная база данных AGRIS содержит информацию по всем вопросам сельского хозяйства и смежных с сельскими хозяйствами отраслей, таких как биотехнология, защита растений, ветеринария, сельскохозяйственное оборудование и техника, токсикология, лесное хозяйство, водное хозяйство, аквакультура и рыбное хозяйство, технология производства продуктов питания, питания человек, природные ресурсы, образование, право и т.д. Реферативная база данных AGRIS включает информацию о книгах, монографии, статьи из периодических изданий и сборников. Особое место занимают научно-технические проекты, отчеты, диссертации, материалы конференций, не публикуются в широком печати.
           <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Ссылка<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> - <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/>agris.fao.org<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Springer<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> — это глобальная издательская компания, издающая книги, электронные книги, и рецензирование журналы на научную, технологическую и медицинскую тематику. Springer также размещает у себя большое количество научных баз данных, таких как SpringerLink, Springer Protocols и SpringerImages. Более 168,000 наименований доступно как электронные книги в 24 предметных коллекциях.
-          Одесская национальная академия пищевых технологий получила доступ к полнотекстовым ресурсам портала Springer Link а именно: журналов Springer 1997-2020 гг. И электронных книг Springer 2017 Подписка к Springer за средства госбюджета обеспечило Министерство образования и науки через Государственную научно-техническую библиотеку (ГНТБ) . Подключение началось с 3 января 2020 года.
+          Одесский национальный технологический университет получил доступ к полнотекстовым ресурсам портала Springer Link а именно: журналов Springer 1997-2020 гг. И электронных книг Springer 2017 Подписка к Springer за средства госбюджета обеспечило Министерство образования и науки через Государственную научно-техническую библиотеку (ГНТБ) . Подключение началось с 3 января 2020 года.
           <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Ссылка<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> - <x id="START_LINK_3" ctype="x-a" equiv-text="&lt;a&gt;"/>link.springer.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>ScienceDirect<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> — ресурс, который предоставляет доступ к научным публикациям, преимущественно платных, однако применив фильтр Open Access можно получить доступ к публикациям в открытом доступе.
           Ресурс запущен в марте 1997 года, владелец компания Elsevier. Содержит 2500 научных изданий и 26 000 электронных книг. <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Ссылка<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> - <x id="START_LINK_4" ctype="x-a" equiv-text="&lt;a&gt;"/>sciencedirect.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>

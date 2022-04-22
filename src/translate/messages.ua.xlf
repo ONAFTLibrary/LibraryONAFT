@@ -402,14 +402,14 @@
         <source>
             Україна, 65039,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
             м. Одеса, вул. Канатна, 112<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-            <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> +38(048)712‐41‐88<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+            <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
             +38(048)712-42‐52<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
             <x id="START_ITALIC_TEXT_1" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> lib.onaft@gmail.com,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
         </source>
         <target>
           Україна, 65039,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
           м. Одеса, вул. Канатна, 112<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> +38(048)712‐41‐88<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+          <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
           +38(048)712-42‐52<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
           <x id="START_ITALIC_TEXT_1" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> lib.onaft@gmail.com,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
         </target>
@@ -483,12 +483,12 @@
         </context-group>
       </trans-unit>
       <trans-unit id="about-description" datatype="html">
-        <source>Діяльність науково-технічної бібліотеки академії спрямована на
+        <source>Діяльність науково-технічної бібліотеки університету спрямована на
             забезпечення її відповідності бібліотеці інноваційного типу
             завдяки підвищенню якості інформаційного та бібліотечно-бібліографічного
             обслуговування користувачів
         </source>
-        <target>Діяльність науково-технічної бібліотеки академії спрямована на
+        <target>Діяльність науково-технічної бібліотеки університету спрямована на
           забезпечення її відповідності бібліотеці інноваційного типу
           завдяки підвищенню якості інформаційного та бібліотечно-бібліографічного
           обслуговування користувачів
@@ -552,8 +552,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="educational-literature-description" datatype="html">
-        <source>Здійснює інформаційне забезпечення навчального процесу академії.</source>
-        <target>Здійснює інформаційне забезпечення навчального процесу академії.</target>
+        <source>Здійснює інформаційне забезпечення навчального процесу університету.</source>
+        <target>Здійснює інформаційне забезпечення навчального процесу університету.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">74</context>
@@ -835,7 +835,7 @@
           офіційні сторінки у найбільш запитуваних соціальних мережах та платформах. За діяльністю ви можете слідкувати
           не тільки підписавшись на них а й використовуючи хештеги
           <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>
-          #LibONAFT #CenSciONTU #Need2Know
+          #LibONTU #CenSciONTU #Need2Know
           <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
         </source>
         <target>
@@ -843,7 +843,7 @@
           офіційні сторінки у найбільш запитуваних соціальних мережах та платформах. За діяльністю ви можете слідкувати
           не тільки підписавшись на них а й використовуючи хештеги
           <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>
-          #LibONAFT #CenSciONTU #Need2Know
+          #LibONTU #CenSciONTU #Need2Know
           <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
         </target>
         <context-group purpose="location">
@@ -914,7 +914,7 @@
       <trans-unit id="reader-description" datatype="html">
         <source>
                         <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Право користування бібліотекою мають студенти, магістри, аспіранти,
-                            професорсько-викладацький склад, працівники структурних підрозділів академії та центру
+                            професорсько-викладацький склад, працівники структурних підрозділів університету та центру
                             довузівської підготовки, студенти інституту холоду, коледжу промислової автоматики та
                             інформаційних технологій, коледжу нафтогазових технологій та інфраструктури сервісу,
                             механіко-технологічного коледжу.
@@ -940,7 +940,7 @@
                     </source>
         <target>
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Право користування бібліотекою мають студенти, магістри, аспіранти,
-          професорсько-викладацький склад, працівники структурних підрозділів академії та центру
+          професорсько-викладацький склад, працівники структурних підрозділів університету та центру
           довузівської підготовки, студенти інституту холоду, коледжу промислової автоматики та
           інформаційних технологій, коледжу нафтогазових технологій та інфраструктури сервісу,
           механіко-технологічного коледжу.
@@ -1155,7 +1155,7 @@
           <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Реферативна база даних AGRIS містить інформацію з усіх питань сільського господарства та суміжних з сільськими господарствами галузей, таких як біотехнологія, захист рослин, ветеринарія, сільськогосподарське обладнання та техніка, токсикологія, лісне господарство, водне господарство, аквакультура та рибне господарство, технологія виробництва продуктів харчування, харчування людина, природні ресурси, освіта, право і т.і. Реферативна база даних AGRIS включає інформацію про книги, монографії, статті з періодичних видань та збірників. Особое місце займають науково-технічні проекти, звіти, дисертації, матеріали конференцій, не публікуються в широкому друку.
           <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Посилання<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> - <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/>agris.fao.org<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Springer<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> — це глобальна видавнича компанія, що видає книги, електронні книги, і рецензовані журнали на наукову, технологічну і медичну тематику. Springer також розміщає у себе велику кількість наукових баз даних, таких як SpringerLink, Springer Protocols і SpringerImages. Більш ніж 168,000 найменувань доступно як електронні книги у 24 предметних колекціях.
-          Одеський національний технологічний університет отримала доступ до повнотекстових ресурсів порталу Springer Link а саме: журналів Springer 1997-2020 рр. та електронних книг Springer 2017 р. Передплату до Springer за кошти держбюджету забезпечило Міністерство освіти і науки через Державну науково-технічну бібліотеку (ДНТБ). Підключення стартувало з 3 січня 2020 року.
+          Одеський національний технологічний університет отримав доступ до повнотекстових ресурсів порталу Springer Link а саме: журналів Springer 1997-2020 рр. та електронних книг Springer 2017 р. Передплату до Springer за кошти держбюджету забезпечило Міністерство освіти і науки через Державну науково-технічну бібліотеку (ДНТБ). Підключення стартувало з 3 січня 2020 року.
           <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Посилання<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> - <x id="START_LINK_3" ctype="x-a" equiv-text="&lt;a&gt;"/>link.springer.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>ScienceDirect<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> — ресурс, який надає доступ до наукових публікацій, переважно платних, проте застосувавши фільтр Open Access можно отримати доступ до публікацій у відкритому доступі.
           Ресурс запущено в березні 1997року, власник компанія Elsevier. Містить 2500 наукових видань та 26 000 електроних книг. <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Посилання<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> - <x id="START_LINK_4" ctype="x-a" equiv-text="&lt;a&gt;"/>sciencedirect.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
@@ -1173,7 +1173,7 @@
           <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Реферативна база даних AGRIS містить інформацію з усіх питань сільського господарства та суміжних з сільськими господарствами галузей, таких як біотехнологія, захист рослин, ветеринарія, сільськогосподарське обладнання та техніка, токсикологія, лісне господарство, водне господарство, аквакультура та рибне господарство, технологія виробництва продуктів харчування, харчування людина, природні ресурси, освіта, право і т.і. Реферативна база даних AGRIS включає інформацію про книги, монографії, статті з періодичних видань та збірників. Особое місце займають науково-технічні проекти, звіти, дисертації, матеріали конференцій, не публікуються в широкому друку.
           <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Посилання<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> - <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/>agris.fao.org<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Springer<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> — це глобальна видавнича компанія, що видає книги, електронні книги, і рецензовані журнали на наукову, технологічну і медичну тематику. Springer також розміщає у себе велику кількість наукових баз даних, таких як SpringerLink, Springer Protocols і SpringerImages. Більш ніж 168,000 найменувань доступно як електронні книги у 24 предметних колекціях.
-          Одеський національний технологічний університет отримала доступ до повнотекстових ресурсів порталу Springer Link а саме: журналів Springer 1997-2020 рр. та електронних книг Springer 2017 р. Передплату до Springer за кошти держбюджету забезпечило Міністерство освіти і науки через Державну науково-технічну бібліотеку (ДНТБ). Підключення стартувало з 3 січня 2020 року.
+          Одеський національний технологічний університет отримав доступ до повнотекстових ресурсів порталу Springer Link а саме: журналів Springer 1997-2020 рр. та електронних книг Springer 2017 р. Передплату до Springer за кошти держбюджету забезпечило Міністерство освіти і науки через Державну науково-технічну бібліотеку (ДНТБ). Підключення стартувало з 3 січня 2020 року.
           <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Посилання<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> - <x id="START_LINK_3" ctype="x-a" equiv-text="&lt;a&gt;"/>link.springer.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>ScienceDirect<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> — ресурс, який надає доступ до наукових публікацій, переважно платних, проте застосувавши фільтр Open Access можно отримати доступ до публікацій у відкритому доступі.
           Ресурс запущено в березнф 1997року, власник компанія Elsevier. Містить 2500 наукових видань та 26 000 електроних книг. <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Посилання<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> - <x id="START_LINK_4" ctype="x-a" equiv-text="&lt;a&gt;"/>sciencedirect.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>

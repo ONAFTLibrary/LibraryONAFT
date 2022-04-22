@@ -347,7 +347,7 @@
         <source>
             Україна, 65039,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
             м. Одеса, вул. Канатна, 112<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-            <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> +38(048)712‐41‐88<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+            <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
             +38(048)712-42‐52<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
             <x id="START_ITALIC_TEXT_1" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> lib.onaft@gmail.com,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
         </source>
@@ -396,7 +396,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="description" datatype="html">
-        <source>Одеського національного технологічного університету</source>
+        <source>Одеської національної акакдемії харчових технологій</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">5</context>
@@ -410,7 +410,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="about-description" datatype="html">
-        <source>Діяльність науково-технічної бібліотеки академії спрямована на
+        <source>Діяльність науково-технічної бібліотеки університету спрямована на
             забезпечення її відповідності бібліотеці інноваційного типу
             завдяки підвищенню якості інформаційного та бібліотечно-бібліографічного
             обслуговування користувачів
@@ -461,7 +461,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="educational-literature-description" datatype="html">
-        <source>Здійснює інформаційне забезпечення навчального процесу академії.</source>
+        <source>Здійснює інформаційне забезпечення навчального процесу університету.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">74</context>
@@ -692,7 +692,7 @@
         <source>
             Для формування позитивного іміджу представленості діяльності бібліотеки у веб-просторі у НТБ ОНТУ зареєстровані
             офіційні сторінки у найбільш запитуваних соціальних мережах та платформах. За діяльністю ви можете слідкувати
-            не тільки підписавшись на них а й використовуючи хештеги <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>#LibONAFT #CenSciONTU #Need2Know<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+            не тільки підписавшись на них а й використовуючи хештеги <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>#LibONTU #CenSciONTU #Need2Know<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
           </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -721,7 +721,7 @@
       <trans-unit id="reader-description" datatype="html">
         <source>
                         <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Право користування бібліотекою мають студенти, магістри, аспіранти,
-                            професорсько-викладацький склад, працівники структурних підрозділів академії та центру
+                            професорсько-викладацький склад, працівники структурних підрозділів університету та центру
                             довузівської підготовки, студенти інституту холоду, коледжу промислової автоматики та
                             інформаційних технологій, коледжу нафтогазових технологій та інфраструктури сервісу,
                             механіко-технологічного коледжу.
@@ -1219,7 +1219,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="exhibition-title" datatype="html">
-        <source>Виставки НТБ ОНАХТ</source>
+        <source>Виставки НТБ ОНТУ</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/exhibition/exhibition.component.html</context>
           <context context-type="linenumber">8</context>

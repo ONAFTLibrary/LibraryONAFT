@@ -10,7 +10,7 @@ enableProdMode();
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'LibraryONAFT';
+  title = 'LibraryONTU';
   ngOnInit(): void {
       $(function() {
           $(window).scroll(function() {

@@ -1,5 +1,5 @@
-# LibraryONAFT
-This project was created for scientific and technical library ONAFT. For detailed review follow the link https://library.onaft.edu.ua.
+# LibraryONTU
+This project was created for scientific and technical library ONTU. For detailed review follow the link https://library.onaft.edu.ua.
 
 ## Technologies
 
