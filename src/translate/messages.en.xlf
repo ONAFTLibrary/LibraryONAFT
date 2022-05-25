@@ -799,21 +799,21 @@
                 <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Директор:
                     <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
                     <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                    Зінченко Ірина Іванівна
+                    Ольшевська Ольга Володимирівна
                     <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                     Кабінет:
                     <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>
-                    А-139
+                    А-140
                     <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>
                 </source>
                 <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Head of the Library:
                     <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
                     <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                    Iryna Zinchenko
+                    Olga Olshevska
                     <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                     Office:
                     <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>
-                    А-139
+                    А-140
                     <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>
                 </target>
                 <context-group purpose="location">
@@ -848,18 +848,18 @@
                 </context-group>
             </trans-unit>
             <trans-unit id="kci-info" datatype="html">
-                <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Заступник директора з інноваційних технологій, Керівник КЦИ:
+                <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>
                     <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
-                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Ольшевська Ольга Володимирівна
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                     <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                     Центр:
                     <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>
                     ауд. А–140
                     <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>
                 </source>
-                <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Deputy Director for Innovative Technologies, Head PCC:
+                <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>
                     <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
-                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Olga Olshevska
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                     <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                     Office:
                     <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>

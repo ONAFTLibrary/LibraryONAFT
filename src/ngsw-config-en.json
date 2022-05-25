@@ -28,11 +28,11 @@
     {
       "name": "api",
       "urls": [
-        "https://library.onaft.edu.ua/api/news",
-        "https://library.onaft.edu.ua/api/books",
-        "https://library.onaft.edu.ua/api/scientists",
-        "https://library.onaft.edu.ua/api/patents",
-        "https://library.onaft.edu.ua/api/virtualexhibition"
+        "https://library.ontu.edu.ua/api/news",
+        "https://library.ontu.edu.ua/api/books",
+        "https://library.ontu.edu.ua/api/scientists",
+        "https://library.ontu.edu.ua/api/patents",
+        "https://library.ontu.edu.ua/api/virtualexhibition"
       ],
       "cacheConfig": {
         "strategy": "freshness",

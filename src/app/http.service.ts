@@ -8,8 +8,8 @@ import {CacheService} from './cache.service';
 })
 
 export class HttpService {
-    // url = 'https://library.onaft.edu.ua/api';
-    url = 'https://library.onaft.edu.ua/api';
+    // url = 'https://library.ontu.edu.ua/api';
+    url = 'https://library.ontu.edu.ua/api';
     public responseCache = new Map();
     constructor(private httpClient: HttpClient, private cacheUrl: CacheService) {
         cacheUrl.addToCache(this.url);
@@ -80,6 +80,6 @@ export class HttpService {
     }
 
     public postMessage(body)  {
-        return this.httpClient.post('https://library.onaft.edu.ua/api', body);
+        return this.httpClient.post('https://library.ontu.edu.ua/api', body);
     }
 }
