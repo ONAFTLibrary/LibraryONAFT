@@ -383,14 +383,14 @@
                     м. Одеса, вул. Канатна, 112<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                     <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
                     +38(048)712-42‐52<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                    <x id="START_ITALIC_TEXT_1" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> lib.onaft@gmail.com,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                    <x id="START_ITALIC_TEXT_1" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> library@ontu.edu.ua,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                 </source>
                 <target>
                     Ukraine 65039,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                     Odesa 112 Kanatna str.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                     <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
                     +38(048)712-42‐52<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                    <x id="START_ITALIC_TEXT_1" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> lib.onaft@gmail.com,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                    <x id="START_ITALIC_TEXT_1" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> library@ontu.edu.ua,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                 </target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">app/footer/footer.component.html</context>
@@ -1620,7 +1620,7 @@
                     каталогів та картотек.
                     <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                     <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Для отримання індексу УДК автору необхідно звернутися по електронній пошті <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
-                      lib.onaft@gmail.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>, або до інформаційно-бібліографічного відділу НТБ (вул. Канатна, 112, головний корпус, 2-й
+                      library@ontu.edu.ua<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>, або до інформаційно-бібліографічного відділу НТБ (вул. Канатна, 112, головний корпус, 2-й
                       поверх, к. А-229) та надати такі відомості: <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                     <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                     <x id="START_ORDERED_LIST" ctype="x-ol" equiv-text="&lt;ol&gt;"/>
@@ -1655,7 +1655,7 @@
                     <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                     <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>To obtain the UDC index, the author must contact by e-mail
                   <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
-                      lib.onaft@gmail.com
+                      library@ontu.edu.ua
                   <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>, or to the information and bibliographic department of NTB (112 Kanatna St., main building, 2nd
                       floor, room A-229) and provide the following information:
                   <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
