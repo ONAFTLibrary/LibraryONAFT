@@ -525,14 +525,14 @@
                 </context-group>
             </trans-unit>
             <trans-unit id="archives" datatype="html">
-                <source>Відділ зберігання фондів
+                <source>Rare books/Meeting room
                     <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                    <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>ауд. А–137/3
+                    <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>ауд. А–139
                     <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>
                 </source>
-                <target>Archives department
+                <target>Rare books/Meeting room
                     <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                    <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>off. А–137/3
+                    <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>off. А–139
                     <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>
                 </target>
                 <context-group purpose="location">
@@ -1315,6 +1315,7 @@
               <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
               <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Абонемент наукової літератури <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(каб. А-137/7)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
               <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Абонемент навчальної літератури <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(каб. А-137/9)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+              <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Rare books/Meeting room <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(каб. А-139)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
               <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Читальний зал періодичних видань <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(ауд. А-225)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
               <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Зал електронних каталогів <x id="START_LINK_3" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(ауд. А-226)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
               <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Читальний зал технічної літератури <x id="START_LINK_4" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(ауд. А-228)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
@@ -1331,6 +1332,7 @@
               <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
               <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Subscription of scientific literature <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(каб. А-137/7)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
               <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Subscription of educational literature <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(каб. А-137/9)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+              <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Rare books/Meeting room <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(каб. А-139)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
               <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Reading room of periodicals <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(ауд. А-225)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> .<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
               <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Hall of electronic catalogs <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(ауд. А-226)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> .<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
               <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Reading room of technical literature <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>(ауд. А-228)<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> .<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
