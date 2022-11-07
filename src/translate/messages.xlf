@@ -665,7 +665,9 @@
       <trans-unit id="form-description" datatype="html">
         <source>
                 Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібліотеки, зверніться за вказаною поштою та адресою.
-            </source>
+                <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                Он-лайн підтримка, консультації та супровід користувачів у <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Telegram<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> та <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Viber<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> з 8:00-20:00 з понеділка по суботу
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">225</context>
@@ -674,7 +676,9 @@
       <trans-unit id="form-mob-description" datatype="html">
         <source>
                 Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібліотеки, зверніться за вказаною поштою та адресою.
-            </source>
+                <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                Он-лайн підтримка, консультації та супровід користувачів у <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Telegram<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> та <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Viber<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> з 8:00-20:00 з понеділка по суботу
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">228</context>

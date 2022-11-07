@@ -994,10 +994,14 @@
             </trans-unit>
             <trans-unit id="form-description" datatype="html">
                 <source>
-                  Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібліотеки, зверніться за вказаною поштою та адресою.
+                    Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібліотеки, зверніться за вказаною поштою та адресою.
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                    Он-лайн підтримка, консультації та супровід користувачів у <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Telegram<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> та <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Viber<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> з 8:00-20:00 з понеділка по суботу
                 </source>
                 <target>
-                  If you have any questions, comments or suggestions about the work of the library, please contact the specified mail or address.
+                    If you have any questions, comments or suggestions about the work of the library, please contact the specified mail or address.
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                    On-line support, consultations and support of users in <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Telegram<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> and <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Viber<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> from 8:00 to 20:00 from Monday to Saturday
                 </target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">app/home/home.component.html</context>
@@ -1006,10 +1010,14 @@
             </trans-unit>
             <trans-unit id="form-mob-description" datatype="html">
                 <source>
-                  Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібліотеки, зверніться за вказаною поштою та адресою.
+                    Якщо у вас виникли питання, зауваження та пропозиції, щодо роботи бібліотеки, зверніться за вказаною поштою та адресою.
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                    Он-лайн підтримка, консультації та супровід користувачів у <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Telegram<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> та <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Viber<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> з 8:00-20:00 з понеділка по суботу
                 </source>
                 <target>
-                  If you have any questions, comments or suggestions about the work of the library, please contact the specified mail or address.
+                    If you have any questions, comments or suggestions about the work of the library, please contact the specified mail or address.
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                    On-line support, consultations and support of users in <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Telegram<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> and <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Viber<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> from 8:00 to 20:00 from Monday to Saturday
                 </target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">app/home/home.component.html</context>
