@@ -702,7 +702,7 @@
         <source>
             Для формування позитивного іміджу представленості діяльності бібліотеки у веб-просторі у НТБ ОНТУ зареєстровані
             офіційні сторінки у найбільш запитуваних соціальних мережах та платформах. За діяльністю ви можете слідкувати
-            не тільки підписавшись на них а й використовуючи хештеги <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>#LibONTU #CenSciONTU #Need2Know<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+            не тільки підписавшись на них а й використовуючи хештеги <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>#LibraryONTU #CenSciONTU #Need2Know<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
           </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
