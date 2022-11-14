@@ -669,7 +669,7 @@
                 <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                 Он-лайн підтримка, консультації та супровід користувачів у <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Telegram<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> та <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Viber<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> з 8:00-20:00 з понеділка по суботу
                 <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                Посилання: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Telegram<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> та <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Viber<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> (лише для письмового зв'язку у месенджерах)
+                Посилання: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Telegram<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> (лише для письмового зв'язку у месенджерах)
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -683,7 +683,7 @@
                 <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                 Он-лайн підтримка, консультації та супровід користувачів у <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Telegram<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> та <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Viber<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> з 8:00-20:00 з понеділка по суботу
                 <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                Посилання: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Telegram<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> та <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Viber<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> (лише для письмового зв'язку у месенджерах)
+                Посилання: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Telegram<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> (лише для письмового зв'язку у месенджерах)
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
