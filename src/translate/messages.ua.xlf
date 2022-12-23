@@ -345,8 +345,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="report-menu" datatype="html">
-        <source>Звіт про роботу (2021 р.)</source>
-        <target>Звіт про роботу (2021 р.)</target>
+        <source>Звіт про роботу (2022 р.)</source>
+        <target>Звіт про роботу (2022 р.)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
           <context context-type="linenumber">71</context>
