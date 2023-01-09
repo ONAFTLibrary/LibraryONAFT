@@ -323,6 +323,18 @@
                     <context context-type="linenumber">141</context>
                 </context-group>
             </trans-unit>
+            <trans-unit id="rules-menu" datatype="html">
+                <source>Заходи</source>
+                <target>Events</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/header/header.component.html</context>
+                    <context context-type="linenumber">69</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/header/header.component.html</context>
+                    <context context-type="linenumber">141</context>
+                </context-group>
+            </trans-unit>
             <trans-unit id="report-menu" datatype="html">
                 <source>Звіт
                     про роботу (2022 р.)</source>
