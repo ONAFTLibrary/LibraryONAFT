@@ -1685,8 +1685,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="new-books" datatype="html">
-        <source>Видання 2021-2022 рр.</source>
-        <target>Издания 2021-2022 гг.</target>
+        <source>Видання 2022-2023 рр.</source>
+        <target>Издания 2022-2023 гг.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/books/books.component.html</context>
           <context context-type="linenumber">12</context>
