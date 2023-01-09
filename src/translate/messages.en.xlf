@@ -323,7 +323,7 @@
                     <context context-type="linenumber">141</context>
                 </context-group>
             </trans-unit>
-            <trans-unit id="rules-menu" datatype="html">
+            <trans-unit id="events-menu" datatype="html">
                 <source>Заходи</source>
                 <target>Events</target>
                 <context-group purpose="location">
