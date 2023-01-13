@@ -756,7 +756,7 @@
             <trans-unit id="bibliography-department-admin" datatype="html">
                 <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Завідуюча:
                     <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
-                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Мазепа Тетяна Євгенівна
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Кейдалюк Ганна Миколаївна
                     <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                     Бібліографія:
                     <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>
@@ -770,7 +770,7 @@
                 </source>
                 <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Head:
                     <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
-                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Tetyana Mazepa
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Hanna Keidalyuk
                     <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                     Bibliography:
                     <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>

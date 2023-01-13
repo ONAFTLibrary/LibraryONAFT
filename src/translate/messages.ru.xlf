@@ -704,11 +704,11 @@
         </context-group>
       </trans-unit>
       <trans-unit id="bibliography-department-admin" datatype="html">
-        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Завідуюча:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Мазепа Тетяна Євгенівна<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Завідуюча:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Кейдалюк Ганна Миколаївна<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                             Бібліографія:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> ауд. А–229<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                             Бібліограф. обслуговування:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> вул. Дворянська, 1/3, ауд. 282<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>
                         </source>
-        <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Заведующая:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Мазепа Татьяна Евгеньевна<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Заведующая:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Кейдалюк Анна Николаевна<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
           Библиография:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> ауд. А–229<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
           Библиограф. обслуживание:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> ул. Дворянская, 1/3, ауд. 282<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>
         </target>
