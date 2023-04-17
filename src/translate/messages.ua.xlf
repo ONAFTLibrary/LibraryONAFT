@@ -1717,6 +1717,14 @@
           <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="fiction-books" datatype="html">
+        <source>Художня література</source>
+        <target>Художня література</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/books/books.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="scientists-books" datatype="html">
         <source>Книги вчених</source>
         <target>Книги вчених</target>

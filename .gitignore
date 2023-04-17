@@ -41,3 +41,5 @@ Thumbs.db
 # Bash scripts
 rscp.sh
 scp.sh
+node_modules
+node_modules

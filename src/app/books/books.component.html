@@ -10,7 +10,7 @@
         <li class="nav-item ">
             <a i18n="@@new-books" class="nav-link active" id="new-books" data-toggle="pill" href="#new-books-view"
                role="tab"
-               aria-controls="new-books-view" aria-selected="true">Видання 2021-2022 рр.</a>
+               aria-controls="new-books-view" aria-selected="true">Видання 2022-2023 рр.</a>
         </li>
         |
         <li class="nav-item">
@@ -28,6 +28,11 @@
         <li class="nav-item">
             <a i18n="@@periodic-books" class="nav-link" id="propose-liter" data-toggle="pill" href="#propose-liter-view" role="tab"
                aria-controls="propose-liter-view" aria-selected="true">Періодика</a>
+        </li>
+        |
+        <li class="nav-item">
+            <a i18n="@@fiction-books" class="nav-link" id="fiction-books" data-toggle="pill" href="#fiction-books-view" role="tab"
+               aria-controls="fiction-books-view" aria-selected="true">Художня література</a>
         </li>
     </ul>
 
@@ -61,7 +66,7 @@
                         <img [attr.src]="book.image" alt="Books image"
                              class="card-media-books"/>
                         <div class="card-body">
-                            <span class="card-author subtle">Книги вчених ОНТУ</span>
+                            <span i18n="@@scientists-books" class="card-author subtle">Книги вчених ОНТУ</span>
                             <h2 class="card-title" [innerHTML]="book.title"></h2>
                             <span class="card-description subtle" [innerHTML]="book.references"></span>
                             <p class="short-description" [innerHTML]="book.description">
@@ -101,10 +106,30 @@
                         <img [attr.src]="book.image" alt="Books image"
                              class="card-media"/>
                         <div class="card-body" [ngStyle]="{'width': '100%'}">
-                            <span class="card-author subtle">Періодика</span>
+                            <span i18n="@@periodic-books" class="card-author subtle">Періодика</span>
                             <h2 class="card-title" [innerHTML]="book.title"></h2>
                             <p class="periodical" [innerHTML]="book.description">
                                 <p class="periodical-place"><i class="fas fa-map-marker-alt"></i>{{book.references}}</p>
+                        </div>
+                    </div>
+                    <div class="card-shadow"></div>
+                </div>
+            </ng-container>
+        </div>
+
+        <!--Fiction books block-->
+        <div class="row tab-pane fade show active" id="fiction-books-view" role="tabpanel" aria-labelledby="fiction-books">
+            <ng-container *ngFor="let book of booksObservable | async">
+                <div class="card-container-books" *ngIf="book.category === 'fiction'">
+                    <div class="card">
+                        <img [attr.src]="book.image" alt="Books image"
+                             class="card-media-books"/>
+                        <div class="card-body">
+                            <span i18n="@@fiction-books" class="card-author subtle">Художня література</span>
+                            <h2 class="card-title" [innerHTML]="book.title"></h2>
+                            <span class="card-description subtle" [innerHTML]="book.references"></span>
+                            <p class="short-description" [innerHTML]="book.description">
+                            </p>
                         </div>
                     </div>
                     <div class="card-shadow"></div>
