@@ -46,10 +46,10 @@
       </trans-unit>
       <trans-unit id="kci-menu" datatype="html">
         <source>Центр наукової
-                        періодики (КЦВ)</source>
+                        періодики (ЦВНПІП)</source>
         <target>
           Центр наукової
-          періодики (КЦВ)
+          періодики (ЦВНПІП)
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
@@ -735,8 +735,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="kci" datatype="html">
-        <source>Координаційний<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> центр видання наукової періодики</source>
-        <target>Координаційний<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> центр видання наукової періодики</target>
+        <source>Центр видання<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> наукової періодики та інформаційної підтримки</source>
+        <target>Центр видання<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> наукової періодики та інформаційної підтримки</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">162</context>
@@ -754,7 +754,7 @@
       </trans-unit>
       <trans-unit id="kci-info" datatype="html">
         <source>
-          <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Керівник КЦВ:
+          <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Керівник ЦВНПІП:
           <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
           <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Волкова Анастасія Юріївна
           <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
@@ -762,7 +762,7 @@
           <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>ауд. А–140<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>
         </source>
         <target>
-          <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Керівник КЦВ:
+          <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Керівник ЦВНПІП:
           <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
           <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Волкова Анастасія Юріївна
           <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>

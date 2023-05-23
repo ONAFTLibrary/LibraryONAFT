@@ -36,8 +36,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="kci-menu" datatype="html">
-        <source>Центр наукової
-                        періодики (КЦВ)</source>
+        <source>Центр наукової періодики (ЦВНПІП)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
           <context context-type="linenumber">24</context>
