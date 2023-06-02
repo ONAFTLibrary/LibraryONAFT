@@ -6,8 +6,7 @@
     "start": "ng serve",
     "build-locale:en": "ng build --prod=true  --lazyModules --outputHashing=none --serviceWorker=true --i18n-locale en --i18n-format xlf --i18n-file src/translate/messages.en.xlf --output-path=dist/en --baseHref /en/",
     "build-locale:ua": "ng build --prod=true  --lazyModules --outputHashing=none --serviceWorker=true --i18n-locale ua --i18n-format xlf --i18n-file src/translate/messages.ua.xlf --output-path=dist --baseHref /",
-    "build-locale:ru": "ng build --prod=true  --lazyModules --outputHashing=none --serviceWorker=true --i18n-locale ru --i18n-format xlf --i18n-file src/translate/messages.ru.xlf --output-path=dist/ru --baseHref /ru/",
-    "build": "npm run build-locale:ua &&  npm run build-locale:en && npm run build-locale:ru",
+    "build": "npm run build-locale:ua &&  npm run build-locale:en",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
