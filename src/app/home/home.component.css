@@ -210,6 +210,10 @@
     background: url("../../assets/img/about/cloud.png") center no-repeat;
 }
 
+.mus-img {
+  background: url("../../assets/img/about/museum.png") center no-repeat;
+}
+
 .lib-img, .organiz-img, .edit-img, .zek-img, .hub-img {
     border: 1px solid #d78737;
     border-radius: 50% 50% 50% 0;
