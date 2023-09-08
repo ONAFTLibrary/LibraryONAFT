@@ -214,7 +214,7 @@
     background: url("../../assets/img/about/museum.png") center no-repeat;
 }
 
-.lib-img, .organiz-img, .edit-img, .zek-img, .hub-img {
+.lib-img, .organiz-img, .edit-img, .zek-img, .hub-img, .mus-img {
     border: 1px solid #d78737;
     border-radius: 50% 50% 50% 0;
     background-size: 32px 32px;
