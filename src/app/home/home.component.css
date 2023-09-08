@@ -211,7 +211,7 @@
 }
 
 .mus-img {
-  background: url("../../assets/img/about/museum.png") center no-repeat;
+    background: url("../../assets/img/about/museum.png") center no-repeat;
 }
 
 .lib-img, .organiz-img, .edit-img, .zek-img, .hub-img {
