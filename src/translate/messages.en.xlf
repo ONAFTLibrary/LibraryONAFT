@@ -735,8 +735,8 @@
                 </context-group>
             </trans-unit>
             <trans-unit id="bibliography-department" datatype="html">
-                <source>Інформаційно-бібліографічний відділ</source>
-                <target>Informational and Bibliography Department</target>
+                <source>Науково-бібліографічний відділ</source>
+                <target>Scientific and bibliographic department</target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">app/home/home.component.html</context>
                     <context context-type="linenumber">123</context>
@@ -1013,7 +1013,7 @@
                     <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                     On-line support, consultations and support of users in <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Telegram<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> from 8:00 to 20:00 from Monday to Saturday
                     <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                    Links: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Telegram<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> (only for written communication in messengers)                
+                    Links: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Telegram<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> (only for written communication in messengers)
                 </target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">app/home/home.component.html</context>
@@ -1467,20 +1467,20 @@
           <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
             Зауважте, що отримана література не може бути розміщена у публічному просторі або передана третім особам.
-          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/> 
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
         </source>
         <target>
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
             On the basis of the Scientific and Technical Library of the Odessa National University of Technology, you have the opportunity to order international peer-reviewed scientific literature on the RapidILL resource          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-            To do this, you need to fill out a request through the form below, as soon as we receive a copy, if it is available from partner libraries, we will send it to you by mail!          
+            To do this, you need to fill out a request through the form below, as soon as we receive a copy, if it is available from partner libraries, we will send it to you by mail!
           <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
             <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Link to the form:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>https://forms.gle/y81JqDc5hoEwmDCJ9<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
           <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
             Please note that the received literature cannot be placed in a public space or transferred to third parties.
-          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>    
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -1715,7 +1715,7 @@
                     каталогів та картотек.
                     <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                     <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Для отримання індексу УДК автору необхідно звернутися по електронній пошті <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
-                      library@ontu.edu.ua<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>, або до інформаційно-бібліографічного відділу НТБ (вул. Канатна, 112, головний корпус, 2-й
+                      library@ontu.edu.ua<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>, або до науково-бібліографічного відділу НТБ (вул. Канатна, 112, головний корпус, 2-й
                       поверх, к. А-229) та надати такі відомості: <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                     <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                     <x id="START_ORDERED_LIST" ctype="x-ol" equiv-text="&lt;ol&gt;"/>
@@ -1751,7 +1751,7 @@
                     <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>To obtain the UDC index, the author must contact by e-mail
                   <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
                       library@ontu.edu.ua
-                  <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>, or to the information and bibliographic department of NTB (112 Kanatna St., main building, 2nd
+                  <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>, or to the scientific and bibliographic department of NTB (112 Kanatna St., main building, 2nd
                       floor, room A-229) and provide the following information:
                   <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                     <x id="START_ORDERED_LIST" ctype="x-ol" equiv-text="&lt;ol&gt;"/>
