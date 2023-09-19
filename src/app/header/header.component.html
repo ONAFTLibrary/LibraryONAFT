@@ -28,8 +28,6 @@
                         періодики (ЦВНПІП)</a>
                     <a i18n="@@s2m" class="dropdown-item" href="https://s2m.ontu.edu.ua/" target="_blank">S2M (база
                         науковців)</a>
-                    <a i18n="@@timeline" class="dropdown-item" href="https://timeline.ontu.edu.ua/"
-                        target="_blank">Timeline ОНТУ</a>
                     <a i18n="@@patent-menu" class="dropdown-item"
                         href="https://card-file.ontu.edu.ua/handle/123456789/12953" target="_blank">Патенти</a>
                     <a i18n="@@scientificbase" class="dropdown-item" href="https://kci.ontu.edu.ua/uk/pages/indexing"
@@ -44,32 +42,11 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="science">
                     <div class="triangle"></div>
-                    <h6 i18n="@@scientists-menu" class="dropdown-header dropdown-name">Вчені</h6>
-                    <a i18n="@@encyclopedia-menu" class="dropdown-item"
-                        routerLink="/encyclopedia_of_scientists">Енциклопедія вчених</a>
-                    <a i18n="@@jubilee-menu" class="dropdown-item" routerLink="/jubilee">Ювіляри</a>
+                    <!-- <h6 i18n="@@scientists-menu" class="dropdown-header dropdown-name">Вчені</h6> -->
                     <h6 i18n="@@researcher-menu" class="dropdown-header dropdown-name">Дослідникам</h6>
                     <a class="dropdown-header" href="https://4ref.ontu.edu.ua/" target="_blank">ONTU4ref</a>
                     <a i18n="@@bibl-example-menu" class="dropdown-item"
                             href="assets/pdf/DSTY-GOST/Bibl_opis.pdf" target="_blank">Приклади складання опису</a>
-                    <!-- <a i18n="@@dstu-menu" class="dropdown-header submenu" href="#">ДСТУ/ГОСТ</a>
-                    <div class="dropdown-menu">
-                        <a i18n="@@bibl-desc-menu" class="dropdown-item"
-                            href="assets/pdf/DSTY-GOST/rules_for_bibliographic_description.pdf" target="_blank">Правила
-                            складання опису</a>
-                        <a i18n="@@bibl-example-menu" class="dropdown-item"
-                            href="assets/pdf/DSTY-GOST/Bibl_opis_onovl.pdf" target="_blank">Приклади складання опису</a>
-                        <a i18n="@@ref-desc-menu" class="dropdown-item"
-                            href="assets/pdf/DSTY-GOST/rules_for_bibliographic_references.pdf" target="_blank">Правила
-                            складання посилань</a>
-                        <a i18n="@@ref-example-menu" class="dropdown-item"
-                            href="assets/pdf/DSTY-GOST/Pryklady_posylan_onov.pdf" target="_blank">Приклади складання
-                            посилань</a>
-                        <a i18n="@@dstu-gost-menu" class="dropdown-item" routerLink="/standards">ДСТУ ГОСТ</a>
-                        <a i18n="@@standarts-menu" class="dropdown-item"
-                            href="http://www.library.univ.kiev.ua/ukr/about/dstu.html" target="_blank">Основні стандарти
-                        </a>
-                    </div>-->
                     <a class="dropdown-header" href="assets/pdf/Mizhnar_styli_posylannya.pdf" target="_blank"
                         i18n="@@style-references-menu">Cтилі цитування</a>
                     <h6 i18n="@@useful-links-menu" class="dropdown-header dropdown-name">Корисні посилання</h6>
@@ -83,6 +60,21 @@
                 <a class="nav-link" routerLink="/books">Надходження</a>
             </li>
 
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="science" data-hover="dropdown" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false" i18n="@@museum-menu">
+                  Музей
+              </a>
+              <div class="dropdown-menu" aria-labelledby="science">
+                  <div class="triangle"></div>
+                  <a i18n="@@timeline" class="dropdown-item" href="https://timeline.ontu.edu.ua/"
+                        target="_blank">Timeline ОНТУ</a>
+                  <a i18n="@@encyclopedia-menu" class="dropdown-item"
+                      routerLink="/encyclopedia_of_scientists">Енциклопедія вчених</a>
+                  <a i18n="@@jubilee-menu" class="dropdown-item" routerLink="/jubilee">Ювіляри</a>
+                  <!-- <a i18n="@@exposure-menu" class="dropdown-item" routerLink="/meseum">Експозиції</a> -->
+              </div>
+            </li>
             <li class="nav-item dropdown">
                 <a i18n="@@library" class="nav-link dropdown-toggle" href="#" id="books" data-hover="dropdown"
                     data-toggle="dropdown">
@@ -131,6 +123,8 @@
                     <a i18n="@@elec-directory-menu" class="dropdown-item ml-1" href="https://card-file.ontu.edu.ua/"
                         target="_blank">Електроний
                         архів (репозитарій)</a>
+                    <a i18n="@@kci-menu" class="dropdown-item" href="https://kci.ontu.edu.ua/" target="_blank">Центр наукової
+                      періодики (ЦВНПІП)</a>
                     <a i18n="@@kci-menu" class="dropdown-item ml-1" href="http://kci.ontu.edu.ua/" target="_blank">Центр
                         наукової
                         періодики</a>
@@ -146,43 +140,36 @@
                     Рекомендації <i class="fas fa-chevron-down"></i>
                 </a>
                 <div class="collapse navbar-collapse" id="propose">
-                    <h6 i18n="@@scientists-menu" class="dropdown-header dropdown-name" [ngStyle]="{'color': '#d78737'}">
-                        Вчені</h6>
-                    <a i18n="@@encyclopedia-menu" class="dropdown-item ml-1"
-                        routerLink="/encyclopedia_of_scientists">Енциклопедія вчених</a>
-                    <a i18n="@@jubilee-menu" class="dropdown-item ml-1" routerLink="/jubilee">Ювіляри</a>
-                    <h6 i18n="@@researcher-menu" class="dropdown-header dropdown-name "
-                        [ngStyle]="{'color': '#d78737'}">Дослідникам</h6>
+                    <!-- <h6 i18n="@@scientists-menu" class="dropdown-header dropdown-name" [ngStyle]="{'color': '#d78737'}"> Вчені</h6> -->
+                    <h6 i18n="@@researcher-menu" class="dropdown-header dropdown-name " >Дослідникам</h6>
                     <a class="dropdown-item ml-1" href="https://4ref.ontu.edu.ua/" target="_blank">ONTU4ref</a>
                     <a i18n="@@bibl-example-menu" class="dropdown-item ml-2"
                             href="assets/pdf/DSTY-GOST/Bibl_opis.pdf" target="_blank">Приклади складання опису</a>
-                    <!-- <a i18n="@@dstu-menu" class="dropdown-header ml-1" [ngStyle]="{'color': '#fff'}" data-target="#DSTU"
-                        role="button" data-toggle="collapse" aria-expanded="false">ДСТУ/ГОСТ <i
-                            class="fas fa-chevron-down"></i></a>
-                    <div class="collapse navbar-collapse" id="DSTU">
-                        <a i18n="@@bibl-desc-menu" class="dropdown-item ml-2"
-                            href="assets/pdf/DSTY-GOST/rules_for_bibliographic_description.pdf" target="_blank">Правила
-                            складання опису</a>
-                        <a i18n="@@bibl-example-menu" class="dropdown-item ml-2"
-                            href="assets/pdf/DSTY-GOST/Bibl_opis_onovl.pdf" target="_blank">Приклади складання опису</a>
-                        <a i18n="@@ref-desc-menu" class="dropdown-item ml-2"
-                            href="assets/pdf/DSTY-GOST/rules_for_bibliographic_references.pdf" target="_blank">Правила
-                            складання посилань</a>
-                        <a i18n="@@ref-example-menu" class="dropdown-item ml-2"
-                            href="assets/pdf/DSTY-GOST/Pryklady_posylan_onov.pdf" target="_blank">Приклади складання
-                            посилань</a>
-                        <a i18n="@@dstu-gost-menu" class="dropdown-item ml-2 disabled" href="#" target="_blank">ДСТУ
-                            ГОСТ</a>
-                        <a i18n="@@standarts-menu" class="dropdown-item ml-2"
-                            href="http://www.library.univ.kiev.ua/ukr/about/dstu.html" target="_blank">Основні стандарти
-                        </a>
-                    </div> -->
                     <a class="dropdown-item ml-1" href="assets/pdf/Mizhnar_styli_posylannya.pdf" target="_blank"
                         i18n="@@style-references-menu">Cтилі цитування</a>
+                    <h6 i18n="@@useful-links-menu" class="dropdown-header dropdown-name">Корисні посилання</h6>
+                    <a class="dropdown-header ml-1" href="https://bf.in.ua" target="_blank"
+                        i18n="@@directory-barrier-menu">Довідник безбар'єрності</a>
                 </div>
             </li>
             <li i18n="@@books" class="nav-item">
                 <a class="nav-link" routerLink="/books">Надходження</a>
+            </li>
+
+            <li class="nav-item">
+              <a i18n="@@museum-menu" class="nav-link" href="#" data-target="#propose" role="button"
+                  data-toggle="collapse" aria-expanded="true" aria-controls="propose" id="proposeHeader">
+                  Музей <i class="fas fa-chevron-down"></i>
+              </a>
+              <div class="collapse navbar-collapse" id="propose">
+                  <!-- <h6 i18n="@@scientists-menu" class="dropdown-header dropdown-name" [ngStyle]="{'color': '#d78737'}"> Вчені</h6> -->
+                  <a i18n="@@timeline" class="dropdown-item ml-1" href="https://timeline.ontu.edu.ua/"
+                        target="_blank">Timeline ОНТУ</a>
+                  <a i18n="@@encyclopedia-menu" class="dropdown-item ml-1"
+                      routerLink="/encyclopedia_of_scientists">Енциклопедія вчених</a>
+                  <a i18n="@@jubilee-menu" class="dropdown-item ml-1" routerLink="/jubilee">Ювіляри</a>
+                  <!-- <a i18n="@@exposure-menu" class="dropdown-item ml-1" routerLink="/meseum">Експозиції</a> -->
+              </div>
             </li>
             <li class="nav-item">
                 <a i18n="@@library" class="nav-link" href="#" data-target="#library" role="button"

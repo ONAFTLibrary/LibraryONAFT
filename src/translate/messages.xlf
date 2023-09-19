@@ -247,10 +247,36 @@
           <context context-type="linenumber">136</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="museum-menu" datatype="html">
+        <source>
+            Музей
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="exposure-menu" datatype="html">
+        <source>
+            Експозиції
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/header/header.component.html</context>
+          <context context-type="linenumber">141</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="library" datatype="html">
         <source>
-                    Бібліотека
-                </source>
+            Бібліотека
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
           <context context-type="linenumber">68</context>
@@ -261,8 +287,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="terms-menu" datatype="html">
-        <source>Правила
-                        користування</source>
+        <source>Правила користування</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
           <context context-type="linenumber">73</context>
