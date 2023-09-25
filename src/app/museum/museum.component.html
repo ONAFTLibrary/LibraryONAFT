@@ -18,18 +18,18 @@
                role="tab"
                aria-controls="funds-view" aria-selected="true">Рідкісні Фонди</a>
         </li>
-        |
+        <!-- |
         <li class="nav-item">
             <a i18n="@@defenders-museum" class="nav-link" id="defenders-museum" data-toggle="pill" href="#defenders-view"
                role="tab"
                aria-controls="defenders-view" aria-selected="true">Захисники</a>
-        </li>
+        </li> -->
     </ul>
 
     <!--*ngIf="museum?.category === 'library'"-->
     <div class="tab-content" id="pills-tabContent">
         <!--New museum block-->
-        <div class="row tab-pane fade" id="explosure-museum-view" role="tabpanel" aria-labelledby="explosure-museum">
+        <div class="row tab-pane fade show active" id="explosure-museum-view" role="tabpanel" aria-labelledby="explosure-museum">
             <ng-container *ngFor="let museum of museumObservable | async">
                 <div class="card-container" *ngIf="museum.category === 'explosure'">
                     <div class="card">
@@ -70,7 +70,7 @@
         </div>
 
         <!--defenders block-->
-        <div class="row tab-pane fade show active" id="defenders-view" role="tabpanel"
+        <div class="row tab-pane fade" id="defenders-view" role="tabpanel"
              aria-labelledby="defenders-museum">
             <ng-container *ngFor="let museum of museumObservable | async">
                 <div class="card-container-museum" *ngIf="museum.category === 'defenders'">
