@@ -16,7 +16,7 @@
         <li class="nav-item">
             <a i18n="@@rare_funds-museum" class="nav-link" id="museum-rare_funds" data-toggle="pill" href="#funds-view"
                role="tab"
-               aria-controls="funds-view" aria-selected="true">Рідкісні Фонди</a>
+               aria-controls="funds-view" aria-selected="true">Цінні Фонди</a>
         </li>
         <!-- |
         <li class="nav-item">
@@ -39,8 +39,8 @@
                             <span i18n="@@explosure-museum" class="card-author subtle">Експонати</span>
                             <h2 class="card-title" [innerHTML]="museum.title"></h2>
                             <!-- <span class="card-description subtle" [innerHTML]="museum.references"></span> -->
-                            <p class="short-description" [innerHTML]="museum.description">
-                            </p>
+                            <span class="card-description" [innerHTML]="museum.description"></span>
+                            <a [attr.href]="museum.url" class="card-read" target="_blank">Переглянути</a>
                         </div>
                     </div>
                     <div class="card-shadow"></div>
@@ -56,12 +56,11 @@
                         <img [attr.src]="museum.image" alt="Rare funds image"
                              class="card-media-museum"/>
                         <div class="card-body">
-                            <span i18n="@@rare_funds-museum" class="card-author subtle">Цінний фонди</span>
+                            <span i18n="@@rare_funds-museum" class="card-author subtle">Цінні фонди</span>
                             <h2 class="card-title" [innerHTML]="museum.title"></h2>
                             <!-- <span class="card-description subtle" [innerHTML]="museum.references"></span> -->
-                            <p class="short-description" [innerHTML]="museum.description">
+                            <span class="card-description" [innerHTML]="museum.description"></span>
                             <a [attr.href]="museum.url" class="card-read" target="_blank">Переглянути</a>
-                            </p>
                         </div>
                     </div>
                     <div class="card-shadow"></div>
@@ -80,7 +79,7 @@
                         <div class="card-body">
                             <span i18n="@@defenders-museum" class="card-author subtle">Захисники</span>
                             <h2 class="card-title" [innerHTML]="museum.title"></h2>
-                            <!-- <span class="card-description" [innerHTML]="museum.references"></span> -->
+                            <span class="short-description" [innerHTML]="museum.description"></span>
                             <!-- <a [attr.href]="museum.pdf_file" class="card-read" target="_blank">Переглянути</a> -->
                         </div>
                     </div>

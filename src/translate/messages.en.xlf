@@ -2213,7 +2213,7 @@
               </context-group>
             </trans-unit>
             <trans-unit id="rare_funds-museum" datatype="html">
-              <source>Цінний фонди</source>
+              <source>Цінні фонди</source>
               <target>Rare Funds</target>
               <context-group purpose="location">
                 <context context-type="sourcefile">app/exhibition/exhibition.component.html</context>
