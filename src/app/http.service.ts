@@ -40,6 +40,19 @@ export class HttpService {
         return response;
     }
 
+    public getMuseum(): Observable<any> {
+      const headers = new HttpHeaders();
+      headers.set('Cache-Control', 'public, max-age=31536000');
+      //  return this.httpClient.get(this.url + '/museum');
+      const newsCache = this.responseCache.get(this.url + '/museum');
+      if (newsCache) {
+          return of(newsCache);
+      }
+      const response = this.httpClient.get<any>(this.url + '/museum', {headers});
+      response.subscribe(data => this.responseCache.set(this.url + '/museum', data));
+      return response;
+  }
+
     public getScientists(): Observable<any>  {
         const headers = new HttpHeaders();
         headers.set('Cache-Control', 'public, max-age=31536000');

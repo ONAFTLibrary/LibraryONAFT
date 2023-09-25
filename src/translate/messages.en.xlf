@@ -2188,6 +2188,46 @@
                     <context context-type="linenumber">17</context>
                 </context-group>
             </trans-unit>
+            <trans-unit id="museum-breadcrumb" datatype="html">
+              <source>Музей</source>
+              <target>Museum</target>
+              <context-group purpose="location">
+                <context context-type="sourcefile">app/exhibition/exhibition.component.html</context>
+                <context context-type="linenumber">5</context>
+              </context-group>
+            </trans-unit>
+            <trans-unit id="museum-title" datatype="html">
+              <source>Музей</source>
+              <target>Museum</target>
+              <context-group purpose="location">
+                <context context-type="sourcefile">app/exhibition/exhibition.component.html</context>
+                <context context-type="linenumber">5</context>
+              </context-group>
+            </trans-unit>
+            <trans-unit id="explosure-museum" datatype="html">
+              <source>Експонати</source>
+              <target>Explosure</target>
+              <context-group purpose="location">
+                <context context-type="sourcefile">app/exhibition/exhibition.component.html</context>
+                <context context-type="linenumber">5</context>
+              </context-group>
+            </trans-unit>
+            <trans-unit id="rare_funds-museum" datatype="html">
+              <source>Рідкісні Фонди</source>
+              <target>Rare Funds</target>
+              <context-group purpose="location">
+                <context context-type="sourcefile">app/exhibition/exhibition.component.html</context>
+                <context context-type="linenumber">5</context>
+              </context-group>
+            </trans-unit>
+            <trans-unit id="defenders-museum" datatype="html">
+              <source>Захисники</source>
+              <target>Defenders</target>
+              <context-group purpose="location">
+                <context context-type="sourcefile">app/exhibition/exhibition.component.html</context>
+                <context context-type="linenumber">5</context>
+              </context-group>
+            </trans-unit>
             <trans-unit id="jubilee-breadcrumb" datatype="html">
                 <source>Ювіляри</source>
                 <target>Anniversaries</target>

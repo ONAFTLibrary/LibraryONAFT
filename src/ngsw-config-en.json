@@ -30,9 +30,11 @@
       "urls": [
         "https://library.ontu.edu.ua/api/news",
         "https://library.ontu.edu.ua/api/books",
+        "https://library.ontu.edu.ua/api/museum",
         "https://library.ontu.edu.ua/api/scientists",
         "https://library.ontu.edu.ua/api/patents",
-        "https://library.ontu.edu.ua/api/virtualexhibition"
+        "https://library.ontu.edu.ua/api/virtualexhibition",
+        "https://library.ontu.edu.ua/api/adminloppi"
       ],
       "cacheConfig": {
         "strategy": "freshness",

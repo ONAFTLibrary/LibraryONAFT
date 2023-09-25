@@ -21,6 +21,7 @@ const routes: Routes = [
     {path: '', component: HomeComponent},
     {path: 'encyclopedia_of_scientists', loadChildren: './encyclopedia/encyclopedia.module#EncyclopediaModule'},
     {path: 'books', loadChildren: './books/books.module#BooksModule'},
+    {path: 'museum', loadChildren: './museum/museum.module#MuseumModule'},
     {path: 'patent', loadChildren: './patent/patent.module#PatentModule'},
     {path: 'jubilee', loadChildren: './jubilee/jubilee.module#JubileeModule'},
     {path: 'exhibition', loadChildren: './exhibition/exhibition.module#ExhibitionModule'},
