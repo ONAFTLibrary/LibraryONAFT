@@ -1,0 +1,96 @@
+<div class="main_content container-fluid">
+    <nav aria-label="breadcrumb" class=" breadcrumb-list">
+        <ol class="breadcrumb">
+            <li i18n="@@main-breadcrumb" class="breadcrumb-item"><a routerLink="/">Головна</a></li>
+            <li i18n="@@museum-breadcrumb" class="breadcrumb-item active" aria-current="page">Музей</li>
+        </ol>
+    </nav>
+    <h1 i18n="@@museum-title" class="text-center">Музей</h1>
+    <ul class="nav nav-pills" id="myTab" role="tablist">
+        <li class="nav-item ">
+            <a i18n="@@explosure-museum" class="nav-link active" id="explosure-museum" data-toggle="pill" href="#explosure-museum-view"
+               role="tab"
+               aria-controls="explosure-museum-view" aria-selected="true">Експонати</a>
+        </li>
+        |
+        <li class="nav-item">
+            <a i18n="@@rare_funds-museum" class="nav-link" id="museum-rare_funds" data-toggle="pill" href="#funds-view"
+               role="tab"
+               aria-controls="funds-view" aria-selected="true">Рідкісні Фонди</a>
+        </li>
+        |
+        <li class="nav-item">
+            <a i18n="@@defenders-museum" class="nav-link" id="defenders-museum" data-toggle="pill" href="#defenders-view"
+               role="tab"
+               aria-controls="defenders-view" aria-selected="true">Захисники</a>
+        </li>
+    </ul>
+
+    <!--*ngIf="museum?.category === 'library'"-->
+    <div class="tab-content" id="pills-tabContent">
+        <!--New museum block-->
+        <div class="row tab-pane fade" id="explosure-museum-view" role="tabpanel" aria-labelledby="explosure-museum">
+            <ng-container *ngFor="let museum of museumObservable | async">
+                <div class="card-container" *ngIf="museum.category === 'explosure'">
+                    <div class="card">
+                        <img [attr.src]="museum.image" alt="Explosure image"
+                             class="card-media-museum"/>
+                        <div class="card-body">
+                            <span i18n="@@explosure-museum" class="card-author subtle">Експонати</span>
+                            <h2 class="card-title" [innerHTML]="museum.title"></h2>
+                            <!-- <span class="card-description subtle" [innerHTML]="museum.references"></span> -->
+                            <p class="short-description" [innerHTML]="museum.description">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-shadow"></div>
+                </div>
+            </ng-container>
+        </div>
+
+        <!--Museum rare_funds block-->
+        <div class="row tab-pane fade" id="funds-view" role="tabpanel" aria-labelledby="museum-rare_funds">
+            <ng-container *ngFor="let museum of museumObservable | async">
+                <div class="card-container" *ngIf="museum.category === 'rarefunds'">
+                    <div class="card">
+                        <img [attr.src]="museum.image" alt="Rare funds image"
+                             class="card-media-museum"/>
+                        <div class="card-body">
+                            <span i18n="@@rare_funds-museum" class="card-author subtle">Рідкісні Фонди</span>
+                            <h2 class="card-title" [innerHTML]="museum.title"></h2>
+                            <!-- <span class="card-description subtle" [innerHTML]="museum.references"></span> -->
+                            <p class="short-description" [innerHTML]="museum.description">
+                            <a [attr.href]="museum.url" class="card-read" target="_blank">Переглянути</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-shadow"></div>
+                </div>
+            </ng-container>
+        </div>
+
+        <!--defenders block-->
+        <div class="row tab-pane fade show active" id="defenders-view" role="tabpanel"
+             aria-labelledby="defenders-museum">
+            <ng-container *ngFor="let museum of museumObservable | async">
+                <div class="card-container-museum" *ngIf="museum.category === 'defenders'">
+                    <div class="card">
+                        <img [attr.src]="museum.image" alt="Defenders image"
+                             class="card-media"/>
+                        <div class="card-body">
+                            <span i18n="@@defenders-museum" class="card-author subtle">Захисники</span>
+                            <h2 class="card-title" [innerHTML]="museum.title"></h2>
+                            <!-- <span class="card-description" [innerHTML]="museum.references"></span> -->
+                            <!-- <a [attr.href]="museum.pdf_file" class="card-read" target="_blank">Переглянути</a> -->
+                        </div>
+                    </div>
+                    <div class="card-shadow"></div>
+                </div>
+            </ng-container>
+        </div>
+    </div>
+</div>
+<div class="arrow-up" (click)="scrollTop();">
+    <i class="fas fa-chevron-up"></i>
+    Scroll Top
+</div>
