@@ -16,7 +16,7 @@
         <li class="nav-item">
             <a i18n="@@rare_funds-museum" class="nav-link" id="museum-rare_funds" data-toggle="pill" href="#funds-view"
                role="tab"
-               aria-controls="funds-view" aria-selected="true">Цінні Фонди</a>
+               aria-controls="funds-view" aria-selected="true">Цінний Фонд</a>
         </li>
         <!-- |
         <li class="nav-item">
@@ -28,10 +28,10 @@
 
     <!--*ngIf="museum?.category === 'library'"-->
     <div class="tab-content" id="pills-tabContent">
-        <!--New museum block-->
+        <!--Explosure museum block-->
         <div class="row tab-pane fade show active" id="explosure-museum-view" role="tabpanel" aria-labelledby="explosure-museum">
             <ng-container *ngFor="let museum of museumObservable | async">
-                <div class="card-container" *ngIf="museum.category === 'explosure'">
+                <div class="card-container-museum" *ngIf="museum.category === 'explosure'">
                     <div class="card">
                         <img [attr.src]="museum.image" alt="Explosure image"
                              class="card-media-museum"/>
@@ -55,7 +55,7 @@
                         <img [attr.src]="museum.image" alt="Rare funds image"
                              class="card-media-museum"/>
                         <div class="card-body">
-                            <span i18n="@@rare_funds-museum" class="card-author subtle">Цінні фонди</span>
+                            <span i18n="@@rare_funds-museum" class="card-author subtle">Цінний Фонд</span>
                             <h2 class="card-title" [innerHTML]="museum.title"></h2>
                             <!-- <span class="card-description subtle" [innerHTML]="museum.references"></span> -->
                             <span class="card-description" [innerHTML]="museum.description"></span>
