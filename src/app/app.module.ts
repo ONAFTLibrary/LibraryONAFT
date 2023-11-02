@@ -25,8 +25,8 @@ const routes: Routes = [
     {path: 'patent', loadChildren: './patent/patent.module#PatentModule'},
     {path: 'jubilee', loadChildren: './jubilee/jubilee.module#JubileeModule'},
     {path: 'exhibition', loadChildren: './exhibition/exhibition.module#ExhibitionModule'},
-    { path: 'adminloppi', redirectTo: '/api/adminloppi/', pathMatch: 'full' },  // Добавьте этот маршрут
-    // { path: 'adminloppi/', component: AdminLoppiComponent },  // Замените 'AdminLoppiComponent' на соответствующий компонент
+    { path: 'adminloppi', redirectTo: '/api/adminloppi/', pathMatch: 'full' },
+    { path: 'adminloppi', redirectTo: '/api/adminloppi/', pathMatch: 'full' },
     {path: 'bio', component: BioComponent},
     {path: 'standards', component: DstuComponent },
     {path: '404', component: ErrorComponent},
