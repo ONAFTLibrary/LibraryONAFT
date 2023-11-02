@@ -26,7 +26,7 @@ const routes: Routes = [
     {path: 'jubilee', loadChildren: './jubilee/jubilee.module#JubileeModule'},
     {path: 'exhibition', loadChildren: './exhibition/exhibition.module#ExhibitionModule'},
     { path: 'adminloppi', redirectTo: '/api/adminloppi/', pathMatch: 'full' },
-    { path: 'adminloppi', redirectTo: '/api/adminloppi/', pathMatch: 'full' },
+    { path: 'summernote', redirectTo: '/api/summernote/', pathMatch: 'full' },
     {path: 'bio', component: BioComponent},
     {path: 'standards', component: DstuComponent },
     {path: '404', component: ErrorComponent},
