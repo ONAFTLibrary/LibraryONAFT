@@ -119,7 +119,7 @@
         </div>
 
         <!--Fiction books block-->
-        <div class="row tab-pane fade show active" id="fiction-books-view" role="tabpanel" aria-labelledby="fiction-books">
+        <div class="row tab-pane fade" id="fiction-books-view" role="tabpanel" aria-labelledby="fiction-books">
             <ng-container *ngFor="let book of booksObservable | async">
                 <div class="card-container-books" *ngIf="book.category === 'fiction'">
                     <div class="card">
