@@ -51,7 +51,7 @@
       <!--*ngIf="museum?.category === 'library'"-->
       <div class="tab-content" id="pills-tabContent">
         <!--Explosure museum block-->
-        <div class="row tab-pane fade" id="explosure-museum-view" role="tabpanel" aria-labelledby="explosure-museum">
+        <div class="row tab-pane fade show active" id="explosure-museum-view" role="tabpanel" aria-labelledby="explosure-museum">
             <ng-container *ngFor="let museum of museumObservable | async">
                 <div class="card-container-museum" *ngIf="museum.category === 'explosure'">
                     <div class="card">
