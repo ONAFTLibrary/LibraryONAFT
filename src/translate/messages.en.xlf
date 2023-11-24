@@ -873,21 +873,21 @@
                 <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Директор:
                     <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
                     <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                    Ольшевська Ольга Володимирівна
+                    Сиволап Оксана Сергіївна
                     <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                     Кабінет:
                     <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>
-                    А-140
+                    А-227
                     <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>
                 </source>
                 <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Head of the Library:
                     <x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
                     <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                    Olga Olshevska
+                    Sivolap Oksana
                     <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                     Office:
                     <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>
-                    А-140
+                    А-227
                     <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>
                 </target>
                 <context-group purpose="location">
