@@ -310,7 +310,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="events-menu" datatype="html">
-        <source>Заходи на 2023 рік</source>
+        <source>Заходи на 2024 рік</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
           <context context-type="linenumber">75</context>
