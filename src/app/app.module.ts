@@ -27,7 +27,8 @@ const routes: Routes = [
     {path: 'exhibition', loadChildren: './exhibition/exhibition.module#ExhibitionModule'},
     {path: 'adminloppi', redirectTo: '/api/adminloppi/', pathMatch: 'full' },
     {path: 'summernote', redirectTo: '/api/summernote/', pathMatch: 'full' },
-    {path: 'bio', component: BioComponent},
+    // {path: 'bio', component: BioComponent},
+    { path: 'bio/:img/:name/:birth_day/:death_day/:short_desc/:bio/:works', component: BioComponent },
     {path: 'standards', component: DstuComponent },
     {path: '404', component: ErrorComponent},
     {path: '**', redirectTo: '404'}
