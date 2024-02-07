@@ -39,10 +39,9 @@
                             {{addSubstr(scientist.short_description)}}</p>
                     </div>
                     <div class="py-2" [ngStyle]="{'width':'100%'}">
-                        <button  [routerLink]="['/bio', scientist.img, scientist.name, scientist.birth_day, scientist.death_day, scientist.short_desc, scientist.bio, scientist.works]"
+                        <button (click)="viewBio(scientist)"
                                 class="text-left text-uppercase bottom-nav lts-2px styled-link pt-1 pl-3 pr-3">
-                                <!-- (click)="viewBio(scientist)" -->
-                                Детальніше
+                            Детальніше
                         </button>
                     </div>
                 </div>
