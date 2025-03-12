@@ -377,8 +377,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="events-menu" datatype="html">
-        <source>Заходи на 2024 рік</source>
-        <target>Заходи на 2024 рік</target>
+        <source>Заходи на 2025 рік</source>
+        <target>Заходи на 2025 рік</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
           <context context-type="linenumber">69</context>
@@ -389,8 +389,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="report-menu" datatype="html">
-        <source>Звіт про роботу (2023 р.)</source>
-        <target>Звіт про роботу (2023 р.)</target>
+        <source>Звіт про роботу (2024 р.)</source>
+        <target>Звіт про роботу (2024 р.)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/header/header.component.html</context>
           <context context-type="linenumber">71</context>
@@ -712,8 +712,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="bibliography-department" datatype="html">
-        <source>Науково-бібліографічний відділ</source>
-        <target>Науково-бібліографічний відділ</target>
+        <source>Відділ наукової-бібліографії та збереження історичної спадщини ОНТУ</source>
+        <target>Відділ наукової-бібліографії та збереження історичної спадщини ОНТУ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">121</context>
@@ -732,13 +732,11 @@
         </context-group>
       </trans-unit>
       <trans-unit id="bibliography-department-admin" datatype="html">
-        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Завідуюча:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Кейдалюк Ганна Миколаївна<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                            Бібліографія:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> ауд. А-137/2<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                            Бібліограф. обслуговування:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> вул. Дворянська, 1/3, ауд. 282<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Завідуюча:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Златіна Оксана Анатоліївна<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                            Бібліографія:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> ауд. А-104<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                         </source>
-        <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Завідуюча:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Кейдалюк Ганна Миколаївна<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          Бібліографія:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> ауд. А-137/2<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          Бібліограф. обслуговування:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> вул. Дворянська, 1/3, ауд. 282<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>
+        <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Завідуюча:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Златіна Оксана Анатоліївна<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+          Бібліографія:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> ауд. А-104<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -825,8 +823,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="department-document" datatype="html">
-        <source>Відділ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> комплектування документів</source>
-        <target>Відділ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> комплектування документів</target>
+        <source>Відділ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> комплектування та наукової обробки документів, організації каталогів</source>
+        <target>Відділ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> комплектування та наукової обробки документів, організації каталогів</target>
 
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -845,9 +843,9 @@
       </trans-unit>
       <trans-unit id="department-document-info" datatype="html">
         <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Завідуюча:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Скутаренко Олена Леонідівна<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                            Відділ:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> ауд. А–137/3<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
+                            Відділ:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> ауд. А–137/2<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
         <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Завідуюча:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Скутаренко Олена Леонідівна<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          Відділ:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> ауд. А–137/3<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></target>
+          Відділ:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> ауд. А–137/2<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></target>
 
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -855,8 +853,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="department-science" datatype="html">
-        <source>Відділ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> наукової обробки документів та організації каталогів</source>
-        <target>Відділ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> наукової обробки документів та організації каталогів</target>
+        <source>Організаційно-методичний<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>  відділ</source>
+        <target>Організаційно-методичний<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>  відділ</target>
 
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -864,17 +862,17 @@
         </context-group>
       </trans-unit>
       <trans-unit id="department-science-description" datatype="html">
-        <source>Здійснює каталогізацію та систематизацію документів.</source>
-        <target>Здійснює каталогізацію та систематизацію документів.</target>
+        <source>Забезпечує здійснення організаційно-методичної діяльності всіх відділів.</source>
+        <target>Забезпечує здійснення організаційно-методичної діяльності всіх відділів.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">204</context>
         </context-group>
       </trans-unit>
       <trans-unit id="department-science-info" datatype="html">
-        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Завідуюча:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Тимчишина Маргарита Веніамінівна<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Завідуюча:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Оставненко Ірина Анатоліївна<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                             Відділ:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> ауд. А–137/2<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
-        <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Завідуюча:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Тимчишина Маргарита Веніамінівна<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Завідуюча:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Оставненко Ірина Анатоліївна<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
           Відділ:<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> ауд. А–137/2<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></target>
 
         <context-group purpose="location">
@@ -1536,7 +1534,7 @@
                         <x id="CLOSE_ORDERED_LIST" ctype="x-ol" equiv-text="&lt;/ol&gt;"/>
                         <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Для самостійного визначення індексу УДК можна скористуватися
                             Інтернет-ресурсами, наприклад:
-                            <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Довідник з УДК<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> – <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>teacode.com/online/udc/<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+                            <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Довідник з УДК<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> – <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>udcsummary.info<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
                     </source>
         <target>
           <x id="START_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;h3&gt;"/>Як отримати індекс УДК<x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/>
@@ -1561,7 +1559,7 @@
           <x id="CLOSE_ORDERED_LIST" ctype="x-ol" equiv-text="&lt;/ol&gt;"/>
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>Для самостійного визначення індексу УДК можна скористуватися
           Інтернет-ресурсами, наприклад:
-          <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Довідник з УДК<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> – <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>teacode.com/online/udc/<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+          <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Довідник з УДК<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> – <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>udcsummary.info<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -1809,8 +1807,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="new-books" datatype="html">
-        <source>Видання 2023-2024 рр.</source>
-        <target>Видання 2023-2024 рр.</target>
+        <source>Видання 2024-2025 рр.</source>
+        <target>Видання 2024-2025 рр.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/books/books.component.html</context>
           <context context-type="linenumber">12</context>
