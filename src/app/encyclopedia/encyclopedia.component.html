@@ -1,0 +1,55 @@
+<div class="main_content">
+    <nav aria-label="breadcrumb" class=" breadcrumb-list">
+        <ol class="breadcrumb">
+            <li i18n="@@main-breadcrumb" class="breadcrumb-item"><a routerLink="/">Головна</a></li>
+            <li i18n="@@encyclopedia-breadcrumb" class="breadcrumb-item active" aria-current="page">Енциклопедія вчених</li>
+        </ol>
+    </nav>
+
+    <h1 i18n="@@encyclopedia-title" class="text-center">Енциклопедія вчених</h1>
+    <aside class="vertical justify-content-center">
+        <i class="fas fa-search"></i>
+        <div *ngFor="let letter of letters" >
+        <a class="nav-letter" href="encyclopedia_of_scientists#{{letter}}" pageScroll> {{letter}}</a>
+        </div>
+        <!--<form>-->
+            <!--<input type="search" placeholder="Искать здесь...">-->
+            <!--<button type="submit" class="search"></button>-->
+        <!--</form>-->
+    </aside>
+    <div *ngFor="let letter of letters" class="letter_card container-fluid col-12">
+        <span>{{letter}}</span>
+        <div class="row" [attr.id]="letter">
+            <ng-container *ngFor="let scientist of encyclopediaObservable | async">
+                <div *ngIf="scientist.name.charAt(0)===letter"
+                     class="my-2 shadow-1 blue-hover card col-lg-4 col-md-6 col-sm-12">
+                    <div class="top-card pl-2 pr-2">
+                        <img class="img_content shadow-1" [attr.src]="scientist.image" alt="?">
+                        <div class="top-text">
+                            <h5 class="font-weight-normal text-center">
+                                {{scientist.name}}
+                            </h5>
+                            <p class="text-center birthday">
+                                ({{scientist.birthday}} - {{scientist.deathday}})
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bottom-txt">
+                        <p class="pl-2 pr-2">
+                            {{addSubstr(scientist.short_description)}}</p>
+                    </div>
+                    <div class="py-2" [ngStyle]="{'width':'100%'}">
+                        <button (click)="viewBio(scientist)"
+                                class="text-left text-uppercase bottom-nav lts-2px styled-link pt-1 pl-3 pr-3">
+                            Детальніше
+                        </button>
+                    </div>
+                </div>
+            </ng-container>
+        </div>
+    </div>
+    <div class="arrow-up" (click)="scrollTop();">
+        <i class="fas fa-chevron-up"></i>
+        Scroll Top
+    </div>
+</div>

@@ -1,0 +1,29 @@
+<div class="main_content">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li i18n="@@main-breadcrumb" class="breadcrumb-item"><a routerLink="/">Головна</a></li>
+      <li i18n="@@encyclopedia-breadcrumb" class="breadcrumb-item">
+        <a routerLink="/encyclopedia_of_scientists">Енциклопедія вчених</a>
+      </li>
+      <li class="breadcrumb-item active" aria-current="page">{{name}}</li>
+    </ol>
+  </nav>
+  <div class="bio col-12 my-4">
+    <div class="bio-profile col-12">
+      <img [attr.src]="img" class="bio-img shadow-13" alt="?">
+      <div class="bio-name col-lg-9 col-md-9 col-sm-12">
+        <h2>{{name}}</h2>
+        <span>({{birth_day}} - {{death_day}})</span>
+        <p class="text-center">{{short_desc}}</p>
+      </div>
+    </div>
+    <div class="line"></div>
+    <h2 i18n="@@bio-title" class="text-center my-2">Біографія</h2>
+    <div class="bio-txt col-12" [innerHTML]="bio">
+    </div>
+    <div class="line"></div>
+    <h2 i18n="@@bio-works" class="text-center my-2">Основні праці</h2>
+    <div class="works-txt col-12" [innerHTML]="works">
+    </div>
+  </div>
+</div>
